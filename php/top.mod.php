@@ -7,7 +7,7 @@
     <hr>
     <ul class="listmenu">
         <li><a href="../" >Back</a></li>
-        <li><a href="download.php" >Download</a></li>
+        <li><a href="downloads.php" >Download</a></li>
         <li><a href="wiki.php" >Wiki</a></li>
     </ul>
     <hr>
