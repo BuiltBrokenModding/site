@@ -3,70 +3,76 @@
     include("php/top.php");
     
 ?>
-    <ul class="listmenu">
-        <li><a href="https://github.com/Universal-Electricity" >UE-Team</a></li>
-        <li><a href="https://github.com/BuiltBrokenModding" >Github</a></li>
-        <li><a href="project.php" >Projects</a></li>
-    </ul>
-    <h3>Minecraft Modding</h3>   
-    <div id="slideshow" style="width:100%;overflow:hidden; height:480px;">
-        <div id="slideshowimage" style="width:100%;overflow:hidden;">
+    <div>
+        <ul class="listmenu">
+            <li><a href="https://github.com/Universal-Electricity" >UE-Team</a></li>
+            <li><a href="https://github.com/BuiltBrokenModding" >Github</a></li>
+            <li><a href="project.php" >Projects</a></li>
+        </ul>
+    </div>
+    <h2>Featured Projects</h2>  
+    <div>
+        <div id="slideshow">         
+            <div id="slideshowimage">
+            <a href="/pages/icbm/"><img id="image" src="/img/slider/icbm1.png"/></a><h2><span>ICBM:<span class="spacer"></span><br /><span class="spacer"></span>Minecraft Missile Mod</span></h2>
+            </div>
+            <div id ="slidebar"></div>
         </div>
-    </div>    
-    <table style="width:100%;padding:5px;">
-      <tr>
-        <td><img src="img\200x200.png" alt="Artillects"></td>
-        <td><img src="img\200x200.png" alt="Armory"></td> 
-        <td><a href="pages\icbm\"><img src="img\ICBM.png" alt="ICBM"></a></td>
-      </tr>
-       <tr>
-        <td><a href="http://resonantengine.com/"><img src="img\RE.png" alt="Resonant Engine"></a></td>
-        <td></td> 
-        <td></td>
-      </tr>
-    </table>
-<hr>
+    </div>
+    <br>
+    <br>
+    <h2> News </h2>
+    <hr>
 <script type="text/javascript">
 <!-- http://kimmobrunfeldt.github.io/progressbar.js/ -->
     var images = [ 
-    "img/200x200.png", 
-    "img/ICBM.png",
-    "img/200x200.png",
-    "img/ICBM.png",
-    "img/200x200.png" ]
-    var links = [ 
-    "#", 
-    "#",
-    "#",
-    "#",
-    "#" ]
-    var currentimage = 1;
-    var line = new ProgressBar.Line('#slideshow', {
+    "icbm1.png", 
+    "artillect1.png",
+    "icbm2.png",
+    "artillect2.png",
+    "icbm3.png" ];
+    var currentimage = 0;
+    var line = new ProgressBar.Line('#slidebar', {
         color: '#FCB03C', duration: 10000
     });
+    var slider = document.getElementById('slideshowimage');
     
     function startSlideShow()
     {
-        changeimage(1);
+        var newimg = Math.floor(Math.random() * (images.length - 1));
+        while(newimg == currentimage)
+        {
+            newimg = Math.floor(Math.random() * (images.length - 1));
+        }
+        currentimage = newimg;
+
+        var img_name = images[newimg];
+        var link = "#";
+        var title = "Title";
+        var sub = "Sub";
+        if(img_name.indexOf("icbm") > -1)
+        {
+            link = "/pages/icbm/";
+            title = "ICBM";
+            sub = "Minecraft Missile Mod";
+        }
+        else if(img_name.indexOf("artillect") > -1)
+        {
+            link = "/pages/artillect/";
+            title = "Artillects";
+            sub = "Minecraft Civ and NPC mod";
+        }        
+        slider.style.backgroundImage= "url(/img/slider/" + img_name + ")"
+        document.getElementById('slideshowimage').innerHTML = '<h2><span>' + title + ':<span class="spacer"></span><br /><span class="spacer"></span>' + sub + '</span></h2>';
+        slider.onclick = function() 
+        {
+            open(link, "_self");
+        };
         line.set(0);
         line.animate(1);
         setTimeout("startSlideShow()", 10000);        
     }
     
-    function changeimage(change)
-    {
-        currentimage += change;
-        if(currentimage > images.length - 1)
-        {
-            currentimage = 1;
-        }
-        else if(currentimage < 1)
-        {
-            currentimage = images.length - 1;
-        }
-        document.getElementById('slideshowimage').innerHTML = '<a href="' + links[currentimage] + '"><img id="image" src="' + images[currentimage] + '"/></a>';
-    }
-    changeimage(0);
     startSlideShow();
 
 </script>

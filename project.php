@@ -45,7 +45,7 @@
                     </p> 
                 </li>
                 <li> 
-                    <h4><a href="#">Artillects</a></h4>
+                    <h4><a href="/pages/artillect/">Artillects</a></h4>
                     <p style="padding:0em 1em;"> 
                         NPC driven mod that creates a civilization system world that adds several different technology ages.
                     </p>

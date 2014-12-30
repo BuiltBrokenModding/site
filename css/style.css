@@ -21,6 +21,11 @@ hr
     margin-bottom: 10px
 }
 
+div
+{
+ position:relative;
+}
+
 div#main {
     position:relative;
     width: 80%;
@@ -96,19 +101,38 @@ div#faq p
 
 div#slideshow
 {
-    color:#330000;
+    width: 100%;
+    height: 240px;
+    border: 2px solid;
+    padding: 0px;
+    margin-bottom: 2px;
+    background-color: black;
 }
 
 div#slideshowimage
 {
-    position:absolute;
-    top:125px;
-    left:125px;
+    width: 100%;
+    height: 95%;
+    background-size: 100% 100%;    
 }
 
-div#slideshowimage > svg {
-    display: block;
-    width: 100%;
+/* http://css-tricks.com/text-blocks-over-image/ */
+#image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+h2 span.spacer {
+   padding:0 5px;
 }
 
 A:link {
