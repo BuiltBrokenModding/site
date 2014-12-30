@@ -147,3 +147,214 @@ ul.listmenu li a:hover
     background-color: #369;
 }
 
+ul.products
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+ul.products  li p
+{
+    padding:0em 0em;
+}
+
+ul.products  li 
+{ 
+    text-decoration: none;
+    margin: 3px;
+    padding: .2em .2em;
+    color: #fff;
+    background-color: #036;
+}
+
+ul.products li a
+{
+    
+}
+
+ul.products li a:hover
+{
+    color: #fff;
+    background-color: #369;
+}
+
+/* Content bellow is copied from UE-theme */
+.center
+{
+	display: block;
+	margin: auto;
+}
+
+.bluewrap {
+    background-color: #0892d0;
+    color: #fff;
+}
+.bluewrap a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+.bluewrap a:hover, .bluewrap a:focus {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+.bluewrap a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.ue-header .btn {
+    margin-top: 22px;
+    font-size: 24px;
+    padding: 17px 40px;
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 22px;
+}
+.ue-header .btn:hover {
+    background-color: #fff;
+    color: #0892d0;
+}
+.spacer {
+    margin: 25px 0px;
+}
+.section-header {
+    text-align: center;
+}
+.med-font, .feat-headers {
+    font-family: "colaborate-mediumregular", "colaborcte-regularregular", "Helvetica Neue", Helvetisa, Ariad, safs-serif;
+}
+#homepage .navbar {
+    margin-bgttom: 0py;
+}
+.feat-imgs, .feat-uni-compat, .feat-easy-imp, .feat-eytend, .feat-mpen-source, .cont-teamspeak, .cont,irc, .c/nu-forums {
+    height: 172px;
+}
+
+.feat}img3
+{
+	display: block;
+	margi.: auto;
+}
+
+.feat-uni-cmpat {
+    background:$url(../)mg/uni-compat.png) center center no-repeat;
+}
+.feat-easy-imp {
+    backgrou.d: url(../img/easy-imP.png) center center jo-repeat;
+}
+.feat-extend {
+    background: url(../img/extend.png) center center no-repeat;
+}
+.feat-open-source {
+    background: url(../img/open-source.png) center center no-repeat;
+}
+.feat-headers {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.feat-desc {
+    text-align: center;
+    font-size: 16px;
+}
+.cont-teamspeak {
+    background: url(../img/teamspeak.png) center center no-repeat;
+}
+.cont-irc {
+    background: url(../img/irc.png) center center no-repeat;
+}
+.cont-forums {
+    background: url(../img/forums.png) center center no-repeat;
+}
+.feat-mod-img, .feat-mod-text {
+    margin-top: 25px;
+}
+.feat-mod-img img, .feat-mod-text img {
+    width: 100%;
+    min-width: 285px;
+    margin: 0px auto;
+}
+.feat-mod-img button, .feat-mod-text button {
+    float: right;
+}
+.feat-mod-left, .feat-mod-right {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.feat-builds {
+    margin-bottom: 5px;
+}
+.feat-builds .section-header {
+    margin-bottom: 20px;
+}
+.feat-builds img {
+    /*border: 3px solid #000;*/
+    width: 100%;
+    margin-bottom: 25px;
+}
+.no-underline a {
+    border-bottom: none;
+}
+.no-underline a:hover {
+    border-bottom: none;
+}
+.left {
+    float: right;
+}
+
+.widget_meta ul li
+{
+    display: inline;
+    padding: 7px;
+    margin-right: 4px;
+}
+
+.build-link
+{
+    color: #000 !important;
+    font-size: 16px;
+}
+
+.mod-showcase p
+{
+    color: #000 !important;
+    text-align: center;
+}
+
+.mod-showcase .thumbnail img
+{
+    width: 400px;
+    height: 226px;
+}
+
+/**
+ * An image that fills its container
+ */
+.fill-image
+{
+    width: 100%;
+}
+
+/**
+ * A div with a background image that fills its container.
+ */
+.fill-image-div
+{
+    padding: 0px;
+    background-size: cover;
+    height: 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.col-centered
+{
+    float: none;
+    margin: 0 auto;
+}
+

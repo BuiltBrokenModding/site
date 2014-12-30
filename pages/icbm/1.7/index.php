@@ -10,6 +10,40 @@
     <hr>
     <h2>Change Log</h2>
     <ul>
+    <li><font size="5"><b>#2.3.0:</b></font>
+        <ul class="changelog">
+            <li>Removed: Test Warhead</li>
+            <li>Removed: Test Inverted Warhead</li>
+            <li>Added: Micro Missile - Listed as Rocket</li> 
+            <li>Added: Small Missile - Listed as Small Missile</li>    
+            <li>Added: Medium Missile - Listed as Large Missile</li> 
+            <li>Added: Large Missile - Listed as ICBM</li>
+            <li>Added: Module Crafting</li>
+            <li>Added: Engine Module Slot</li>
+            <li>Added: Guidance Module Slot</li>
+            <li>Added: Warhead Module Slot</li>
+            <li>Added: Void Engine - Creative mode only engine</li>
+            <li>Added: Coal Engine - Currently not enabled</li>
+            <li>Added: Micro Warhead</li> 
+            <li>Added: Small Warhead</li>  
+            <li>Added: Medium Warhead</li> 
+            <li>Added: Large Warhead</li>
+            <li>Added: Empty Missiles - Listed as Missile Casing</li> 
+            <li>Added: Empty Warhead - Listed as Warhead Casing</li>
+            <li>Added: Difference between loaded and unloaded warheads</li>
+            <li>Added: Russian translation by <a href="https://github.com/Adaptivity">Adaptivity</a></li>
+            <li>Added: TNT Warhead - classic explosive </li>
+            <li>Added: Let It Snow Warhead - winter themed explosive</li>
+            <li>Added: JUnit testing for warhead modules</li>
+            <li>Changed: Missile to Act as an ammo item</li>
+            <li>Changed: Handheld launcher to act more like a weapon</li>
+            <li>Changed: Missile to Standard Missile</li>
+            <li>Changed: Warhead to Standard Warhead</li>
+            <li>Changed: Missile tip to not render when warhead is not installed</li>            
+            <li>Changed: Handheld launcher to only fire micro missiles</li> 
+            <li>Fixed: Lang file issues with item info</li>            
+        </ul>
+    </li>
     <li><font size="5"><b>#2.0.0 -> 2.2.0:</b></font>
         <ul class="changelog">
             <li>Removed: Radar Station</li>
