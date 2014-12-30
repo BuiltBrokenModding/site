@@ -5,8 +5,8 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
         <script src="/js/jquery.js"></script>
-        <script>
-            
+        <script src="/js/progressbar.js"></script>
+        <script>            
             $(document).ready(function()
             { 
                 $( ".changelog li" ).each( 

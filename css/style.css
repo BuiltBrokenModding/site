@@ -94,6 +94,23 @@ div#faq p
     padding-left: 3px;
 }
 
+div#slideshow
+{
+    color:#330000;
+}
+
+div#slideshowimage
+{
+    position:absolute;
+    top:125px;
+    left:125px;
+}
+
+div#slideshowimage > svg {
+    display: block;
+    width: 100%;
+}
+
 A:link {
 	COLOR: red;
 }
