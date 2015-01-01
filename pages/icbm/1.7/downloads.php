@@ -8,11 +8,8 @@
     <h2>!!Downloads!!</h2>
     
 <?php 
-$url = "ci.builtbroken.com/maven/";
-$local = "ci.builtbroken.com/maven";
-$group = "icbm";
-$id = "ICBM";
-include($_SERVER['DOCUMENT_ROOT'] . "/php/download/maven-viewer.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/php/file-helper.php");
+echo FileHelper::get_text("http://ci.builtbroken.com/maven/icbm/ICBM/downloads.php");
 include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); 
 
 ?>
