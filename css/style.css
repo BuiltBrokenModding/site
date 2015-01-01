@@ -221,6 +221,18 @@ ul.products li a:hover
     background-color: #369;
 }
 
+div.maven-downloads table 
+{   
+    width: 100%;
+}
+
+div.maven-downloads td 
+{
+    padding: 15px;
+    border-style: solid;
+    border: thick dotted #ffffff;
+}
+
 /* Content bellow is copied from UE-theme */
 .center
 {
