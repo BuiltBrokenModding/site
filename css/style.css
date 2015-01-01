@@ -23,7 +23,8 @@ hr
 
 div
 {
- position:relative;
+    position:relative;
+    background-size: 100% 100%;
 }
 
 div#main {
