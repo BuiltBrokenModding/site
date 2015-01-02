@@ -1,20 +1,18 @@
 <?php 
     $page_title="Home";
+    $title ="ICBM";
+    $sub_title = "Minecraft Missile Mod";
+    $menu = array(
+              'back'  => array('text'=>'Back',  'url'=>'#back'),
+              'code'  => array('text'=>'Src',  'url'=>'https://github.com/Universal-Electricity/ICBM'),
+              'mc1.5'  => array('text'=>'MC1.5',  'url'=>'1.5/'),
+              'mc1.6'  => array('text'=>'MC1.6',  'url'=>'1.5/'),
+              'mc1.7'  => array('text'=>'MC1.7',  'url'=>'1.7/'),
+              'support'  => array('text'=>'Support',  'url'=>'support.php')
+            );
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
-    
-?>
-    <h1 style="text-align:center; font-size: 450%;">ICBM</h1>
-    <h5 style="text-align:center;  padding:0 1em;">Minecraft Missile Mod</h5>
-    <hr>
-    <ul class="listmenu">
-        <li><a onclick="goBack()" >Back</a></li>
-        <li><a href="https://github.com/Universal-Electricity/ICBM" >Code</a></li>
-        <li><a href="1.5/" >MC1.5</a></li>
-        <li><a href="1.6/" >MC1.6</a></li>
-        <li><a href="1.7/" >MC1.7</a></li>
-        <li><a href="support.php" >Support</a></li>
-    </ul>
-    <hr>
+   
+?>    
     </br>
     <p>ICBM is a Minecraft Mod that introduces intercontinental ballistic missiles and loads of explosives to Minecraft.</p>
    <div class="bluewrap">

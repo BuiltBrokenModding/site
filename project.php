@@ -1,11 +1,7 @@
 <?php 
     $page_title="Projects";
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
-    
 ?>
-    <ul class="listmenu">
-        <li><a onclick="goBack()" >Back</a></li>
-    </ul>
     <h1>Games</h1>
     <div style="padding:0 1em;">
         

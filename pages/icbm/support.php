@@ -1,16 +1,16 @@
 <?php 
-    $page_title="Home";
+    $page_title="ICBM Support";
+    $title = "Support";
+    $sub_title ="for ICBM"; 
+    $menu = array(
+              'back'  => array('text'=>'Back',  'url'=>'#back'),
+              'code'  => array('text'=>'Downloads',  'url'=>'downloads.php'),
+              'wiki'  => array('text'=>'Wiki',  'url'=>'../wiki/'),
+              'support'  => array('text'=>'Support',  'url'=>'../support.php')
+    ); 
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
     
 ?>
-    <h1 style="text-align:center; font-size: 450%;">ICBM</h1>
-    <h5 style="text-align:center;  padding:0 1em;">Minecraft Missile Mod</h5>
-    <hr>
-    <ul class="listmenu">
-        <li><a onclick="goBack()" >Back</a></li>
-        <li><a href="https://github.com/Universal-Electricity/ICBM/issues?q=" >Github</a></li>
-    </ul>
-    <hr>
     </br>
     <h2> Hey there </h2>
     <p>If your here then you're having issues with ICBM, or you got lost. If its the ladder then click the back button. Anything else keep reading so the problem is fixed and neither of our time is wasted. </p>

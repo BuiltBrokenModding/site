@@ -1,7 +1,7 @@
 <?php 
     $page_title = "ICBM MC1.7";
-    $mod_name = "ICBM";
-    $mod_sub ="Minecraft missile mod";
+    $title = "ICBM";
+    $sub_title ="Minecraft missile mod";   
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.mod.php");
     
 ?>

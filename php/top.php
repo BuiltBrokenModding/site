@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<?php
+    if(!isset($menu))
+    { 
+        $menu = array(
+              'home'  => array('text'=>'Home',  'url'=>'/'),
+              'back'  => array('text'=>'Back',  'url'=>'#back')
+            );  
+    }        
+?>
 <html lang="en">
 	<head>
 		<title><?php echo $page_title;?></title>
@@ -7,6 +16,7 @@
         <script src="/js/jquery.js"></script>
         <script src="/js/progressbar.js"></script>
         <script src="/js/functions.js"></script>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/CNavigation.php"); ?>
 	</head>
 	<body>
         <div id ="header">
@@ -17,4 +27,21 @@
         </div>		
         <div id="main">
         <div id="content">
+        <div id="title">
+            <?php
+                if(isset($title))
+                { 
+                    echo "<h1 style='text-align:center; font-size: 450%;'>" . $title . "</h1>";
+                    if(isset($sub_title))
+                    {
+                        echo "<h5 style='text-align:center;  padding:0 1em;'>" . $sub_title . "</h5>" ; 
+                    }
+                }  
+            ?>             
+        </div>
+        <div id="menu">
+            <hr>
+            <?php echo CNavigation::ListMenu($menu)  ?>
+            <hr>
+        </div>
         <!-- Page content follows -->
