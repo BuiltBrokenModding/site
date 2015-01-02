@@ -9,7 +9,7 @@
     
 <?php 
 include($_SERVER['DOCUMENT_ROOT'] . "/php/file-helper.php");
-echo FileHelper::get_text("http://ci.builtbroken.com/maven/icbm/ICBM/downloads.php");
-include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); 
+echo FileHelper::get_text("http://ci.builtbroken.com/maven/icbm/ICBM/downloads/downloads-1.7.10.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php");
 
 ?>
