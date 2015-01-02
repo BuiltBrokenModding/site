@@ -12,4 +12,9 @@ $(document).ready(function()
             $(this).html(t);
         }
     );                    
-});             
+});        
+
+function goBack() 
+{
+    window.history.back()
+}    

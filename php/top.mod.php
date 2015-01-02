@@ -6,7 +6,7 @@
     <h5 style="text-align:center;  padding:0 1em;"><?php echo $mod_sub ?></h5>
     <hr>
     <ul class="listmenu">
-        <li><a href="../" >Back</a></li>
+        <li><a onclick="goBack()" >Back</a></li>
         <li><a href="downloads.php" >Download</a></li>
         <li><a href="wiki.php" >Wiki</a></li>
     </ul>

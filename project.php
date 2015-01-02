@@ -4,7 +4,7 @@
     
 ?>
     <ul class="listmenu">
-        <li><a href="index.php" >Back</a></li>
+        <li><a onclick="goBack()" >Back</a></li>
     </ul>
     <h1>Games</h1>
     <div style="padding:0 1em;">

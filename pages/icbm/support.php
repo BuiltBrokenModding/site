@@ -7,7 +7,7 @@
     <h5 style="text-align:center;  padding:0 1em;">Minecraft Missile Mod</h5>
     <hr>
     <ul class="listmenu">
-        <li><a href="index.php" >Back</a></li>
+        <li><a onclick="goBack()" >Back</a></li>
         <li><a href="https://github.com/Universal-Electricity/ICBM/issues?q=" >Github</a></li>
     </ul>
     <hr>
