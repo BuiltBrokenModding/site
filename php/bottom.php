@@ -1,5 +1,5 @@
 </div>
-<?php include("/php/adsense.php"); ?>
+<?php include("adsense.php"); ?>
 </div>
 			<div id="footer">
 				<p>
