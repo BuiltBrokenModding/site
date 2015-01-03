@@ -4,7 +4,7 @@
     $sub_title = "Minecraft Missile Mod";
     $menu = array(
               'back'  => array('text'=>'Back',  'url'=>'#back'),
-              'code'  => array('text'=>'Src',  'url'=>'https://github.com/Universal-Electricity/ICBM'),
+              'code'  => array('text'=>'Src',  'url'=>'https://github.com/BuiltBrokenModding/ICBM'),
               'mc1.5'  => array('text'=>'MC1.5',  'url'=>'1.5/'),
               'mc1.6'  => array('text'=>'MC1.6',  'url'=>'1.5/'),
               'mc1.7'  => array('text'=>'MC1.7',  'url'=>'1.7/'),

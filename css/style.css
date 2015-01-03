@@ -25,6 +25,12 @@ hr
     margin-bottom: 10px
 }
 
+.googleads
+{
+    border-style: solid;
+    border: thick dotted #ffffff;
+}
+
 div#main {
     position:relative;
     width: 80%;
