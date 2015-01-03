@@ -16,6 +16,7 @@
         <script src="/js/jquery.js"></script>
         <script src="/js/progressbar.js"></script>
         <script src="/js/functions.js"></script>
+        <script src="/js/image_slider.js"></script>
         <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/CNavigation.php"); ?>
 	</head>
 	<body>

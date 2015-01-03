@@ -4,10 +4,8 @@
       'github'  => array('text'=>'Github',  'url'=>'https://github.com/BuiltBrokenModding'),
       'project'  => array('text'=>'Projects',  'url'=>'project.php')
     );  
-    include("php/top.php");
-      
+    include("php/top.php");      
 ?>
-   
     <h2>Featured Projects</h2>  
     <div>
         <div id="slideshow">         
@@ -38,58 +36,8 @@
             <p>We have finally made the transition from wordpress back to old school plain webpages. With this the site is running faster than ever. For you this mean no more delay when loading large pages. This includes the download pages which were having loading times all the way up to 2 mins. Which is no fixed showing most pages loading in under 1 second and at most 5 seconds. </p>
         </div>
     </div>
-<script type="text/javascript">
-<!-- http://kimmobrunfeldt.github.io/progressbar.js/ -->
-    var images = [ 
-    "icbm1.png", 
-    "artillect1.png",
-    "icbm2.png",
-    "artillect2.png",
-    "icbm3.png" ];
-    var currentimage = 0;
-    var line = new ProgressBar.Line('#slidebar', {
-        color: '#FCB03C', duration: 10000
-    });
-    var slider = document.getElementById('slideshowimage');
-    
-    function startSlideShow()
-    {
-        var newimg = Math.floor(Math.random() * (images.length - 1));
-        while(newimg == currentimage)
-        {
-            newimg = Math.floor(Math.random() * (images.length - 1));
-        }
-        currentimage = newimg;
-
-        var img_name = images[newimg];
-        var link = "#";
-        var title = "Title";
-        var sub = "Sub";
-        if(img_name.indexOf("icbm") > -1)
-        {
-            link = "/pages/icbm/";
-            title = "ICBM";
-            sub = "Minecraft Missile Mod";
-        }
-        else if(img_name.indexOf("artillect") > -1)
-        {
-            link = "/pages/artillect/";
-            title = "Artillects";
-            sub = "Minecraft Civ and NPC mod";
-        }        
-        slider.style.backgroundImage= "url(/img/slider/" + img_name + ")"
-        document.getElementById('slideshowimage').innerHTML = '<h2><span>' + title + ':<span class="spacer"></span><br /><span class="spacer"></span>' + sub + '</span></h2>';
-        slider.onclick = function() 
-        {
-            open(link, "_self");
-        };
-        line.set(0);
-        line.animate(1);
-        setTimeout("startSlideShow()", 10000);        
-    }
-    
-    startSlideShow();
-
+<script type="text/javascript"> 
+    startSlideShow(new Slider([ "icbm1.png",  "artillect1.png", "icbm2.png", "artillect2.png", "icbm3.png" ]));
 </script>
 <?php include("php/bottom.php"); ?>
 				
