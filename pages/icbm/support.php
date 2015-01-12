@@ -4,7 +4,7 @@
     $sub_title ="for ICBM"; 
     $menu = array(
               'back'  => array('text'=>'Back',  'url'=>'#back'),
-              'code'  => array('text'=>'Downloads',  'url'=>'downloads.php'),
+              'code'  => array('text'=>'Github',  'url'=>'https://github.com/BuiltBrokenModding/ICBM'),
               'wiki'  => array('text'=>'Wiki',  'url'=>'../wiki/'),
               'support'  => array('text'=>'Support',  'url'=>'../support.php')
     ); 

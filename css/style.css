@@ -1,6 +1,7 @@
-* {
- margin:0px;
- padding:0px;
+* 
+{
+    margin:0px;
+    padding:0px;
 }
 
 html 
@@ -25,36 +26,27 @@ hr
     margin-bottom: 10px
 }
 
-.googleads
-{
-    border-style: solid;
-    border: thick dotted #ffffff;
+table 
+{   
+    width: 100%;
 }
 
 div#main {
     position:relative;
     width: 80%;
-    margin: 0 auto;
-    
-    height:auto;
-    min-height: 150%;
-    
+    margin: 0 auto;    
 	background-color:#E6E6E6;
     padding:1em 1em 5em;
+    min-height: 110%;
 }
 
 div#content
 {
-    position:relative;
+    position:relative;    
+    height:auto;
     width: 90%;
     margin: 0 auto;
     padding:1em 1em 5em;
-}
-
-div#content p
-{
-    padding:1em 1em 5em;
-    margin: 0 auto;
 }
 
 div#header 
@@ -81,7 +73,7 @@ div#footer
 {
     width:100%;
     position:relative;
-    bottom:0px;
+    bottom:10px;
 	background: #efefef; 
 	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
 	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
@@ -149,6 +141,67 @@ A:link {
 }
 A:visited {
 	COLOR: #0297DB;
+}
+
+.employees
+{    
+    display: block;
+    padding: 1px 20px;
+    margin-bottom:25px;
+    clear:both;    
+    zoom: 1;
+}
+
+.employees div
+{
+    position:relative
+    display: block;
+    background-repeat: no-repeat;
+    width: 145px;
+    padding-top: 12px; /* padding-top: 217px; */
+    float: left;
+    margin: 0 13px 6px;
+}
+
+.employees p
+{
+   font-size: 12px;
+   margin-bottom: 6px;
+   line-height: 1.667em;
+}
+
+.row
+{    
+    display: block;
+    padding: 1px 20px;
+    margin-bottom:25px;
+    clear:both;    
+    zoom: 1;
+}
+
+div.media
+{
+    width:48%;
+    padding: 1px;
+}
+
+div:after
+{
+    content: "";
+    clear: both;
+}
+
+.row div
+{
+    position:relative;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.googleads
+{
+    border-style: solid;
+    border: thick dotted #ffffff;
 }
 
 .wrap 

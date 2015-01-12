@@ -13,6 +13,7 @@
 		<title><?php echo $page_title;?></title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="/css/style.css">
+        <link rel="shortcut icon" href="/img/icon.ico">
         <script src="/js/jquery.js"></script>
         <script src="/js/progressbar.js"></script>
         <script src="/js/functions.js"></script>

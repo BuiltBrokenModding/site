@@ -5,8 +5,12 @@
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.mod.php");
     
 ?>
-    <h2>!!IMPORTANT UPDATE NOTICE!!</h2>
-    <p>For those that played with ICBM before 1.7 update you need to slow down and read this first. ICBM is no longer the same mod as it use to be. To start with it has changed ownership from Calclavia to DarkGuardsman. Second all content that is not a missile or launcher has been removed. This was done to free up the design to make it easier to update. As well this allows the mod to evolve towards its original design rather than become a pit for warfare concepts. </p>
+    <h2>!!Updating to 1.7!!</h2>
+    <p>With the update to 1.7 the mod is in full rewrite. For the new version we have decided to focus more on the original design. Which is after all missiles that fly threw the sky at high speeds. This means we junked a good bit of content that was not part of the design. Don't worry though this content will not be deleted forever and may be recreated in our other mods. As for ICBM itself from now on it will only contain missiles and support machines to launch them.   </p>
+    </br>
+    <h2>!!New Ownership!!</h2>
+    <p>ICBM has changed ownership from calclavia, who created the mod, to Dark who has been working on it since 1.5.2. This was done to prevent the mod from decaying due to lake of progress. The trade off however is darkguardsman gave up full rights to resonant induction. This means our team no longer supports resonant induction from a coding point of view.</p>
+    </br>
     <hr>
     <h2>Change Log</h2>
     <ul>

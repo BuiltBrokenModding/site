@@ -143,7 +143,7 @@
                 <li>  
                     <h4><a href="#">Dark's Machines</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Was created as an attempt to create competition for mekanism. Never made a full release and was merged into resonant induction. Before being merged it contained several generators, wires, and ore processing machines.
+                        Was created as competition for mods like mekanism, IC2, and Thermal Expansion. Before making a full release plans were changed merging the mod into resonant induction. In which most of the content was scraped and used to create most of what resonant induction currently contains.
                     </p> 
                 </li>
              </ul>

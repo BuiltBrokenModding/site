@@ -2,7 +2,8 @@
     $page_title="Home";
     $menu = array(
       'github'  => array('text'=>'Github',  'url'=>'https://github.com/BuiltBrokenModding'),
-      'project'  => array('text'=>'Projects',  'url'=>'project.php')
+      'project'  => array('text'=>'Projects',  'url'=>'project.php'),
+      'about'  => array('text'=>'About',  'url'=>'about.php')
     );  
     include("php/top.php");      
 ?>
@@ -33,7 +34,7 @@
         <div class="news">
             <h3> New Site </h3>
             <h4> Date: Dec, 28 2014 </h4>
-            <p>We have finally made the transition from wordpress back to old school plain webpages. With this the site is running faster than ever. For you this mean no more delay when loading large pages. This includes the download pages which were having loading times all the way up to 2 mins. Which is no fixed showing most pages loading in under 1 second and at most 5 seconds. </p>
+            <p>We have finally made the transition from wordpress back to old school plain webpages. With this the site is running faster than ever. For you this mean no more delay when loading large pages. This includes the download pages which were having loading times all the way up to 2 mins. Which is now fixed showing most pages loading in under 1 second and at most 5 seconds. </p>
         </div>
     </div>
 <script type="text/javascript"> 
