@@ -37,25 +37,25 @@
                 <li> 
                     <h4><a href="#">Armory</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Weapons, armour, and storage themed after several different tech eras.  
+                        Weapons, and armour for several different technology eras.  
                     </p> 
                 </li>
                 <li> 
                     <h4><a href="/pages/artillect/">Artillects</a></h4>
                     <p style="padding:0em 1em;"> 
-                        NPC driven mod that creates a civilization system world that adds several different technology ages.
+                        NPC driven mod that allows for more realistic and lively worlds. The mod includes dozens of NPCs, research trees, towns, factions, empires, and other civ based expansions. 
                     </p>
                 </li>
                 <li> 
                     <h4><a href="pages/icbm/">ICBM</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Modern warfare era mod that adds missiles for destructive and transportation purposes. Aimed at PvP more than PvE or creative
+                        Modern era mod aimed at implementing warfare based missiles into the game. Includes several different missiles sizes that can be used for more than destruction. 
                     </p>
                 </li>
                 <li>  
-                    <h4><a href="http://resonantengine.com/">Resonant Engine</a></h4>
+                    <h4><a href="pages/voltzengine/">Voltz Engine</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Core Engine system used by ue team and our modding team to create mods more effectively. Offers a wide range of pre-implemented system, networking handling, content creation, and support of various mods.
+                        Content creation and management engine for creating minecraft mods. Includes a wide range of pre-implemented systems, content, helpers, and useful features. This includes our replacement for MC's Block System and Module object system. Both of which allow Tiles to be created with very little effort and even less bugs thanks to JUnit. 
                     </p> 
                 </li>
                 <li> 
@@ -87,15 +87,27 @@
             <p style="padding:0em 1em;">These were mods we created for the game <a href="https://minecraft.net/">minecraft</a> that no longer are supported. </p>
              <ul class="products">
                 <li>  
-                    <h4><a href="http://calclavia.com/resonant-induction/">Resonant Induction</a></h4>
+                    <h4><a href="http://resonantengine.com/">[RE]Resonant Engine</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Originally one of our join projects between calcalvia and our team. We stopped supporting the mod near the end of 2014 when joint designs could no longer exist. The mod itself adds micro brick gears, wires, and various mutli block machines. Designed to allow more creativity and puzzle building over single purpose machines.
+                        Core Engine system used by calcalvia and at one point our modding team. Around Jan 1, 2015 we cloned RE to create our own version of the engine. This action was taken to better support the needs of our modding team. 
                     </p> 
                 </li>
-                 <li>  
-                    <h4><a href="#">Fluid Mechanics</a></h4>
+                <li>  
+                    <h4><a href="https://github.com/Universal-Electricity/Universal-Electricity">[UE]Universal Electricity</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Was one of the original Universal Electricity mods, and part of a mod called steam power. Was split off aiming at fluid support for UE based mods. Most of the content from the mod was merged into Resonant Induction. The goal was to reduce our work load while increasing the support for our users. The tank, pipe, gutter, drain, pump, and fluid blocks in RI come from this mod.
+                        UE was the dream to create a common compatibility steam for  all minecraft mods. The API was originally created by calcalvia for ICBM. Mainly to avoid Industrial Craft 2 strict guidelines on API usage. It developed into a power system with the joint efforts of our team. However, the dream was short lived being deprecated in 1.7.10 in favour of creating an in house power system for RE. 
+                    </p> 
+                </li>
+                <li>  
+                    <h4><a href="http://calclavia.com/resonant-induction/">[RI]Resonant Induction</a></h4>
+                    <p style="padding:0em 1em;"> 
+                        Originally one of our join projects between calcalvia and our team. We stopped supporting the mod near the end of 2014 when our designs were replaced with calclavia's ideas. The mod itself adds micro brick gears, wires, and various mutli block machines.
+                    </p> 
+                </li>
+                <li>  
+                    <h4><a href="#">[FM]Fluid Mechanics</a></h4>
+                    <p style="padding:0em 1em;"> 
+                        Was one of the original Universal Electricity mods, and part of a mod called steam power. FM was split off aiming at fluid support for UE based mods. Most of the content from the mod was merged into Resonant Induction. The goal was to reduce our work load while increasing the support for our users. The tank, pipe, gutter, drain, pump, and fluid blocks in RI come from this mod.
                     </p> 
                 </li>
                 <li>  
@@ -113,7 +125,7 @@
                 <li>  
                     <h4><a href="#">Illus Elements</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Created by a friend of the dev team Elrath18 and one of our own hangcow this mod added colored glass to minecraft. After several MC updates and other mods with the same idea it was let go. With the new 1.8 updated adding coloured glass the idea to revive it was completely forgotten.
+                        Created by Elrath18 and hangcow this mod added colored glass, and other decoration blocks to minecraft. After several MC updates and other mods with the same idea it was let go. With the new 1.8 updated adding coloured glass the idea to revive it has been completely forgotten.
                     </p> 
                 </li>
                 <li>  
