@@ -35,7 +35,7 @@
                     </p> 
                 </li>
                 <li> 
-                    <h4><a href="#">Armory</a></h4>
+                    <h4><a href="/pages/armory">Armory</a></h4>
                     <p style="padding:0em 1em;"> 
                         Weapons, and armour for several different technology eras.  
                     </p> 
@@ -59,10 +59,16 @@
                     </p> 
                 </li>
                 <li> 
-                    <h4><a href="#">Tiner Toys</a></h4>
+                    <h4><a href="#">Tinker Toys</a></h4>
                     <p style="padding:0em 1em;"> 
                        Robot building mod that allows massive customization in the creation of robotic assistants. 
                     </p>
+                </li>
+                <li>  
+                    <h4><a href="pages/militarybasedecor/">Military Base Decor</a></h4>
+                    <p style="padding:0em 1em;"> 
+                        Decoration mod aimed after creating military style bases. 
+                    </p> 
                 </li>
             </ul>
         </div>
@@ -70,7 +76,7 @@
             <h3>Skyrim Modding</h3>
               <ul class="products">
                 <li> 
-                    <h4><a href="#">Spider Tiner Toys</a></h4>
+                    <h4><a href="#">Spider Tinker Toys</a></h4>
                     <p style="padding:0em 1em;"> 
                        Simple companion addition to add 4 helper spider robots that follow the player around
                     </p>
