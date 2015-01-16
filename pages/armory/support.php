@@ -1,10 +1,10 @@
 <?php 
-    $page_title="ICBM Support";
+    $page_title="Armory Support";
     $title = "Support";
-    $sub_title ="for ICBM"; 
+    $sub_title ="for Armory"; 
     $menu = array(
               'back'  => array('text'=>'Back',  'url'=>'#back'),
-              'code'  => array('text'=>'Github',  'url'=>'https://github.com/BuiltBrokenModding/ICBM/issues?q=')
+              'code'  => array('text'=>'Github',  'url'=>'https://github.com/BuiltBrokenModding/Armory/issues?q=')
     ); 
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
     
