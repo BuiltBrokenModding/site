@@ -10,8 +10,7 @@
     <h2>Featured Projects</h2>  
     <div>
         <div id="slideshow">         
-            <div id="slideshowimage">
-            <a href="/pages/icbm/"><img id="image" src="/img/slider/icbm1.png"/></a><h2><span>ICBM:<span class="spacer"></span><br /><span class="spacer"></span>Minecraft Missile Mod</span></h2>
+            <div id="slideshowimage">          
             </div>
             <div id ="slidebar"></div>
         </div>
@@ -53,8 +52,66 @@
             <hr>
         </div>
     </div>
-<script type="text/javascript"> 
-    startSlideShow(new Slider([ "icbm1.png",  "artillect1.png", "icbm2.png", "artillect2.png", "icbm3.png" ]));
+<script type="text/javascript">   
+    
+    images = ["http://imageshack.com/a/img540/7162/huRZD7.png",
+            "http://imageshack.com/a/img910/9708/uAO6Vu.png",
+            "http://imageshack.com/a/img673/5788/JfJN5I.png",
+            "http://imageshack.com/a/img912/5715/abZIJK.png",
+            "http://imageshack.com/a/img540/332/N8R66r.png",
+            "http://imageshack.com/a/img661/3217/mG2p86.png",
+            "http://imageshack.com/a/img904/2263/FSa4f8.jpg",
+            "http://imageshack.com/a/img661/6038/AW2x3D.png"];  
+    mod = ["ICBM", "ICBM", "ICBM", "ICBM", "Artillects", "Artillects", "Artillects", "Artillects"];
+    currentimage = 0;
+    line = new ProgressBar.Line('#slidebar', {color: '#FCB03C', duration: 10000});
+
+    function startSlideShow()
+    {
+            var link = "#";
+            var title = "Title";
+            var sub = "Sub";
+            
+            //Get next random image
+            var newimg = Math.floor(Math.random() * (images.length - 1));
+            while(newimg == currentimage)
+            {
+                newimg = Math.floor(Math.random() * (images.length - 1));
+            }
+            currentimage = newimg;
+
+            //Set link, title, and subtitle data
+            if(mod[newimg].indexOf("ICBM") > -1)
+            {
+                link = "/pages/icbm/";
+                title = "ICBM";
+                sub = "Minecraft Missile Mod";
+            }
+            else if(mod[newimg].indexOf("Artillects") > -1)
+            {
+                link = "/pages/artillect/";
+                title = "Artillects";
+                sub = "Minecraft Civ and NPC mod";
+            }
+
+            //Build HTML        
+            document.getElementById('slideshowimage').style.backgroundImage = "url(" + images[newimg] + ")";
+            document.getElementById('slideshowimage').innerHTML = '<h2><span>' + title + ':<span class="spacer"></span><br /><span class="spacer"></span>' + sub + '</span></h2>';
+            
+            //Make the div clickable like a link
+            document.getElementById('slideshowimage').onclick = function() 
+            {
+                open(link, "_self");
+            };
+            
+            //Update the progress bar
+            line.set(0);
+            line.animate(1);
+            
+            //Loop
+            setTimeout("startSlideShow()", 10000);
+    }   
+    startSlideShow();
 </script>
 <?php include("php/bottom.php"); ?>
 				
