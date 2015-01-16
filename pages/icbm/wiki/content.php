@@ -1,21 +1,26 @@
-<div>
+<div id="icbmcontent" class="contentmenupane">
 <?php 
     $web_root = "http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])."/content/";
     $missiles = array(
-                'missile' => array('text'=>'Missiles',  'url'=> $web_root . 'missiles/missiles.php'),
-                'rocket' => array('text'=>'Rocket',  'url'=> $web_root . 'missiles/rocket.php'),
-                'small' => array('text'=>'Hawk',  'url'=> $web_root . 'missiles/small.php'),
-                'standard' => array('text'=>'Cruise',  'url'=> $web_root . 'missiles/standard.php'),
-                'medium' => array('text'=>'Scud',  'url'=> $web_root . 'missiles/medium.php'),
-                'large' => array('text'=>'ICBM',  'url'=> $web_root . 'missiles/large.php')                 
+                'rocket' => array('text'=>'Micro',  'url'=> $web_root . 'missiles/micro.php'),
+                'small' => array('text'=>'Small',  'url'=> $web_root . 'missiles/small.php'),
+                'standard' => array('text'=>'Classic',  'url'=> $web_root . 'missiles/standard.php'),
+                'medium' => array('text'=>'Medium',  'url'=> $web_root . 'missiles/medium.php'),
+                'large' => array('text'=>'Large',  'url'=> $web_root . 'missiles/large.php')                 
             );
     $machines = array(
-                'machine' => array('text'=>'Machines',  'url'=> $web_root . 'missiles/machines.php'),
-                'sl' => array('text'=>'Launcher',  'url'=> $web_root . 'missiles/small.php')              
+                'launcher' => array('text'=>'Launcher',  'url'=> $web_root . 'missiles/launcher.php'),
+                'silo' => array('text'=>'Silo',  'url'=> $web_root . 'missiles/silo.php')                 
             );
             
-    echo CNavigation::ContentMenu($missiles);
-    echo CNavigation::ContentMenu($machines);
-
 ?>
+    <table class="navbox">
+        <tbody>
+            <tr><th class="navbox-top" colspan="2">               
+                <span class="navbox-title"><strong>Content</strong></span>
+            </th></tr>
+            <tr><th>Missiles</th><td><?php echo CNavigation::ContentMenu($missiles); ?></td></tr>
+            <tr><th>Machines</th><td><?php echo CNavigation::ContentMenu($machines); ?></td></tr>
+        </tbody>
+    </table>
 </div>

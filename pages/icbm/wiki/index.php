@@ -2,7 +2,7 @@
     $page_title="ICBM Wiki";
     $title ="ICBM Wiki";
     $sub_title = "Minecraft Missile Mod";
-    include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
+    include($_SERVER['DOCUMENT_ROOT'] . "/php/top.wiki.php");
    
 ?>    
     <h2>!!Notice!!</h2>
