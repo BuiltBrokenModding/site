@@ -20,12 +20,13 @@
     </br>
     <h2>Videos</h2>
     <div class="row">
-            <div style="width:50%;">
+        <div style="width:50%;">
             <iframe width="420" height="315" class="center" src="//www.youtube.com/embed/p6pi8H7I1E4" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div style="width:50%;">
+        </div>
+        <div style="width:50%;">
             <iframe width="420" height="315" class="center" src="//www.youtube.com/embed/9LDxvUBj1HM" frameborder="0" allowfullscreen></iframe>
         </div>
+    </div>
     </br>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); ?>
 				
