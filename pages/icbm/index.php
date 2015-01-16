@@ -3,10 +3,10 @@
     $title ="ICBM";
     $sub_title = "Minecraft Missile Mod";
     $menu = array(
-              'back'    => array('text'=>'Back',  'url'=>'#back'),            
-              'mc1.5'   => array('text'=>'MC1.5',  'url'=>'1.5/'),
-              'mc1.6'   => array('text'=>'MC1.6',  'url'=>'1.5/'),
+              'back'    => array('text'=>'Back',  'url'=>'#back'),   
+              'mc1.6'   => array('text'=>'MC1.6',  'url'=>'1.6/'),
               'mc1.7'   => array('text'=>'MC1.7',  'url'=>'1.7/'),
+              'modpacks'   => array('text'=>'Modpacks',  'url'=>'modpack.php'),
               'curse'   => array('text'=>'Curse',  'url'=>'http://minecraft.curseforge.com/mc-mods/225502-icbm'),
               'credits' => array('text'=>'Credits',  'url'=>'credit.php'), 
               'code'    => array('text'=>'Src',  'url'=>'https://github.com/BuiltBrokenModding/ICBM')                          
