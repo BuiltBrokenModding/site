@@ -16,15 +16,7 @@
 ?>    
     </br>
     <h2>About</h2>
-    <p>ICBM doesn't need much explanation of what it is or isn't. After all ICBMs are super sizes missiles that blow everything up. Making this mod just about destroying the world right? I would say no but its a mixed story when it comes to ICBM. At the beginning it was created with the idea that PvP needed a modern twist. Less swords, guns, traps, and more bang for your resources. Since then it has evolved to support those PvE players, and creates players. Adding in cargo, weather, and transportation missiles.  </p>
-    </br>
-    <h2>Pictures</h2>
-     <div class="row" style="height:315;">
-            <div class="col-md-6 fill-image-div" style="width:50%;height:390px;background-image: url(http://calclavia.com/icbm/wp-content/uploads/sites/7/icbm-3.jpg)"></div>
-            <div class="col-md-6 fill-image-div" style="width:50%;height: 390px;background-image: url(http://calclavia.com/icbm/wp-content/uploads/sites/7/icbm-4.jpg)"></div>
-            <div class="col-md-6 fill-image-div" style="width:50%;height: 390px;background-image: url(http://calclavia.com/icbm/wp-content/uploads/sites/7/icbm-1.png)"></div>
-            <div class="col-md-6 fill-image-div" style="width:50%;height: 390px;background-image: url(http://calclavia.com/icbm/wp-content/uploads/sites/7/icbm-2.png)"></div>
-    </div>
+    <p>ICBM doesn't need much explanation of what it is or isn't. After all ICBMs are super sizes missiles that blow everything up. Making this mod just about destroying the world right? I would say no but its a mixed story when it comes to ICBM. At the beginning it was created with the idea that PvP needed a modern twist. Less swords, guns, traps, and more bang for your resources. Since then it has evolved to support those PvE players, and creative players. Adding in cargo, weather, and transportation missiles.  </p>
     </br>
     <h2>Videos</h2>
     <div class="row">

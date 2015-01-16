@@ -277,6 +277,29 @@ ul.listmenu li a:hover
     background-color: #369;
 }
 
+ul.listmenu 
+{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contentmenu  li 
+{ 
+    display: inline; 
+}
+
+ul.contentmenu li a
+{
+    text-decoration: none;
+    padding: .2em 1em;
+}
+
+ul.contentmenu li a:hover
+{
+}
+
 ul.products
 {
     list-style-type: none;

@@ -20,5 +20,16 @@ class CNavigation
     $html .= "\t</ul>\n";
     return $html;
   }
+  
+  public static function ContentMenu($items) 
+  {
+    $html = "\t<ul class='contentmenu'>\n";
+    foreach($items as $item) 
+    {
+        $html .= "\t\t<li><a href='{$item['url']}'>{$item['text']}</a><li>\n";
+    }
+    $html .= "\t</ul>\n";
+    return $html;
+  }
 };
 ?>
