@@ -12,7 +12,7 @@ html
 body 
 {	   
 	background-color:#191E22;
-	background-image:url('../img/Minecraft-Landscape.jpg');	
+	/* background-image:url('../img/Minecraft-Landscape.jpg');	*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
