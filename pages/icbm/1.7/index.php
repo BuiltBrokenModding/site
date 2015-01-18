@@ -11,9 +11,27 @@
     <h2>!!New Ownership!!</h2>
     <p>ICBM has changed ownership from calclavia, who created the mod, to Dark who has been working on it since 1.5.2. This was done to prevent the mod from decaying due to lake of progress. The trade off however is darkguardsman gave up full rights to resonant induction. This means our team no longer supports resonant induction from a coding point of view.</p>
     </br>
+     <h2>How to Install</h2>
+    <p>Process is about the same as any other mod. So if you understand what your doing you can skip past this list. Just make sure to install Voltz Engine.</p>
+    <ul style="list-style-type: circle;">
+        <li> Install Forge, if you don't have it installed </li>
+        <li> Add Voltz Engine to your mods folder </li>
+        <li> Add ICBM to your mods folder </li>
+        <li> Done, feel free to edit configs and enjoy </li>
+    </ul>
+    </br>
     <hr>
     <h2>Change Log</h2>
     <ul>
+     <li><font size="5"><b>#2.3.1:</b></font>
+        <ul class="changelog">
+            <li>Changed: Default launch system</li>
+            <li>Added: Classic Missile</li>    
+            <li>Added: Classic Micro Missile</li>
+            <li>Added: Display only missile</li>
+            <li>Fixed: Placement NPE</li>            
+        </ul>
+    </li>
     <li><font size="5"><b>#2.3.0:</b></font>
         <ul class="changelog">
             <li>Removed: Test Warhead</li>

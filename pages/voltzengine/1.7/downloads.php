@@ -13,7 +13,7 @@
     ?>
     </br>
     </br>
-    <p>At any time if the download plugin fails you can access the downloads threw our <a href="http://adf.ly/2380428/ci.builtbroken.com/maven/dev/builtbroken/voltzengine/VoltzEngine">maven</a> file system.</p>
+     <p>At any time if the download plugin fails you can access the downloads threw our <a href="http://adf.ly/2380428/ci.builtbroken.com/maven/">maven</a> file system.</p>
     
 <?php 
 include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php");

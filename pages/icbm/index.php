@@ -4,7 +4,7 @@
     $sub_title = "Minecraft Missile Mod";
     $menu = array(
               'back'    => array('text'=>'Back',  'url'=>'#back'),   
-              'mc1.6'   => array('text'=>'MC1.6',  'url'=>'1.6/'),
+              'archive'   => array('text'=>'Archive',  'url'=>'archive.php'),
               'mc1.7'   => array('text'=>'MC1.7',  'url'=>'1.7/'),
               'modpacks'   => array('text'=>'Modpacks',  'url'=>'modpack.php'),
               'curse'   => array('text'=>'Curse',  'url'=>'http://minecraft.curseforge.com/mc-mods/225502-icbm'),

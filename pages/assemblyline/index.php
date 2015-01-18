@@ -3,8 +3,7 @@
     $title ="Assembly Line";
     $sub_title = "Automation at its finest";
     $menu = array(
-              'back'    => array('text'=>'Back',  'url'=>'#back'),
-              'mc1.7'   => array('text'=>'MC1.7',  'url'=>'1.7/')               
+              'back'    => array('text'=>'Back',  'url'=>'#back')              
     );
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
     
@@ -14,7 +13,7 @@
     <p>Assembly Line is a factory style mod that focuses on making automation more enjoyable.</p>
     </br>
     <h3>Release ETA</h3>
-    <p>Currently Built Broken Studios interests are focused on other project so we can not give any defined time frame. However, we do plan to continue the project down the road. When that will be however is up to how fast we complete our other projects.</p>
+    <p>Assembly Line is currently a work in progress with no plan to release it any time soon</p>
     </br>
     </br>
     </br>
