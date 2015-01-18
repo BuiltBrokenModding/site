@@ -1,12 +1,6 @@
-<?php 
-    $page_title="ICBM Wiki";
-    $title ="ICBM Wiki";
-    $sub_title = "Minecraft Missile Mod";
-    include($_SERVER['DOCUMENT_ROOT'] . "/php/top.wiki.php");
-   
-?>    
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>       
     <h2>Small Missiles</h2>
-    <p>Name in game as the rocket, this small missile is used with the handheld launcher.</p>
+    <p>Two block tall missile that carries a small payload and is used for simple task. Has a limited range and guidance ability.</p>
     </br>
     </br>
     </br>

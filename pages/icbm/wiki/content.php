@@ -1,6 +1,6 @@
 <div id="icbmcontent" class="contentmenupane">
 <?php 
-    $web_root = "http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])."/content/";
+    $web_root = "/pages/icbm/wiki/content/";
     $missiles = array(
                 'rocket' => array('text'=>'Micro',  'url'=> $web_root . 'missiles/micro.php'),
                 'small' => array('text'=>'Small',  'url'=> $web_root . 'missiles/small.php'),
@@ -9,8 +9,8 @@
                 'large' => array('text'=>'Large',  'url'=> $web_root . 'missiles/large.php')                 
             );
     $machines = array(
-                'launcher' => array('text'=>'Launcher',  'url'=> $web_root . 'missiles/launcher.php'),
-                'silo' => array('text'=>'Silo',  'url'=> $web_root . 'missiles/silo.php')                 
+                'launcher' => array('text'=>'Launcher',  'url'=> $web_root . 'machines/launcher.php'),
+                'silo' => array('text'=>'Silo',  'url'=> $web_root . 'machines/silo.php')                 
             );
             
 ?>
