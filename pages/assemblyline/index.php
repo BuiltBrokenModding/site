@@ -20,7 +20,7 @@
     </br>
     </br>
     <h3>Legacy Downloads</h3>
-    <p> No support will be given for versions before 1.7 so use at your own risk. If your looking for a 1.6 version look for Resonant Induction. In which most of assembly line's content was merged into the mod. </br> Only Mirror: <a href="http://sourceforge.net/projects/guardsmanmcm/files/AL%20Archive">SourceForge</a> </p>
+    <p> No support will be given for versions before 1.7 so use these at your own risk. If your looking for a 1.6 version look for Resonant Induction. In which most of assembly line's content was merged into the mod. </br> Only Mirror: <a href="http://sourceforge.net/projects/guardsmanmcm/files/AL%20Archive">SourceForge</a> </p>
     
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); ?>
 				

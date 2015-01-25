@@ -40,6 +40,14 @@
                   <a href="https://twitter.com/dmodoomsirius" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
             </div>
+            <div>
+                <p>Hennamann,<br>
+                Developer
+                </p>
+                <p>
+                  <a href="https://twitter.com/Hennamann1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
+                </p>
+            </div>
         </div>        
         <div style="clear:both;"> </div>
         </br>
