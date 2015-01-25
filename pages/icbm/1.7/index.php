@@ -23,12 +23,20 @@
     <hr>
     <h2>Change Log</h2>
     <ul>
-     <li><font size="5"><b>#2.3.1:</b></font>
+     <li><font size="5"><b>#Next Version, or current Alpha release:</b></font>
         <ul class="changelog">
-            <li>Changed: Default launch system</li>
-            <li>Added: Classic Missile</li>    
-            <li>Added: Classic Micro Missile</li>
-            <li>Added: Display only missile</li>
+            <li>Changed: Default missile firing system</li>
+            <li>Added: Classic Missile Casing</li>    
+            <li>Added: Classic Micro Missile Casing</li>
+            <li>Added: Display only missile Tile</li>
+            <li>Added: Kill timer to missile to prevent orphan missiles 
+                    </br> Micro missile 1 min flight time 
+                    </br> Small missile 10 min flight time
+                    </br> Standard missile 1 hour flight time
+                    </br> Medium missile 5 hour flight time
+                    </br> Large missile 20 hour flight time
+                    </br> Flight times are designed to kill missiles if they fly off without targets
+                    </li>
             <li>Fixed: Placement NPE</li>            
         </ul>
     </li>
