@@ -48,6 +48,14 @@
                   <a href="https://twitter.com/Hennamann1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
             </div>
+            <div>
+                <p>Snow,<br>
+                Developer
+                </p>
+                <p>
+                  <a href="https://twitter.com/The_Kinota1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
+                </p>
+            </div>
         </div>        
         <div style="clear:both;"> </div>
         </br>
@@ -57,7 +65,7 @@
             <div>
                 <p>
                     Morton,<br>
-                    Textures
+                    Asset Developer
                 </p>
                 <p>
                     <a href="https://twitter.com/Morton00000" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
