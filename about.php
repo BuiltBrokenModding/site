@@ -52,6 +52,20 @@
         <div style="clear:both;"> </div>
         </br>
         </br>       
-    
+    <h2> Credits </h2>
+        <div class="employees">
+            <div>
+                <p>
+                    Morton,<br>
+                    Textures
+                </p>
+                <p>
+                    <a href="https://twitter.com/Morton00000" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
+                </p>                
+            </div>
+        <div style="clear:both;"> </div>
+        </br>
+        </br>
+        </br>
 <?php include("php/bottom.php"); ?>
 				
