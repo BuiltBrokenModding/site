@@ -9,7 +9,7 @@
     <div class="news">
     <div>
         <h2>Permissions</h2>
-        <p>If you have permissions your modpack and name will be listed <a href="https://docs.google.com/spreadsheets/d/13SXh1AeaJx07Tt4MXCg-Kz5mNxXLI-ilShrIZlSC8E8/edit#gid=0">here</a></p>
+        <p>If you have permissions your modpack and name will be listed <a href="https://docs.google.com/spreadsheets/d/13SXh1AeaJx07Tt4MXCg-Kz5mNxXLI-ilShrIZlSC8E8/edit?usp=sharing">here</a></p>
     </div>
     <div>
         <h2>Public Pack Permissions</h2>
