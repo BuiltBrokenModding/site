@@ -5,7 +5,7 @@
 
 			<div id="footer">
 				<p>
-                &copy;2015 by Built Broken Studios | <a href="/about.php">About</a> | <a href="/contact.php">Contact</a>
+                &copy;2015 by Built Broken Studios | <a href="/about.php">About</a> | <a href="/contact.php">Contact</a> | Build servers by <a href="http://www.akliz.net/bbm">Akliz</a>
                 </p>
 			</div>
             <script>
