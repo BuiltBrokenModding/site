@@ -5,7 +5,7 @@
     include("php/top.php");      
 ?>
     
-    <p>Built Broken Studios is a small software and game studios based in Ohio, USA. We develop several addons, plugins, and a few small <a href="projects.php">projects</a>. Our main focus is making software to support or add to existing games.</p>
+    <p>Built Broken Studios is a small software and game studios based in Ohio, USA. We develop several addons, plugins, and a few small <a href="project.php">projects</a>. Our main focus is making software to support or add to existing games.</p>
     </br>
     <h2> The Team </h2>    
         <div class="employees">
