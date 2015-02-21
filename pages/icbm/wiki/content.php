@@ -9,7 +9,7 @@
                 'large' => array('text'=>'Large',  'url'=> $web_root . 'missiles/large.php')                 
             );
     $machines = array(
-                'launcher' => array('text'=>'Launcher',  'url'=> $web_root . 'machines/launcher.php'),
+                'plauncher' => array('text'=>'Portable Launcher',  'url'=> $web_root . 'machines/portable_launcher.php'),
                 'silo' => array('text'=>'Silo',  'url'=> $web_root . 'machines/silo.php')                 
             );
             
