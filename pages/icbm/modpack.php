@@ -9,15 +9,13 @@
     <div class="news">
     <div>
         <h2>Permissions</h2>
-        <p>If you have permissions your modpack and name will be listed <a href="https://docs.google.com/spreadsheets/d/13SXh1AeaJx07Tt4MXCg-Kz5mNxXLI-ilShrIZlSC8E8/edit?usp=sharing">here</a></p>
+        <p>Public modpacks with permission to use ICBM will be listed <a href="https://docs.google.com/spreadsheets/d/13SXh1AeaJx07Tt4MXCg-Kz5mNxXLI-ilShrIZlSC8E8/edit?usp=sharing">here</a></p>
     </div>
     <div>
         <h2>Public Pack Permissions</h2>
-        <p> Permissions are very simple to get and easy to keep. Just make sure you read everything bellow and follow our guidelines.</p>
+        <p> If you are requesting for a version older than Minecraft 1.7.10 then you don't need to ask for permission. Since we don't support the older versions your free to use them in any modpack. That is as long as you follow the same rules required for any other modpack. </p>
         </br>
-        <p>For any version older than Minecraft 1.7.10 you can include ICBM in any modpack. You still need to follow our rules down bellow as we can still revoke your permissions. As well make sure to not send any bug reports to us about older versions. We no longer support these versions due to major changes in the code.</p> 
-        </br>
-        <p>For versions 1.7.10 and up you need to get permissions from one of the team members. As well you can email modpack@builtbroken.com to request permission. We will try to answer any email with in a week or so. When you do email make sure to tell us the name of the pack, your name, what your pack is about, the mods in the pack, and any other important info. If you include a URL to the pack we will post it on our website so your pack gets more traffic. </p>
+        <p>For anything newer you need to request permission from one of our team members. You can find their contact info on the contact page. As well be prepared to answer a few questions about the modpack you are creating. </p>
         </br>
     </div>
     <div>

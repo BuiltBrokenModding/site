@@ -16,8 +16,8 @@
         <li>#ICBM - channel for our icbm mod</li>
         <li>#Artillects - channel for our artillects mod</li>
         <li>#BuiltBrokenModding - Main IRC chat room</li>
-        <li>#BBM-Packs - modpack chat room, and IRC link to our MC servers</li>
-        <li>#BBM-bots - channel for our build server bots, and were we evict bots to.</li>
+        <li>#BBM-Packs - modpack chat room connected directly to our MC servers</li>
+        <li>#BBM-bots - channel for our build server bots</li>
     </ul>
     <h3>IRC Rules</h3>
     <ul>
