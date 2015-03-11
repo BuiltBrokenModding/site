@@ -47,7 +47,7 @@
             <div>
                 <p>Hennamann,<br>
                 Developer
-                Email: hennamann9999@gmail.com
+                Email: <a href="mailto:hennamann9999@gmail.com">hennamann9999@gmail.com</a>
                 </p>
                 <p>
                   <a href="https://twitter.com/Hennamann1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
