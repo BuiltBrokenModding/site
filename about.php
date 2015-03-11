@@ -13,6 +13,7 @@
                 <p>
                     DarkCow,<br>
                     Developer
+                    Email: Unavailable
                 </p>
                 <p>
                     <a href="https://twitter.com/DarkGuardsman" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -20,14 +21,16 @@
             </div>
             <div>
                 <p>HangCow,<br>
-                Artist</p>
+                Artist
+                Email: Unavailable</p>
                 <p>
                     <a href="https://twitter.com/hangcow1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
             </div>
             <div>
                 <p>Doppelgangerous,<br>
-                Designer</p>
+                Designer
+                Email: Unavailable</p>
                 <p>
                     <a href="https://twitter.com/ShadowZ40" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
@@ -35,6 +38,7 @@
             <div>
                 <p>Dmodoomsirius,<br>
                 Support
+                Email: Unavailable
                 </p>
                 <p>
                   <a href="https://twitter.com/dmodoomsirius" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -43,6 +47,7 @@
             <div>
                 <p>Hennamann,<br>
                 Developer
+                Email: hennamann9999@gmail.com
                 </p>
                 <p>
                   <a href="https://twitter.com/Hennamann1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -51,6 +56,7 @@
             <div>
                 <p>Snow,<br>
                 Developer
+                Email: Unavailable
                 </p>
                 <p>
                   <a href="https://twitter.com/The_Kinota1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -66,6 +72,7 @@
                 <p>
                     Morton,<br>
                     Asset Developer
+                    Email: Unavailable
                 </p>
                 <p>
                     <a href="https://twitter.com/Morton00000" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
