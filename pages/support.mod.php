@@ -1,6 +1,6 @@
 <div id="support">
     <h2> Hey there </h2>
-    <p>If your here then you have found a bug, or something is not functioning correctly. We are sorry for any grief or misadventures this has caused you. With that we are more than happy to help you resolve the issue and get back to enjoying the game. All that we ask is for you to read are support section bellow. If you have already done this then carry on and we will get that issue fixed.</p>
+    <p>If your here then you have found a bug, or something is not functioning correctly. We are sorry for any grief or misadventures this has caused you. We are more than happy to help you resolve the issue and get back to enjoying the game. All that we ask is for you to read are support section bellow. If you have already done this then carry on and we will get that issue fixed.</p>
     <div id="whattodo">
 
     <h2> What to do? </h2>
@@ -8,7 +8,7 @@
     
 
     <h3> #1 Access the issue area </h3>
-    <p> For the moment we handle our issue reports threw our code repo on github. To access this click the github meny button at the top of the page. It will take you to the site and the issue page. If it fails to take you to the issue area then navigate the links on the page. One of them should read issue and is most likely on the left side.</p>
+    <p> For the moment we handle our issue reports threw our code repo on github. To access this click the github menu button at the top of the page. It will take you to the site and the issue page. If it fails to take you to the issue area then navigate the links on the page. One of them should read issue and is most likely on the left side.</p>
     <p> Once you have found the issue area take some time to read threw the issue. This way you can check to make sure someone else has not already reported the issue. As any duplicate issue will be closed and linked to the first issue created. 
 
     <h3> #2A If you find an existing Issue</h3>
@@ -32,7 +32,7 @@
     <ul>
         <li>
             <h4>Q: I'm using an older version can you still help?</h4>
-            <p>A: Sadly we can only support the current version of minecraft and one version older. So if you have any bugs or issues with the code we can not help. Anything else however we can try to support your needs but can not promise your issue will be resolved. This is do with how old the code base is by the time we are in a new minecraft version. Especially with versions like 1.6.4 which are almost a year old. Not including the fact that the mod was owned by a different group during that time.</p>
+            <p>A: With our limited staff we only support one Minecrft version at a time.</p>
         </li>
         <li>
             <h4>Q: Some items/blocks are missing?</h4>
@@ -55,16 +55,16 @@
             <p>A: Some days we don't have the time to read or answer every bug report. If this happens don't worry we will end up answering the bug report. It may just take a few days or weeks depending on what is currently on the TODO list. </p>
         </li>
         <li>
-            <h4>Q: Game didn't load?</h4>
+            <h4>Q: Game didn't load with the mod?</h4>
             <p>A: There are a few things that could cause this namely you didn't install the mod. To check this make sure that modName.jar is inside your mods folder. If it is in the mods folder where MC is installed then check to see if forge is installed. You can do this by seeing if you have a mods button when you load up MC. If you have no button go to http://www.minecraftforge.net/ for help installing forge. If forge is not the issue then look threw the output log forge generates. Look for anything that says skipping mod, file, or anything that would suggest the mod didn't load. If this is the case take a zip file opener and open the mod jar. If it is empty or doesn't contain any .class files then it is a bad file. Try to redownload the file to see if it got corrupted when downloaded. If it is still broke then report the file is bad threw a bug report and try a different version. We will check the file ourselves and remove it off the site. </p>
         </li>
         <li>
             <h4>Q: Minecraft says i'm missing Voltz Engine?</h4>
-            <p>A: Most of our mods require that voltz engine be installed to function. It not only does most of the work it also contains most of our functionality and crafting items. Without out it not only will the mod not work but even if it did nothing could be used. You can download voltz engine here <a href="/pages/voltzengine/">here</a></p>
+            <p>A: Most of our mods require that voltz engine be installed to function. It not only does most of the work it also contains most of our functionality and crafting items. Without it not only will the mod not work but even if it did nothing could be used. You can download voltz engine <a href="/pages/voltzengine/">here</a></p>
         </li>
         <li>
-            <h4>Q: My Anti-virus alerts me that ICBM.jar contains a virus?</h4>
-            <p>A: As long as you downloaded ICBM.jar from this site and not somewhere else you should be fine. If your Anti-virus keeps alerting you then either your anti-virus is bad or something is wrong. You may need to consult your settings in your anti-virus if this also happens with any jar.</p>
+            <h4>Q: My Anti-virus alerts me that ModName.jar contains a virus?</h4>
+            <p>A: As long as you downloaded ModName.jar from this site and not somewhere else you should be fine. If your Anti-virus keeps alerting you then either your anti-virus is bad or something is wrong. You may need to consult your settings in your anti-virus if this also happens with any jar. As some anti-virus don't like java programs doing anything other than sitting doing nothing. If you don't trust the download after doing this then we suggest not to use it. Best thing to always do is play is safe and report the problem to our developers.</p>
         </li>
     </ul>
 </div></div>

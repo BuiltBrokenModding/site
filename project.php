@@ -17,7 +17,13 @@
                 <li> 
                     <h4><a href="pages/icbm/">ICBM</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Modern era mod aimed at implementing warfare based missiles into the game. Includes several different missiles sizes that can be used for more than destruction. 
+                        Modern era mod aimed at implementing warfare based missiles into the game. Includes several different missiles sizes and high levels of customization. 
+                    </p>
+                </li>
+                 <li> 
+                    <h4><a href="pages/addictiedToRed/">Addicted To Red</a></h4>
+                    <p style="padding:0em 1em;"> 
+                        Redstone mod that does not seek to be a redpower replacement.  
                     </p>
                 </li>
                 <li>  
@@ -55,7 +61,7 @@
                 <li> 
                     <h4><a href="/pages/artillect/">Artillects</a></h4>
                     <p style="padding:0em 1em;"> 
-                        NPC driven mod that allows for more realistic and lively worlds. The mod includes dozens of NPCs, research trees, towns, factions, empires, and other civ based expansions. 
+                        Robotic NPC race that exists in the world with the player.
                     </p>
                 </li>
                 <li> 
