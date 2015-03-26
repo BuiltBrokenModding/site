@@ -24,7 +24,7 @@
                 Artist
                 Email: Unavailable</p>
                 <p>
-                    <a href="https://twitter.com/hangcow1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
+                    <a href="https://twitter.com/ACuteCow" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
             </div>
             <div>
