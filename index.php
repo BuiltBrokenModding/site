@@ -20,10 +20,20 @@
     <h2> News </h2>
     <hr>
     <div class="news">
+    
+        <div>
+            <h3>Progress Update</h3>
+            <h4> Date: March 28, 2015 </h4>
+            <p>So its been a while since I've post anything to the front new page. I would say I'm just lazy but its really just been a lack of progress. Luckily today some progress has been made on ICBM.</p>
+            <p>http://i577.photobucket.com/albums/ss215/bobstrong/SmallSilo-March28-2015_zpsrpisag1g.png</p>
+            <p> I introduce the missile silo. As some of you may have heard this will be a replacement for the old launchers. Yes, the old launchers are not being brought back. This was a decisions I made to allow better creativity when building bases. The old launchers held the player down to a fixed layout due to the wide shape. This new launcher is only 1 block wide and deep. As well generic so that you can place any block around it. This allows for much more custom builds and more compact setups.</p>
+            <p><b>By Darkguardsman</b></p>
+            <hr>
+        </div>
         <div>
             <h3>Voltz Engine</h3>
             <h4> Date: Jan 13, 2015 </h4>
-            <p>So a while back I announce that ICBM and my other mods would get a new core mod. Shortly after announcing this I clone Resonant Engine and beat it into being Voltz Engine. Even though I use the word 'clone' Voltz Engine doesn't resemble Resonant Engine much after our recent updates. We have stripped away a large sum of code that was only used for Resonant Induction and MFFS. Most of the scala code is now converted to java allowing it to be used more openly by other developers. Most of the old issues are not fixed and include Unit tests to detect for future issues. With all this we now have a much stronger and better fitting core for our work. For those wondering about the legal side of things we do have full permission to clone Resonant Engine. For all contributors that added code to Resonant Engine credit will be extended to Voltz Engine.</p>
+            <p>So a while back I announce that ICBM and my other mods would get a new core mod. Shortly after announcing this I clone Resonant Engine and beat it into being Voltz Engine. Even though I use the word 'clone' Voltz Engine doesn't resemble Resonant Engine much after our recent updates. We have stripped away a large sum of code that was only used for Resonant Induction and MFFS. Most of the scala code is now converted to java allowing it to be used more openly by other developers. Most of the old issues are now fixed and include Unit tests to detect for future issues. With all this we now have a much stronger and better fitting core for our work. For those wondering about the legal side of things we do have full permission to clone Resonant Engine. For all contributors that added code to Resonant Engine credit will be extended to Voltz Engine.</p>
             <p><b>By Darkguardsman</b></p>
             <hr>
         </div>
