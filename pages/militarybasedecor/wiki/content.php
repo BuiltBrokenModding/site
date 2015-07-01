@@ -3,10 +3,11 @@
     $web_root = "/pages/militarybasedecor/wiki/content/";
     $modules = array(
                 'vanilla' => array('text'=>'Vanilla',  'url'=> $web_root . 'modules/vanilla.php'),
-                'civilwar' => array('text'=>'Civil War',  'url'=> $web_root . 'modules/civilwar.php'),
+                'gunpowderera' => array('text'=>'Gunpowder Era',  'url'=> $web_root . 'modules/gunpowderera.php'),
                 'worldwarone' => array('text'=>'WW1',  'url'=> $web_root . 'modules/wwone.php'),
                 'worldwartwo' => array('text'=>'WW2',  'url'=> $web_root . 'modules/wwtwo.php'),
-                'coldwar' => array('text'=>'Cold War',  'url'=> $web_root . 'modules/coldwar.php')                 
+                'coldwar' => array('text'=>'Cold War',  'url'=> $web_root . 'modules/coldwar.php')
+                'future' => array('text'=>'Future',  'url'=> $web_root . 'modules/future.php')    
             );
     $blocks = array(
                 'concrete' => array('text'=>'Concrete',  'url'=> $web_root . 'blocks/concrete.php'),
