@@ -12,7 +12,7 @@
             <div>
                 <p>
                     DarkCow,<br>
-                    Developer
+                    Developer<br>
                     Email: Unavailable
                 </p>
                 <p>
@@ -21,7 +21,7 @@
             </div>
             <div>
                 <p>HangCow,<br>
-                Artist
+                Artist<br>
                 Email: Unavailable</p>
                 <p>
                     <a href="https://twitter.com/ACuteCow" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -29,7 +29,7 @@
             </div>
             <div>
                 <p>Doppelgangerous,<br>
-                Designer
+                Designer<br>
                 Email: Unavailable</p>
                 <p>
                     <a href="https://twitter.com/ShadowZ40" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -37,7 +37,7 @@
             </div>
             <div>
                 <p>Dmodoomsirius,<br>
-                Support
+                Support<br>
                 Email: Unavailable
                 </p>
                 <p>
@@ -46,7 +46,7 @@
             </div>
             <div>
                 <p>Hennamann,<br>
-                Developer
+                Developer<br>
                 Email: <a href="mailto:hennamann9999@gmail.com">hennamann9999@gmail.com</a>
                 </p>
                 <p>
@@ -55,7 +55,7 @@
             </div>
             <div>
                 <p>Snow,<br>
-                Developer
+                Developer<br>
                 Email: Unavailable
                 </p>
                 <p>
@@ -71,7 +71,7 @@
             <div>
                 <p>
                     Morton,<br>
-                    Asset Developer
+                    Asset Developer<br>
                     Email: Unavailable
                 </p>
                 <p>
