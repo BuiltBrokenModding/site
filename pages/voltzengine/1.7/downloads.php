@@ -8,9 +8,7 @@
     <h2>!!Info!!</h2>
     <p>By downloading these files you agree to the <a href="https://raw.githubusercontent.com/Universal-Electricity/ICBM/master/license.md">EULA</a> </p>
     <h2>!!Alpha Downloads!!</h2>
-    <?php 
-        echo FileHelper::get_text("http://ci.builtbroken.com/maven/dev/builtbroken/voltzengine/VoltzEngine/downloads/downloads-1.7.10.php");
-    ?>
+	<iframe width="80%" height="100%" frameborder="1" src="http://ci.builtbroken.com/maven/dev/builtbroken/voltzengine/VoltzEngine/downloads/downloads-1.7.10.php"></iframe>    
     </br>
     </br>
      <p>At any time if the download plugin fails you can access the downloads threw our <a href="http://adf.ly/2380428/ci.builtbroken.com/maven/">maven</a> file system.</p>
