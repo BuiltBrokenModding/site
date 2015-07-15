@@ -64,6 +64,7 @@
 			<div>
                 <p>Kolatra,<br>
                 Developer<br>
+                Email: <a href="mailto:kolatra03@gmail.com">kolatra03@gmail.com</a>
                 </p>
                 <p>
                   <a href="https://twitter.com/ItsKolatra" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
