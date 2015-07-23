@@ -13,14 +13,14 @@
     <h3>(IRC)Internet Relay Chat</h3>
     <p>If you know what IRC is and how to use it fill free to chat with us. We have several channels on <a href="http://esper.net/">Esper.net</a> which are listed bellow. </p>
     <ul>
-        <li>#ICBM - channel for our icbm mod</li>
         <li>#Artillects - channel for our artillects mod</li>
-        <li>#BuiltBrokenModding - Main IRC chat room</li>
+        <li>#bbmrequests - For requesting your mod into modpacks.</li>
         <li>#BBM-Packs - modpack chat room connected directly to our MC servers</li>
         <li>#BBM-bots - channel for our build server bots</li>
         <li>#BuiltBroken - for non Minecarft Related issues</li>
+        <li>#BuiltBrokenModding - Main IRC chat room</li>
+        <li>#ICBM - channel for our icbm mod</li>
         <li>#MadScience - for MaxWolf's MadScience Mod.</li>
-        <li>#bbmrequests - For requesting your mod into modpacks.</li>
     </ul>
     <h3>IRC Rules</h3>
     <ul>
