@@ -18,6 +18,9 @@
         <li>#BuiltBrokenModding - Main IRC chat room</li>
         <li>#BBM-Packs - modpack chat room connected directly to our MC servers</li>
         <li>#BBM-bots - channel for our build server bots</li>
+        <li>#BuiltBroken - for non Minecarft Related issues</li>
+        <li>#MadScience - for MaxWolf's MadScience Mod.</li>
+        <li>#bbmrequests - For requesting your mod into modpacks.</li>
     </ul>
     <h3>IRC Rules</h3>
     <ul>
