@@ -5,7 +5,7 @@
     include("php/top.php");      
 ?>
     
-    <p>Built Broken Studios is a small software and game studios based in Ohio, USA. We develop several addons, plugins, and a few small <a href="project.php">projects</a>. Our main focus is making software to support or add to existing games.</p>
+    <p>Built Broken Studios is a small software and game studios based in Ohio, USA. We develop just about anything that peeks our interest. Some of our projects can be see <a href="project.php">here</a>. Our main focus is making software to support or add to existing games.</p>
     </br>
     <h2> The Team </h2>
 		<p> Bellow are people who work on our main development team for all projects </p>
@@ -13,8 +13,7 @@
             <div>
                 <p>
                     DarkCow,<br>
-                    Developer<br>
-                    Email: Unavailable
+                    Head Developer<br>
                 </p>
                 <p>
                     <a href="https://twitter.com/DarkGuardsman" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -22,8 +21,8 @@
             </div>
             <div>
                 <p>HangCow,<br>
-                Artist<br>
-                Email: Unavailable</p>
+                Designer<br>
+				</p>
                 <p>
                     <a href="https://twitter.com/ACuteCow" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
@@ -31,15 +30,14 @@
             <div>
                 <p>Doppelgangerous,<br>
                 Designer<br>
-                Email: Unavailable</p>
+				</p>
                 <p>
                     <a href="https://twitter.com/ShadowZ40" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
             </div>
             <div>
                 <p>Dmodoomsirius,<br>
-                Support<br>
-                Email: Unavailable
+                CI Developer<br>
                 </p>
                 <p>
                   <a href="https://twitter.com/dmodoomsirius" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -70,27 +68,43 @@
                   <a href="https://twitter.com/ItsKolatra" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
             </div>
+			<div>
+                <p>Theudas,<br>
+                Developer<br>
+                </p>
+            </div>
         </div>        
         <div style="clear:both;"> </div>
         </br>
         </br>		
     <h2> Credits </h2>
-        <div class="employees">
-            <div>
+	<p> Bellow are people who have worked with us on just about anything. Full credit list can be seen on github per project </p>
+        <div class="employees">          
+			<div>
+                <p>Snow,<br>
+                Consultant<br>
+                </p>
+                <p>
+                  <a href="https://twitter.com/The_Kinota1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
+                </p>
+            </div>
+			<div>
+                <p>DragonLord,<br>
+                Asset Creator<br>
+                </p>
+            </div>
+			<div>
                 <p>
                     Morton,<br>
-                    Asset Developer<br>
+                    Asset Creator<br>
                 </p>
                 <p>
                     <a href="https://twitter.com/Morton00000" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>                
             </div>
 			<div>
-                <p>Snow,<br>
-                Developer<br>
-                </p>
-                <p>
-                  <a href="https://twitter.com/The_Kinota1" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
+                <p>SoulTaker,<br>
+                Asset Creator<br>
                 </p>
             </div>
         <div style="clear:both;"> </div>
