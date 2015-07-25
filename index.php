@@ -20,7 +20,13 @@
     <h2> News </h2>
     <hr>
     <div class="news">
-    
+		<div>
+            <h3>Progress Update</h3>
+            <h4> Date: July 25, 2015 </h4>
+            <p>Progress has been slow but that should be changing. Yesterday we picked up a new member for the team, Theudas. He has offered his skills to update the old content of ICBM in ICBM-Classic as his first task. With this you as the user should start seeing a lot of those old missiles you love.</p>
+			<b>By Darkguardsman</b></p>
+            <hr>
+        </div>
         <div>
             <h3>Progress Update</h3>
             <h4> Date: March 28, 2015 </h4>
@@ -33,14 +39,14 @@
         <div>
             <h3>Voltz Engine</h3>
             <h4> Date: Jan 13, 2015 </h4>
-            <p>So a while back I announce that ICBM and my other mods would get a new core mod. Shortly after announcing this I clone Resonant Engine and beat it into being Voltz Engine. Even though I use the word 'clone' Voltz Engine doesn't resemble Resonant Engine much after our recent updates. We have stripped away a large sum of code that was only used for Resonant Induction and MFFS. Most of the scala code is now converted to java allowing it to be used more openly by other developers. Most of the old issues are now fixed and include Unit tests to detect for future issues. With all this we now have a much stronger and better fitting core for our work. For those wondering about the legal side of things we do have full permission to clone Resonant Engine. For all contributors that added code to Resonant Engine credit will be extended to Voltz Engine.</p>
+            <p>So a while back I announce that ICBM and my other mods would get a new core mod. Shortly after announcing this I cloned Resonant Engine and beat it into being Voltz Engine. Even though I use the word 'clone' Voltz Engine doesn't resemble Resonant Engine much after our recent updates. We have stripped away a large sum of code that was only used for Resonant Induction and MFFS. Most of the scala code is now converted to java allowing it to be used more openly by other developers. Most of the old issues are now fixed and include Unit tests to detect for future issues. With all this we now have a much stronger and better fitting core for our work. For those wondering about the legal side of things we do have full permission to clone Resonant Engine. For all contributors that added code to Resonant Engine credit will be extended to Voltz Engine.</p>
             <p><b>By Darkguardsman</b></p>
             <hr>
         </div>
         <div>
             <h3>Death of UE Team</h3>
             <h4> Date: Jan 5, 2015 </h4>
-            <p>Ok so I finally had my fill of working with Calcalvia. I know it took me 3 years to do something I should have honestly done a while ago. I no longer work as a member UE Team or with Calclavia on any of his projects. With this I believe UE Team will be a memory unless Calcalvia does something about it. To be honest with his lack of interest in a team I see him close sourcing most of his projects. This may include Resonant Engine itself now that it is fully in his ownership. As a user what does this mean for you? Well if you use Calclavia's mods your going to experiences a long gap of service and more bugs. For our mods? Things should get much better once we get our core mod in production. Since I engineered most of the code base of Resonant Engine and with the help of my team a new engine should be easy. Especially with out plan to clone a percentage of Resonant Engine to jump start the process.   </p>
+            <p>Ok so I finally had my fill of working with Calcalvia. I know it took me 3 years to do something I should have honestly done a while ago. I no longer work as a member UE Team or with Calclavia on any of his projects. With this I believe UE Team will be a memory unless Calcalvia does something about it. To be honest with his lack of interest in a team I see him closing some of his projects. This may include Resonant Engine itself now that it is fully in his ownership. As a user what does this mean for you? Well if you use Calclavia's mods your going to experiences a long gap of service and more bugs. For our mods? Things should get much better once we get our core mod in production. Since I engineered most of the code base of Resonant Engine and with the help of my team a new engine should be easy. Especially with out plan to clone a percentage of Resonant Engine to jump start the process.   </p>
             <p><b>By Darkguardsman</b></p>
             <hr>
         </div>
