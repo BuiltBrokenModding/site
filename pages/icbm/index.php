@@ -6,7 +6,7 @@
               'back'    => array('text'=>'Back',  'url'=>'#back'),   
               'archive'   => array('text'=>'Archive',  'url'=>'archive.php'),
               'mc1.7'   => array('text'=>'MC1.7',  'url'=>'1.7/'),
-              'modpacks'   => array('text'=>'Modpacks',  'url'=>'modpack.php'),
+              'modpacks'   => array('text'=>'Modpacks',  'url'=>'../modpack.php'),
               'curse'   => array('text'=>'Curse',  'url'=>'http://minecraft.curseforge.com/mc-mods/225502-icbm'),
               'code'    => array('text'=>'Src',  'url'=>'https://github.com/BuiltBrokenModding/ICBM')                          
             );
