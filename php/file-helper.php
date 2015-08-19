@@ -49,17 +49,27 @@ class FileHelper
     
     public static function get_text($filename) 
     {
-        $fp_load = fopen("$filename", "rb");
-        $content = "";
-        if ( $fp_load ) 
+        try
         {
-            while ( !feof($fp_load) ) 
+            if(get_headers($filename))
             {
-                $content .= fgets($fp_load, 8192);
-            }
+                $fp_load = fopen("$filename", "rb");
+                $content = "";
+                if ( $fp_load ) 
+                {
+                    while ( !feof($fp_load) ) 
+                    {
+                        $content .= fgets($fp_load, 8192);
+                    }
 
-            fclose($fp_load);
-            return $content;
+                    fclose($fp_load);
+                    return $content;
+                }
+            }
+        }
+        catch (Exception $e) 
+        {
+            //echo 'Caught exception: ',  $e->getMessage(), "\n";
         }
     }
     
