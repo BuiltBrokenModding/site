@@ -32,7 +32,7 @@
     <ul>
         <li>
             <h4>Q: I'm using an older version can you still help?</h4>
-            <p>A: With our limited staff we only support one Minecarft version at a time.</p>
+            <p>A: With our limited staff we only support one Minecraft version at a time.</p>
         </li>
         <li>
             <h4>Q: Some items/blocks are missing?</h4>
