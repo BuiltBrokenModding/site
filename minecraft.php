@@ -27,7 +27,7 @@
                 <li>  
                     <h4><a href="pages/voltzengine/">Voltz Engine</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Tired of every mod having its own ores, ingots, gears, chips, parts, etc. We are just as tired of you so we created Voltz Engine to solve the issue. Well at least on our side of the modding universe. Each one of our large content mods uses voltz engine to provide all the replicated content that every mod needs. Without each mod having the same content over and over and over again.
+                        Tired of every mod having its own ores, ingots, gears, chips, parts, etc. We are just as tired of this problem as well so we created Voltz Engine to solve the issue. Well at least on our side of the modding universe. Each one of our large content mods uses voltz engine to provide all the replicated content that every mod needs. Without each mod having the same content over and over and over again.
                     </p> 
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/227048-voltz-engine?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>               
