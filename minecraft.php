@@ -78,49 +78,43 @@
                 <li>  
                     <h4><a href="http://resonantengine.com/">[RE]Resonant Engine</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Core Engine system used by calcalvia and at one point our modding team. Around Jan 1, 2015 we cloned RE to create our own version of the engine. This action was taken to better support the needs of our modding team. The project is still on going and owned by calcalvia.
-                    </p> 
+                        Core Engine system used by calcalvia and at one point our modding team. Around Jan 1, 2015 we cloned RE to create our own version of the engine. This action was taken to better support the needs of our modding team. The project is still ongoing and owned by calcalvia.</p> 
                 </li>
                 <li>  
                     <h4><a href="https://github.com/Universal-Electricity/Universal-Electricity">[UE]Universal Electricity</a></h4>
                     <p style="padding:0em 1em;"> 
-                        UE was the dream to create a common compatibility steam for  all minecraft mods. The API was originally created by calcalvia for ICBM. Mainly to avoid Industrial Craft 2 strict guidelines on API usage. It developed into a power system with the joint efforts of our team. However, the dream was short lived being deprecated in 1.7.10 in favour of creating an in house power system for RE. 
+                        UE was the dream to create a universal energy system for Minecraft mods. The API was originally created by calcalvia for ICBM. Mainly to avoid Industrial Craft 2 strict guidelines on API usage. It developed into a power system with the joint efforts of our team. However, the dream was short lived being deprecated in MC 1.7.10 in favour of creating an in-house power system for RE.
                     </p> 
                 </li>
                 <li>  
                     <h4><a href="http://calclavia.com/resonant-induction/">[RI]Resonant Induction</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Originally one of our join projects between calcalvia and our team. We stopped supporting the mod near the end of 2014 when our designs were conflicting with calclavia's designs to much. The mod itself adds micro brick gears, wires, and various mutli block machines. It is still on going but we do not keep track of the progress.
-                    </p> 
+                        Originally one of our joint projects between calcalvia and our team. We stopped supporting the mod near the end of 2014 when our designs were conflicting with calclavia's designs too much. The mod itself adds micro brick gears, wires, and various mutli-block machines. The project went on a while after our team separated from it but ended up being dropped. Some of it's content can be seen in the revival of EDX</p> 
                 </li>
                 <li>  
                     <h4><a href="#">[FM]Fluid Mechanics</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Was one of the original Universal Electricity mods, and part of a mod called steam power. FM was split off aiming at fluid support for UE based mods. Most of the content from the mod was merged into Resonant Induction. The goal was to reduce our work load while increasing the support for our users. The tank, pipe, gutter, drain, pump, and fluid blocks in RI come from this mod. The mod is currently dead but there are plans to bring it back.
-                    </p> 
+                        Fluid Mechanics was a mod created by Darkguardsman in the early days of Universal Electricity. It started as part of a project called Steam Power but split into its own mod later on. The goal was to provide all the pipe and fluid support for the UE team. As well any other mod developer that wanted pipe support without a headache. This goal never got off the ground as many mod developers didn't support the idea of dependencies. The mod also suffered several setbacks when Mechanism( a mod by Aidancbrady) replicated all the same content. Causing Fluid Mechanics to falling out of public view on the UE website. Then ending with the mod being merged into Resonant Induction in an attempt to save the content.</p> 
                 </li>
                 <li>  
                     <h4><a href="#">Basic Components</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Created for the UE-Api as both an example and a simple machine mod. It was decommissions with parts being merged into several mods. Resonant induction and Resonant Engine picked up a few of these pieces. Galaticraft's machines were derived from this project though they have changed a bit since then. Basic components itself was decommissioned after a mod called Mekanism was released to replace its need.
-                    </p> 
+                        Created for the UE-Api as both an example and a sample machine mod. It was decommissioned after Mekanism replicated the same content. Parts of the mod merged into several mods later on when Mekanism left the UE group. Resonant induction and Resonant Engine picked up a few of these pieces. Galaticraft's machines were derived from this project when the author decided including the mod was a problem. Several other mods also include the code due to it's open source nature.</p> 
                 </li>
                 <li>  
                     <h4><a href="#">Greater Protection</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Original created by out asset developer hangcow it was picked up and support by our modding team. It was let go after our team couldn't find time to maintain the mod. Before it was let got the mod added locked chests, locked doors, electric fence, laser fence, reinforced blocks, traps, and other useful security features. 
-                    </p> 
+                        Originally created by out asset developers, hangcow, it was picked up and support by our modding team. It was let go after our team couldn't find time to maintain the mod. Before it was let got the mod added locked chests, locked doors, electric fence, laser fence, reinforced blocks, traps, and other useful security features. There are still plans to include many pieces of its content in other mods.</p> 
                 </li>
                 <li>  
                     <h4><a href="#">Illus Elements</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Created by Elrath18 and hangcow this mod added colored glass, and other decoration blocks to minecraft. After several MC updates and other mods with the same idea it was let go. With the new 1.8 updated adding coloured glass the idea to revive it has been completely forgotten.
-                    </p> 
+                        Created by Elrath18 and hangcow this mod added colored glass and other decoration blocks to Minecraft. After several MC updates and other mods with the same idea, it was let go. With the new 1.8 updated adding colored glass the idea to revive it has been completely forgotten.</p> 
                 </li>
                 <li>  
                     <h4><a href="#">ICBM-Sentries</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Sub mod for ICBM that added automated and player mounted weapon platforms. Included cannon, laser, rail, and AA sentry gun. Was decommissioned during the 1.7 update of ICBM in order to spread the content into other mods. Most likely will be recreated in both Tinker toys and Artillects.
+                        Offical addon for ICBM that added automated and player mounted weapon platforms. Included cannon, laser, rail, and AA sentry gun. Was decommissioned during the 1.7 update of ICBM in order to spread the content into other mods. Most likely will be recreated in both Tinker toys and Artillects.
                     </p> 
                 </li>
                 <li>  
@@ -138,14 +132,12 @@
                 <li>  
                     <h4><a href="#">DarkLib</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Simple API and prefab system for mods mods created by our team before Resonant Engine was created. Was merged into calclavia core that later got renamed to resonant engine. Before merging it contained resonant engines early block network and content creation systems. It also includes basic ore and item generation that was similiar to Resonant Engines auto generation system.
-                    </p> 
+                        Simple API and prefab system for mods created by our team before Resonant Engine was created. Was merged into Calclavia Core that later got renamed to Resonant Engine. Before merging it contained resonant engines early block network and content creation systems. It also includes basic ore and item generation that was similar to Resonant Engines auto-generation system.</p> 
                 </li>
                 <li>  
                     <h4><a href="#">Dark's Machines</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Was created as competition for mods like mekanism, IC2, and Thermal Expansion. Before making a full release plans were changed merging the mod into resonant induction. In which most of the content was scraped and used to create most of what resonant induction currently contains.
-                    </p> 
+                         Was created as competition for mods like Mechanism, IC2, and Thermal Expansion. Before making a full release, plans were changed merging the mod into Resonant Induction. In which most of the content was scraped and used to create most of what resonant induction currently contains. There are plans to revive most of the content in a new tech mod as an alternative to mainstream tech mods. </p> 
                 </li>
              </ul>
         </div>
