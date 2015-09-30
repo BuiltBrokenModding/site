@@ -81,14 +81,14 @@
     </div>
 <script type="text/javascript">   
     
-    images = ["http://imageshack.com/a/img540/7162/huRZD7.png",
-            "http://imageshack.com/a/img910/9708/uAO6Vu.png",
-            "http://imageshack.com/a/img673/5788/JfJN5I.png",
-            "http://imageshack.com/a/img912/5715/abZIJK.png",
-            "http://imageshack.com/a/img540/332/N8R66r.png",
-            "http://imageshack.com/a/img661/3217/mG2p86.png",
-            "http://imageshack.com/a/img904/2263/FSa4f8.jpg",
-            "http://imageshack.com/a/img661/6038/AW2x3D.png"];  
+    images = ["/img/slider/icbm1.png",
+            "/img/slider/icbm2.png",
+            "/img/slider/icbm3.png",
+            "/img/slider/icbm4.png",
+            "/img/slider/artillect1.png",
+            "/img/slider/artillect2.png",
+            "/img/slider/artillect3.png",
+            "/img/slider/artillect4.png"];  
     mod = ["ICBM", "ICBM", "ICBM", "ICBM", "Artillects", "Artillects", "Artillects", "Artillects"];
     currentimage = 0;
     line = new ProgressBar.Line('#slidebar', {color: '#FCB03C', duration: 10000});
