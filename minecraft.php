@@ -30,7 +30,43 @@
                         Tired of every mod having its own ores, ingots, gears, chips, parts, etc. We are just as tired of this problem as well so we created Voltz Engine to solve the issue. Well at least on our side of the modding universe. Each one of our large content mods uses voltz engine to provide all the replicated content that every mod needs. Without each mod having the same content over and over and over again.
                     </p> 
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/227048-voltz-engine?version=1.7.10" width="100%" style="border: none;"></iframe>
-                </li>               
+                </li>
+                <li>  
+                    <h4><a href="#">[SMB]Wooden Buckets</a></h4>
+                    <p style="padding:0em 1em;">
+                        Early game it can be a pain to get a bucket for farming. This mod adds several wooden bucket types for storing any fluid without adding a new item id per fluid. 
+                    </p> 
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/233189-sbm-wooden-buckets?version=1.7.10" width="100%" style="border: none;"></iframe>
+                </li>
+                <li>  
+                    <h4><a href="#">[SMB]Wooden Rails</a></h4>
+                    <p style="padding:0em 1em;">
+                        Early game it can be tricky getting into using minecarts. Especially with the high iron cost and all your machines needing that iron first. Wooden rails fixes this by adding wooden carts and tracks that are just a little slower than iron versions. Allowing for intergration of rail systems into your base without the pain of mining a lot of iron.
+                    </p> 
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/233655-sbm-wooden-rails?version=1.7.10" width="100%" style="border: none;"></iframe>
+                </li>
+                <li>  
+                    <h4><a href="#">[SMB]Red Cow</a></h4>
+                    <p style="padding:0em 1em;"> 
+                        Parody of Redbull energy drinks. This mod adds a potion item in the shape of a soda can that lets you fly. It even gives you wings on your back for the lolz of it.
+                    </p> 
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/233525-sbm-red-cow?version=1.7.10" width="100%" style="border: none;"></iframe>
+                </li>
+                <li>  
+                    <h4><a href="#">[SMB]Colored Chests</a></h4>
+                    <p style="padding:0em 1em;"> 
+                        Always hate it how you can't place double chests next to each other or figure out what chest is which. Colored chests adds an large variety of chests that support any RGB value.
+                    </p> 
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/233511-sbm-colored-chests?version=1.7.10" width="100%" style="border: none;"></iframe>
+                </li>
+                <li>  
+                    <h4><a href="#">AI Improvements</a></h4>
+                    <p style="padding:0em 1em;"> 
+                        If you have every looked at a CPU usage report for Minecraft you will notice AI code at the top. This mod adds some changes to the AI code to decrease how much CPU the code uses.
+                    </p> 
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/233019-ai-improvements?version=1.7.10" width="100%" style="border: none;"></iframe>
+                </li>
+                                
             </ul>
         </div>
     </div>
