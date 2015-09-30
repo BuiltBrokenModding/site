@@ -2,7 +2,9 @@
     $page_title="Home";
     $menu = array(
       'github'  => array('text'=>'Github',  'url'=>'https://github.com/BuiltBrokenModding'),
-      'project'  => array('text'=>'Projects',  'url'=>'project.php'),
+      'games'  => array('text'=>'Games',  'url'=>'games.php'),
+      'minecraft'  => array('text'=>'Minecraft',  'url'=>'minecraft.php'),
+      'project'  => array('text'=>'Projects',  'url'=>'project.php'), 
       'about'  => array('text'=>'About',  'url'=>'about.php')
     );  
     include("php/top.php");      
@@ -20,6 +22,15 @@
     <h2> News </h2>
     <hr>
     <div class="news">
+        <div>
+            <h3>Progress Update</h3>
+            <h4> Date: Sep 30, 2015 </h4>
+            <p>I know all of you want ICBM updated as quickly as possible, but it is going to be a bit longer. The hope was to get it done before school started back up, but that didn't happen. Now most of our team has to work around class schedules in order to get work done. Don't fear though ICBM is still really close to being done. The major work was taken care of in the summer with the crafting system being the only major segment to finish. This "should" only take another 60 hours of work to finish. Which as much as I want to say this is an ETA I've learned we can't promise anything when it comes to modding. As adding features comes hand-and-hand with creating bugs.</p>
+			<p>Other than ICBM some of our other mods are coming along a little quicker. We should be releasing a new version of Wooden Rails soon containing more cart types. As well Cardboard Boxes is right around the corner with only some compatibility testing left to do. Voltz Engine just got a new update on curse containing an auto downloader for dependencies. This should make installing it easier in the future, especially since we plan to use the same code in ICBM. Which means in the future you may only have to download the main mod.</p>
+            <p>For those of you following the modpacks, Voltz is actually really close to being released. We now have more people working on developing, and testing the modpack. All though we really want to get ICBM with the official release of V2 we may be releasing a Beta pack here soon. This way server owners can give use feedback on the major rework of the modpack.</p>
+            <b>By Darkguardsman</b></p>
+            <hr>
+        </div>
 		<div>
             <h3>Progress Update</h3>
             <h4> Date: July 25, 2015 </h4>
