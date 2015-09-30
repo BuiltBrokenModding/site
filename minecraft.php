@@ -15,18 +15,21 @@
                     <p style="padding:0em 1em;"> 
                         We all have that guy up the road we just want to nuke. You know the one who keeps firing his TNT cannons thinking he is the king of war. With ICBM not only is he out match you can get that wish you always wanted.
                     </p>
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/225502-icbm?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
                  <li> 
                     <h4><a href="pages/addictiedToRed/">Addicted To Red</a></h4>
                     <p style="padding:0em 1em;"> 
                         When you close your eyes at night all you can think about is redstone? Good, you have come to the right place. We too have become addicted to the power of redstone and have made it even more powerful. Giving redstone all those detectors, manipulators, and cool machines it always needed.
                     </p>
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/236575-addicted-to-red?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
                 <li>  
                     <h4><a href="pages/voltzengine/">Voltz Engine</a></h4>
                     <p style="padding:0em 1em;"> 
                         Tired of every mod having its own ores, ingots, gears, chips, parts, etc. We are just as tired of you so we created Voltz Engine to solve the issue. Well at least on our side of the modding universe. Each one of our large content mods uses voltz engine to provide all the replicated content that every mod needs. Without each mod having the same content over and over and over again.
                     </p> 
+                    <iframe src="http://widget.mcf.li/mc-mods/minecraft/227048-voltz-engine?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>               
             </ul>
         </div>
