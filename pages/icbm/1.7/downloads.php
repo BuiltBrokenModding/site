@@ -18,9 +18,13 @@
     <p> Most of our stable releases are done threw curse. So feel free to use the link above to get downloads. </p>
     <h2>Development Downloads</h2>
     <p> These downloads are hot off our build servers with the latest features. Download at your own risk and don't be suprised if they crash. </p>
+    
+    <div id="spoiler" style="display:none">
     <?php 
         print(file_get_contents("http://$_SERVER[SERVER_NAME]//downloads/dev/ICBM/downloads-1.7.10.php"));
     ?>
+    </div>
+    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
     </br>
     </br>
     <p>At any time if the download plugin fails you can access the downloads threw our <a href="http://adf.ly/2380428/api.dmodoomsirius.me/">maven</a> file system.</p>
