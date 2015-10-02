@@ -19,19 +19,11 @@
     <h2>Development Downloads</h2>
     <p> These downloads are hot off our build servers with the latest features. Download at your own risk and don't be suprised if they crash. </p>
     <?php 
-        $downloadPageContent = FileHelper::get_text("http://builtbroken.com/maven/dev/builtbroken/icbm/ICBM/downloads/downloads-1.7.10.php");
-        if($downloadPageContent)
-        {
-            echo $downloadPageContent;
-        }
-        else
-        {
-            echo '<p>It seems our download plugin has failed use this link <a href="http://adf.ly/2380428/ci.builtbroken.com/maven/">maven</a> file system.</p>';
-        }
+        print(file_get_contents("http://$_SERVER[SERVER_NAME]//downloads/dev/ICBM/downloads-1.7.10.php"));
     ?>
     </br>
     </br>
-    <p>At any time if the download plugin fails you can access the downloads threw our <a href="http://adf.ly/2380428/ci.builtbroken.com/maven/">maven</a> file system.</p>
+    <p>At any time if the download plugin fails you can access the downloads threw our <a href="http://adf.ly/2380428/api.dmodoomsirius.me/">maven</a> file system.</p>
     
 <?php 
 include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php");
