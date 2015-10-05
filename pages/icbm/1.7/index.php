@@ -15,7 +15,7 @@
     <p>Process is about the same as any other mod. So if you understand what your doing you can skip past this list. Just make sure to install Voltz Engine.</p>
     <ul style="list-style-type: circle;">
         <li> Install Forge, if you don't have it installed </li>
-        <li> Add Voltz Engine to your mods folder </li>
+        <li> Add <a href="/pages/voltzengine/">Voltz Engine</a>to your mods folder </li>
         <li> Add ICBM to your mods folder </li>
         <li> Done, feel free to edit configs and enjoy </li>
     </ul>

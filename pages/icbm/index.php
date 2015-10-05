@@ -3,6 +3,7 @@
     $title ="ICBM";
     $sub_title = "Minecraft Missile Mod";
     $menu = array(
+              'home'  => array('text'=>'Home',  'url'=>'/'),
               'back'    => array('text'=>'Back',  'url'=>'#back'),   
               'archive'   => array('text'=>'Archive',  'url'=>'archive.php'),
               'mc1.7'   => array('text'=>'MC1.7',  'url'=>'1.7/'),

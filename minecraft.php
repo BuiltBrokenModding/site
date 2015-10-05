@@ -1,9 +1,18 @@
 <?php 
     $page_title="Projects";
+    $menu = array(
+              'home'  => array('text'=>'Home',  'url'=>'/'),
+              'back'    => array('text'=>'Back',  'url'=>'#back'),   
+              'archive'   => array('text'=>'Archive',  'url'=>'archive.php'),
+              'modpacks'   => array('text'=>'Modpacks',  'url'=>'pages/modpack.php')
+              );
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
 ?>
    <h1>Minecraft Modding</h1>
     <p style="padding:0em 1em;">You love <a href="https://minecraft.net/">minecraft</a>? We love it too, so much in fact that we have created mods to extent it way beyond it's original design.</p> </br>
+    <p><b> Sponsored by: </b></p>
+    <p><img src="http://i577.photobucket.com/albums/ss215/bobstrong/Screenshot%202015-08-15%2002.26.05_zpsflostlsv.png" alt=" photo Screenshot 2015-08-15 02.26.05_zpsflostlsv.png" border="0" /></p>
+    <p>Sign up for excellent hosting with&nbsp;<a href="http://www.akliz.net/bbm">http://www.akliz.net/bbm</a></p>
     </br>
     <h1>Active Projects</h1>
      </br>
