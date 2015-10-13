@@ -17,7 +17,7 @@
     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
     </br>
     </br>
-    <p>At any time if the download plugin fails you can access the downloads threw our <a href="http://adf.ly/2380428/api.dmodoomsirius.me/">maven</a> file system.</p>
+    <p>At any time if the download plugin fails you can access the downloads through our <a href="http://adf.ly/2380428/api.dmodoomsirius.me/">maven</a> file system.</p>
     
 <?php 
 include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php");
