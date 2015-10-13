@@ -8,6 +8,7 @@
     <h2>!!Info!!</h2>
     <p>By downloading these files you agree to the <a href="https://raw.githubusercontent.com/Universal-Electricity/ICBM/master/license.md">EULA</a> </p>
     <h2>!!Alpha Downloads!!</h2>
+    
 	 <div id="spoiler" style="display:none">
     <?php 
         print(file_get_contents("http://$_SERVER[SERVER_NAME]//downloads/dev/VoltzEngine/downloads-1.7.10.php"));
