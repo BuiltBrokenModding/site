@@ -17,7 +17,9 @@
     </div>
     </br>
     </br>
-    <p>At any time if the download plugin fails you can access the downloads through our <a href="http://adf.ly/2380428/api.dmodoomsirius.me/">maven</a> file system.</p>
+    <?php
+        print(file_get_contents("http://$_SERVER[SERVER_NAME]//php/maven.php"));
+    ?>
     
 <?php 
 include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php");
