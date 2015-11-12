@@ -15,7 +15,7 @@
     </br>
     <h2>Curse Downloads</h2>
     <iframe src="http://widget.mcf.li/mc-mods/minecraft/225502-icbm?version=1.7.10" width="100%" style="border: none;"></iframe>
-    <p> Most of our stable releases are done threw curse. So feel free to use the link above to get downloads. </p>
+    <p> Most of our stable releases are done through curse. So feel free to use the link above to get downloads. </p>
     <h2>Development Downloads</h2>
     <p> These downloads are hot off our build servers with the latest features. Download at your own risk and don't be suprised if they crash. </p>
     
