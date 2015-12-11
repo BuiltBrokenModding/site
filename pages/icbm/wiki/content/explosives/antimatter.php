@@ -1,18 +1,26 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
-    <h2> Micro Warhead - Antimatter Fit </h2>
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-    <h2>Antimatter Fit</h2>
+    <h2 style="text-align:center">  Micro Warhead - Antimatter Fit </h2>
+    <br/>
+    <div>
+    <div style="float:left; position:relative; padding-bottom:31.3%; height:0; width:50%">
+    <iframe width=100% height=100% src="https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div style="float:left; width:50%">
     <p>A Micro Warhead fit with an antimatter explosive. Devastate your desired area with a three block radius of destruction. Great for those specific three-block areas that you just can't stand. For example, your friend's house. </p>
     <br/>
-    <h2>Recipe</h2>
-    <img src="../../../../../img/icbm/recipe-microwarhead-antimatter.png" width="108" height="108" alt="Micro Warhead - Antimatter Fit recipe"/>
+    <h2 style="text-align:center">Recipe</h2>
+    <img style="display:block; margin-left:auto; margin-right:auto" src="../../../../../img/icbm/recipe-microwarhead-antimatter.png" width="108" height="108" alt="Micro Warhead - Antimatter Fit recipe"/>
     <br/>
-     This is crafted with two Eye of Ender, one Netherstar, and one Microwarhead.
+    <p>
+    This is crafted with two Eye of Ender, one Netherstar, and one Microwarhead.
+    </p>
     <br/>
     <br/>
     <h2>History</h2>
     <p>#2.3.0 - Added in the new 1.7.10 release</p>
-    </br>
+    <br/>
+    </div>
+    </div>
     
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/content.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); ?>
