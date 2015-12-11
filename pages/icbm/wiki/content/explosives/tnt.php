@@ -1,13 +1,14 @@
-<?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>       
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
+     <h2> Micro Warhead - TNT Fit </h2>
+        <iframe width="480" height="360" src="https://www.youtube.com/embed/nk9wEPmewEA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     <h2>TNT Explosive</h2>
-    <p>Essentially TNT on the end of a flying bomb.</p>
-    </br>
-    <h2> Micro Warhead </h2>
-        <iframe width="420" height="315"
-            src="https://www.youtube.com/watch?v=nk9wEPmewEA">
-        </iframe>
-    </br>
-    </br>
+    <p>A micro warhead is fitted with a TNT Explosive. Minor explision (2 block radius). It is not recommended to have a Misile Launder and carefully aim it at a conveniently placed bundle of TNT that may be convinently be next to your friend's base.   </p>
+    <br/>
+    <h2>Recipe</h2>
+    <img src="../../../../../img/icbm/recipe-microwarhead-tnt.png" width="108" height="109" alt="Micro Warhead - TNT Fit Recepie"/>
+    <br/>
+     Simply fit two gunpowder on top of a Micro Warhead.
+    <br/>
     <h2>History</h2>
     <p>#2.3.0 - Added in the new 1.7.10 release</p>
     </br>
