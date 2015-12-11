@@ -6,7 +6,7 @@
     <iframe width=100% height=315px src="https://www.youtube.com/embed/rZMtyN7xiw4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
     </div>
     <div style="float:left; width:50%">
-    <p>This cool Micro Warhead will chill the area it detonates in. This cool effect has a radius of two blocks. This will condense the water vapor in the air forming snow around it. This will also freeze water. Pretty cool huh?</p>
+    <p>This cool Micro Warhead will chill the area it detonates in. This cool effect has a radius of two blocks. This will condense the water vapor in the air forming snow around it. This will also freeze water. This is based on the <a href="https://en.wikipedia.org/wiki/Endothermic_process">Endothermic Process</a> that absorbs energy from it's environment. Pretty cool huh?</p>
     <br/>
     <h2 style="text-align:center">Recipe</h2>
     <img style="display:block; margin-left:auto; margin-right:auto" src="../../../../../img/icbm/recipe-microwarhead-endothermic.png" width="108" height="108" alt="Micro Warhead - Endothermic Fit recipe"/>
