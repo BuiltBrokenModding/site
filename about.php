@@ -48,11 +48,11 @@
         </br>
         </br> 
 		<h2> Modding Team </h2> 
-		<p> Bellow are people who work with our modding team for games like minecraft </p>
+		<p> Bellow are volenteers who work as part of our community modding organization. </p>
         <div class="employees">            
             <div>
                 <p>Hennamann,<br>
-                Developer<br>
+                Minecraft Mod Developer<br>
                 Email: <a href="mailto:hennamann9999@gmail.com">hennamann9999@gmail.com</a>
                 </p>
                 <p>
@@ -61,8 +61,10 @@
             </div>
 			<div>
                 <p>Kolatra,<br>
-                Developer<br>
+                Minecraft Mod Developer<br>
                 Email: <a href="mailto:kolatra03@gmail.com">kolatra03@gmail.com</a>
+                <br>
+                <br>
                 </p>
                 <p>
                   <a href="https://twitter.com/ItsKolatra" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
@@ -70,7 +72,17 @@
             </div>
 			<div>
                 <p>Theudas,<br>
-                Developer<br>
+                Minecraft Mod Developer<br>
+                </p>
+            </div>
+            <div>
+                <p>Quantomworks,<br>
+                Web Developer<br>
+                <br>
+                <br>
+                </p>
+                <p>
+                  <a href="https://twitter.com/quantomworks" class="twitter-follow-button" data-align="center" data-show-count="true" data-show-screen-name="false">Follow</a> 
                 </p>
             </div>
         </div>        
