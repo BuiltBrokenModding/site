@@ -2,8 +2,8 @@
     <h2 style="text-align:center"> Micro Warhead - Arrow Fit </h2>
     <br/>
     <div>
-    <div style="float:left; position:relative; padding-bottom:31.3%; height:0; width:50%">
-    <iframe width=100% height=100% src="https://www.youtube.com/embed/MCqphyyU0J0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div style="float:left; width:50%">
+    <iframe width=100% height=315px src="https://www.youtube.com/embed/MCqphyyU0J0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div style="float:left; width:50%">
     <p>The Micro Warhead type Arrow damages a targeted entity of your choosing. It's important to note that this missile will not destroy any blocks. Does your friend keep hitting you in the face for no apparent reason? Try poking him back with this..or ten. </p>

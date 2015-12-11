@@ -1,9 +1,9 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
-    <h2 style="text-align:center">  Micro Warhead - Antimatter Fit </h2>
+    <h2 style="text-align:center"> Micro Warhead - Antimatter Fit </h2>
     <br/>
     <div>
-    <div style="float:left; position:relative; padding-bottom:31.3%; height:0; width:50%">
-    <iframe width=100% height=100% src="https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div style="float:left; width:50%">
+    <iframe width=100% height=315px src="https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div style="float:left; width:50%">
     <p>A Micro Warhead fit with an antimatter explosive. Devastate your desired area with a three block radius of destruction. Great for those specific three-block areas that you just can't stand. For example, your friend's house. </p>

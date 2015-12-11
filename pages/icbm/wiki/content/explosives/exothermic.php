@@ -1,18 +1,26 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
-    <h2> Micro Warhead - Endothermic Fit </h2>
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/rZMtyN7xiw4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-    <h2>Endothermic Fit</h2>
-    <p>This cool Micro Warhead will chill the area it detonates in. This cool effect has a radius of two blocks. This will condense the water vapor in the air forming snow around it. This will also freeze water. Pretty cool huh?</p>
+    <h2 style="text-align:center"> Micro Warhead - Exothermic Fit </h2>
     <br/>
-    <h2>Recipe</h2>
-    <img src="../../../../../img/icbm/recipe-microwarhead-exothermic.png" width="108" height="108" alt="Micro Warhead - Endothermic Fit recipe"/>
+    <div>
+    <div style="float:left; width:50%">
+    <iframe width=100% height=315px src="https://www.youtube.com/embed/laMQOA19p2s?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen="true"></iframe>
+    </div>
+    <div style="float:left; width:50%">
+      <p>You thought your new spice recipe was killer huh? This Micro Warhead tipped with an Exothermic Fit will put your enemies a blaze. With a radius of three, destroying your neighbor's shiny new wooden house has never been easier. This might include the forest behind your neighbors house.</p>
+      <br/>
+    <h2 style="text-align:center">Recipe</h2>
+    <img style="display:block; margin-left:auto; margin-right:auto" src="../../../../../img/icbm/recipe-microwarhead-exothermic.png" width="108" height="108" alt="Micro Warhead - Exothermic Fit recipe"/>
     <br/>
-     Two Ice Blocks and one Micro Warhead will bring a chill to your inventory in seconds.
+    <p>
+    Two dashes of Blaze Powder and one Micro Warhead sounds pretty hot for a recipe.
+    </p>
     <br/>
     <br/>
     <h2>History</h2>
     <p>#2.3.0 - Added in the new 1.7.10 release</p>
-    </br>
+    <br/>
+    </div>
+    </div>
     
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/content.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); ?>
