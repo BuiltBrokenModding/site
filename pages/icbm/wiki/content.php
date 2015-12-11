@@ -22,7 +22,8 @@
                 'flashFire' => array('text'=>'Flash Fire',  'url'=> $web_root . 'explosives/flash-fire.php'),
                 'letItSnow' => array('text'=>'Let it Snow',  'url'=> $web_root . 'explosives/let-it-snow.php'),
                 'tnt' => array('text'=>'TNT',  'url'=> $web_root . 'explosives/tnt.php'),
-                'torch-eater' => array('text'=>'Torch Eater',  'url'=> $web_root . 'explosives/torch-eater.php')                
+                'torch-eater' => array('text'=>'Torch Eater',  'url'=> $web_root . 'explosives/torch-eater.php'),
+				'anti-plant-life' => array('text'=>'Anti Plant Life', 'url'=> $web_root . 'explosives/anti-plant-life.php')
             );
             
 ?>
