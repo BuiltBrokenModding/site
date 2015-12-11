@@ -1,18 +1,26 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
-    <h2> Micro Warhead - TNT Fit </h2>
-    <iframe width="480" height="360" src="https://www.youtube.com/embed/nk9wEPmewEA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-    <h2>TNT Fit</h2>
+    <h2 style="text-align:center"> Micro Warhead - TNT Fit </h2>
+    <br/>
+    <div>
+    <div style="float:left; position:relative; padding-bottom:31.3%; height:0; width:50%">
+    <iframe width=100% height=100% src="https://www.youtube.com/embed/nk9wEPmewEA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div style="float:left; width:50%">
     <p>This Micro Warhead is fitted with a TNT Explosive. Minor explosion (2 block radius). It is not recommended to have a Missile Launder that is carefully aimed at a conveniently placed bundle of TNT. This applies to one that may be conveniently be next to your friend's base.</p>
     <br/>
-    <h2>Recipe</h2>
-    <img src="../../../../../img/icbm/recipe-microwarhead-tnt.png" width="108" height="109" alt="Micro Warhead - TNT Fit recipe"/>
+    <h2 style="text-align:center">Recipe</h2>
+    <img style="display:block; margin-left:auto; margin-right:auto" src="../../../../../img/icbm/recipe-microwarhead-tnt.png" width="108" height="109" alt="Micro Warhead - TNT Fit recipe"/>
     <br/>
+    <p>
     Simply fit two gunpowder on top of a Micro Warhead.
+    </p>
     <br/>
     <br/>
     <h2>History</h2>
     <p>#2.3.0 - Added in the new 1.7.10 release</p>
     <br/>
+    </div>
+    </div>
     
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/content.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); ?>
