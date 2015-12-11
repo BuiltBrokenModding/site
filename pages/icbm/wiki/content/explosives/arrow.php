@@ -5,7 +5,7 @@
     <p>The Micro Warhead type Arrow damages a targeted entity of your choosing. It's important to note that this missile will not destroy any blocks. Does your friend keep hitting you in the face for no apparent reason? Try poking him back with this..or ten. </p>
     <br/>
     <h2>Recipe</h2>
-    <img src="../../../../../img/icbm/recipe-microwarhead-arrow.png" width="108" height="108" alt=""/>
+    <img src="../../../../../img/icbm/recipe-microwarhead-arrow.png" width="108" height="108" alt="Micro Warhead - Arrow Fit recipe"/>
     <br/>
     Place five Arrows, one Gunpowder, and a Micro Warhead in any crafting table of your choosing for this glorious poking tool.
     <br/>

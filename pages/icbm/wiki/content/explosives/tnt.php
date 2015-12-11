@@ -5,7 +5,7 @@
     <p>This Micro Warhead is fitted with a TNT Explosive. Minor explosion (2 block radius). It is not recommended to have a Missile Launder that is carefully aimed at a conveniently placed bundle of TNT. This applies to one that may be conveniently be next to your friend's base.</p>
     <br/>
     <h2>Recipe</h2>
-    <img src="../../../../../img/icbm/recipe-microwarhead-tnt.png" width="108" height="109" alt="Micro Warhead - TNT Fit Recipe"/>
+    <img src="../../../../../img/icbm/recipe-microwarhead-tnt.png" width="108" height="109" alt="Micro Warhead - TNT Fit recipe"/>
     <br/>
     Simply fit two gunpowder on top of a Micro Warhead.
     <br/>

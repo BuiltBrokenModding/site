@@ -5,7 +5,7 @@
     <p>A microwarhead fit with an antimatter explosive. Devastate your desired area with a three block radius of destruction. Great for those specific three-block areas that you just can't stand. For example, your friend's house. </p>
     <br/>
     <h2>Recipe</h2>
-    <img src="../../../../../img/icbm/recipe-microwarhead-antimatter.png" width="108" height="108" alt=""/>
+    <img src="../../../../../img/icbm/recipe-microwarhead-antimatter.png" width="108" height="108" alt="Micro Warhead - Antimatter Fit recipe"/>
     <br/>
      This is crafted with two Eye of Ender, one Netherstar, and one Microwarhead.
     <br/>
