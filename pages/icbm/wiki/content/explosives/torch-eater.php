@@ -6,7 +6,7 @@
     <iframe align="right" width="420" height="315" src="https://www.youtube.com/embed/VnecM0YMUBY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div style="float:left; width:50%">
-      <p>Can't quite get to that chest full of Diamonds in your friends house? Is he noticing you a little more on you after you threw an antimatter at his dirt house, burned down his wood house, and set his backyard on fire senpai? The Torch Eater Fit is what you're looking for. This will destroy all torches within a two block radius. Sneak around your friends base with ease knowing that his attention will be focused on the countless number of spawning zombies in his bedroom.</p>
+      <p>Can't quite get to that chest full of Diamonds in your friends house? Is he noticing you a little more after you threw an antimatter at his dirt house, burned down his wood house, and set his backyard on fire senpai? The Torch Eater Fit is what you're looking for. This will destroy all torches within a two block radius. Sneak around your friends base with ease knowing that his attention will be focused on the countless number of spawning zombies in his bedroom.</p>
       <br/>
     <h2 style="text-align:center">Recipe</h2>
     <img style="display:block; margin-left:auto; margin-right:auto" src="../../../../../img/icbm/recipe-microwarhead-torch-eater.png" width="108" height="108" alt="Micro Warhead - Endothermic Fit recipe"/>
