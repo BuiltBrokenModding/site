@@ -2,7 +2,7 @@
     <h2> Micro Warhead - Antimatter Fit </h2>
     <iframe width="420" height="315" src="https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     <h2>Antimatter Fit</h2>
-    <p>A microwarhead fit with an antimatter explosive. Devastate your desired area with a three block radius of destruction. Great for those specific three-block areas that you just can't stand. For example, your friend's house. </p>
+    <p>A Micro Warhead fit with an antimatter explosive. Devastate your desired area with a three block radius of destruction. Great for those specific three-block areas that you just can't stand. For example, your friend's house. </p>
     <br/>
     <h2>Recipe</h2>
     <img src="../../../../../img/icbm/recipe-microwarhead-antimatter.png" width="108" height="108" alt="Micro Warhead - Antimatter Fit recipe"/>
