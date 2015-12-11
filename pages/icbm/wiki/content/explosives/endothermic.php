@@ -5,7 +5,7 @@
     <p>This cool Micro Warhead will chill the area it detonates in. This cool effect has a radius of two blocks. This will condense the water vapor in the air forming snow around it. This will also freeze water. Pretty cool huh?</p>
     <br/>
     <h2>Recipe</h2>
-    <img src="../../../../../img/icbm/recipe-microwarhead-endothermic.png" width="108" height="108" alt=""/>
+    <img src="../../../../../img/icbm/recipe-microwarhead-endothermic.png" width="108" height="108" alt="Micro Warhead - Endothermic Fit recipe"/>
     <br/>
      Two Ice Blocks and one Micro Warhead will bring a chill to your inventory in seconds.
     <br/>
