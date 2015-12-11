@@ -1,9 +1,9 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
-    <h2 style="text-align:center">  Micro Warhead - Endothermic Fit </h2>
+    <h2 style="text-align:center"> Micro Warhead - Endothermic Fit </h2>
     <br/>
     <div>
-    <div style="float:left; position:relative; padding-bottom:31.3%; height:0; width:50%">
-    <iframe width=100% height=100% src="https://www.youtube.com/embed/rZMtyN7xiw4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div style="float:left; width:50%">
+    <iframe width=100% height=315px src="https://www.youtube.com/embed/rZMtyN7xiw4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
     </div>
     <div style="float:left; width:50%">
     <p>This cool Micro Warhead will chill the area it detonates in. This cool effect has a radius of two blocks. This will condense the water vapor in the air forming snow around it. This will also freeze water. Pretty cool huh?</p>
