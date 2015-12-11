@@ -2,8 +2,8 @@
     <h2 style="text-align:center"> Micro Warhead - Flash Fire Fit </h2>
     <br/>
     <div>
-    <div style="float:left; width:50%">
-    <iframe width=100% height=315px src="https://www.youtube.com/embed/X-MrPbv3lsg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div style="float:left; width:47%; margin-right:3%">
+    <iframe align="right" width="420" height="315" src="https://www.youtube.com/embed/X-MrPbv3lsg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div style="float:left; width:50%">
       <p>The odds of a flash flood coming in to save your friends statue of himself burning is pretty low. The Flash Fire Fit, with a radius of two, creates fire at your desired location. Launch with a Missile Launcher for direct hits.</p>

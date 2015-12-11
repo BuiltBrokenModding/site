@@ -2,8 +2,8 @@
     <h2 style="text-align:center"> Micro Warhead - Antimatter Fit </h2>
     <br/>
     <div>
-    <div style="float:left; width:50%">
-    <iframe width=100% height=315px src="https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    <div style="float:left; width:47%; margin-right:3%">
+     <iframe align="right" width="420" height="315" src="https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div style="float:left; width:50%">
     <p>A Micro Warhead fit with an antimatter explosive. Devastate your desired area with a three block radius of destruction. Great for those specific three-block areas that you just can't stand. For example, your friend's house. </p>
