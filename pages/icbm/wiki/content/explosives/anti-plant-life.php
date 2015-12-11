@@ -6,7 +6,7 @@
    <iframe align="right" width="420" height="315" src="https://www.youtube.com/embed/jzNcHmGJu6g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
     <div style="float:left; width:50%">
-    <p>Is your peaceful wishful-thinking neighbor trying to earn a living by growing crops in his back yard? Destroy them...with the Anti Plant Life fit! Add this to a Micro Warhead and wach those long awaited crops within a two block radis of the target disappear into thin air. Thin, non-appitizing air. </p>
+    <p>Is your peaceful wishful-thinking neighbor trying to earn a living by growing crops in his back yard? Destroy them...with The Anti Plant Life fit! Add this to a Micro Warhead and watch those long awaited crops within a two block radius of the target disappear into thin air. Thin, non-appetizing air. </p>
     <br/>
     <!--
     <h2 style="text-align:center">Recipe</h2>
