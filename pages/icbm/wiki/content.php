@@ -12,6 +12,9 @@
                 'plauncher' => array('text'=>'Portable Launcher',  'url'=> $web_root . 'machines/portable_launcher.php'),
                 'silo' => array('text'=>'Silo',  'url'=> $web_root . 'machines/silo.php')                 
             );
+    $explosives = array(
+                'tnt' => array('text'=>'TNT',  'url'=> $web_root . 'explosives/tnt.php')     
+            );
             
 ?>
     <table class="navbox">
@@ -21,6 +24,7 @@
             </th></tr>
             <tr><th>Missiles</th><td><?php echo CNavigation::ContentMenu($missiles); ?></td></tr>
             <tr><th>Machines</th><td><?php echo CNavigation::ContentMenu($machines); ?></td></tr>
+            <tr><th>Explosives</th><td><?php echo CNavigation::ContentMenu($explosives); ?></td></tr>
         </tbody>
     </table>
 </div>
