@@ -1,0 +1,26 @@
+/* CSS Document */
+h1
+{
+	text-align:center;
+}
+h2
+{
+	text-align:center
+}
+.video
+{
+	float:left;
+	width:47%;
+	margin-right:3%;
+}
+.content
+{
+    float:left;
+	width:50%;
+}
+.recipeimage
+{
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
