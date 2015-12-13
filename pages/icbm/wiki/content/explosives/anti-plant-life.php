@@ -17,7 +17,7 @@ var embeds = ['https://www.youtube.com/embed/jzNcHmGJu6g?rel=0&amp;controls=0', 
     </td>
     <td class="content">
     <div id="1" style="display:none">
-        <p>Did you ever want to build a snowman? Well now you can come on and play with the Micro Warhead Let It Snow Fit! Launch a missile that spawns two Snow Golems. Warning: Keep away from <a href="flash-fire.php">Flash-Fire</a>, <a href="exothermix.php">Exothermic</a>, and <a href="fire-bomb.php">Fire-Bomb</a> type warheads. Otherwise, you'll never see them anymore.</p>
+        <p>Is your peaceful wishful-thinking neighbor trying to earn a living by growing crops in his back yard? Destroy them...with The Anti Plant Life fit! Add this to a Micro Warhead and watch those long awaited crops within a two block radius of the target disappear into thin air. Thin, non-appetizing air.</p>
         <br/>
         <!--
         Recipe Content
