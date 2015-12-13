@@ -13,6 +13,23 @@ h2
 	width:47%;
 	margin-right:3%;
 }
+.arrowleft
+{
+	float:left;
+	width:8%;
+	margin-right:6%;
+}
+iframe
+{
+	float:left;
+	width:73%;
+	margin-right:2%;
+}
+.arrowright
+{
+	float:left;
+	width:8%;
+}	
 .content
 {
     float:left;
