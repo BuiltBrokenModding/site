@@ -1,6 +1,8 @@
 // JavaScript Document
 var selection = 1;
 
+var warheadTypes = ['Micro','Small','Medium','Large','Super','SuchWow','MuchAmaze'];
+
 displayContent();
 
 if(embeds.length > 1)
@@ -22,6 +24,9 @@ function writeLeftArrow()
 
 function nextVideo()
 {
+	//Hide current div
+	document.getElementById(selection).setAttribute("style","display:none");
+	
 	selection++;
 	if(selection == embeds.length)
 	{
@@ -35,6 +40,9 @@ function nextVideo()
 }
 function prevVideo()
 {
+	//Hide current div
+	document.getElementById(selection).setAttribute("style","display:none");
+	
 	selection--;
 	if(selection == 1)
 	{
@@ -49,8 +57,10 @@ function prevVideo()
 
 function displayContent() //Display embed
 {
-	selection--;
 	//Diplay Embed
-	document.getElementById("iframe").src = embeds[selection];
-	selection++;
+	document.getElementById("iframe").src = embeds[selection - 1];
+	//Show new div
+	document.getElementById(selection).removeAttribute("style");
+	//Alter title
+	document.getElementById("warhead").innerHTML = warheadTypes[selection - 1];
 }

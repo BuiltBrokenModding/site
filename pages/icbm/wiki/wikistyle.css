@@ -9,30 +9,18 @@ h2
 }
 .video
 {
-	float:left;
-	width:47%;
-	margin-right:3%;
+	width:40%;
 }
 .arrowleft
 {
-	float:left;
-	width:8%;
-	margin-right:6%;
-}
-iframe
-{
-	float:left;
-	width:73%;
-	margin-right:2%;
+	width:5%;
 }
 .arrowright
 {
-	float:left;
-	width:8%;
+	width:5%;
 }	
 .content
 {
-    float:left;
 	width:50%;
 }
 .recipeimage
@@ -40,4 +28,8 @@ iframe
     display:block;
 	margin-left:auto;
 	margin-right:auto;
+}
+.history
+{
+	text-align:center;
 }
