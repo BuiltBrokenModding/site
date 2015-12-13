@@ -16,7 +16,11 @@ var embeds = ['https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0', 
         
     </div>
     <div class="content">
+    <h2>Type - Micro</h2>
     <p>Is your peaceful wishful-thinking neighbor trying to earn a living by growing crops in his back yard? Destroy them...with The Anti Plant Life fit! Add this to a Micro Warhead and watch those long awaited crops within a two block radius of the target disappear into thin air. Thin, non-appetizing air. </p>
+    <h2>Type - Small</h2>
+    <p>The small warhead had a radius of five. This will lead to massive devastation of your friends backyard. Or maybe...those villagers over in the distance that seem to be stealing your farm's revenue?</p>
+    
     <br/>
     <h2>History</h2>
     <br/>
