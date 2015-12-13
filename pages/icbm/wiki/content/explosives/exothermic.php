@@ -34,6 +34,6 @@ var embeds = ['https://www.youtube.com/embed/laMQOA19p2s?rel=0&amp;controls=0&am
     <br/>
     </div>
     </div>
-    <script src="../../embedscript.js"></script>
+    <script src="../../../../../js/wikicontentchanger.js"></script>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/content.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); ?>
