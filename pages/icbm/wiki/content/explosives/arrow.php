@@ -1,12 +1,23 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
+<script>
+var embeds = ['https://www.youtube.com/embed/MCqphyyU0J0?rel=0&amp;showinfo=0'];
+</script>
+
+
 <link rel="stylesheet" type="text/css" href="../../wikistyle.css">
-    <h1> Micro Warhead - Arrow Fit </h1>
+    <h1> Warhead - Arrow Fit </h1>
     <br/>
     <div>
     <div class="video">
-    <iframe align="right" width="420" height="315" src="https://www.youtube.com/embed/MCqphyyU0J0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        <input class="arrowleft" id="arrowleft" type="image" src="../../../../../img/icbm/buranku.png" width="70" height="315"/>
+    
+        <iframe id="iframe" width="420" height="315" frameborder="0" allowfullscreen></iframe>
+        
+        <input class="arrowright" id="arrowright" type="image" src="../../../../../img/icbm/buranku.png" width="70" height="315"/>
+        
     </div>
     <div class="content">
+    <h2> Type - Micro </h2>
     <p>The Micro Warhead type Arrow damages a targeted entity of your choosing. It's important to note that this missile will not destroy any blocks. Does your friend keep hitting you in the face for no apparent reason? Try poking him back with this..or ten. </p>
     <br/>
     <h2>Recipe</h2>
@@ -22,6 +33,6 @@
     <br/>
     </div>
     </div>
-    
+    <script src="../../embedscript.js"></script>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/content.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php"); ?>
