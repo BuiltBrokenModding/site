@@ -1,6 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>
 <script>
-var embeds = ['https://www.youtube.com/embed/GImu6621eKs?rel=0&amp;controls=0', 'https://www.youtube.com/embed/DayXQuoDoBQ?rel=0&amp;controls=0'];
+var embeds = ['https://www.youtube.com/embed/jzNcHmGJu6g?rel=0&amp;controls=0', 'https://www.youtube.com/embed/DayXQuoDoBQ?rel=0&amp;controls=0'];
 </script>
 
 <link href="../../wikistyle.css" rel="stylesheet" type="text/css">
