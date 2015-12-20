@@ -19,17 +19,23 @@ var embeds = ['https://www.youtube.com/embed/jzNcHmGJu6g?rel=0&amp;controls=0', 
     <div id="1" style="display:none">
         <p>Is your peaceful wishful-thinking neighbor trying to earn a living by growing crops in his back yard? Destroy them...with The Anti Plant Life fit! Add this to a Micro Warhead and watch those long awaited crops within a two block radius of the target disappear into thin air. Thin, non-appetizing air.</p>
         <br/>
-        <!--
-        Recipe Content
-        -->
+        <h2>Recipe</h2>
+        <img id="recimg" src="../../../../../img/icbm/recipe-microwarhead-antiplantlife.png" class="recipeimage" src="" width="108" height="108" alt="Micro Warhead - Anti-Plant Life Fit recipe"/>
+        <br/>
+        <p class="recipedescription">Leaves. Spider Eyes. Blaze Powder. Burn the spidereyes in the leaves with fire. Self explanatory, right? Oh, and the microwarhead ofcourse.
+        
+        </p>
         <br/>
     </div>
     <div id="2" style="display:none">
         <p>The small warhead had a radius of five. This will lead to massive devastation of your friends backyard. Or maybe...those villagers over in the distance that seem to be stealing your farm's revenue?</p>
         <br/>
-        <!--
-        Recipe Content
-        -->
+        <h2>Recipe</h2>
+        <img id="recimg" src="../../../../../img/icbm/recipe-smallwarhead-antiplantlife.png" class="recipeimage" src="" width="108" height="108" alt="Small Warhead - Anti-Plant Life Fit recipe"/>
+        <br/>
+        <p class="recipedescription">Moar Leaves. Moar Spider Eyes. Moar Blaze Powder. Burn moar of the spidereyes in moar leaves with moar fire. Self explanatory, right?
+        
+        </p>
         <br/>
     </div>
     </td>
