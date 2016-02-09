@@ -11,6 +11,7 @@
     
     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
 	 <div id="spoiler" style="display:none">
+    <iframe src="http://widget.mcf.li/mc-mods/minecraft/227048-voltz-engine?version=1.7.10" width="100%" style="border: none;"></iframe>
     <?php 
         print(file_get_contents("http://$_SERVER[SERVER_NAME]//downloads/dev/VoltzEngine/downloads-1.7.10.php"));
     ?>

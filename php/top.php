@@ -23,8 +23,9 @@
 	<body>
         <div id ="header">
             <div class="wrap">
+            <a href="/">
                 <h1>Built Broken Studios</h1>
-                <p>Build It - Break It - Reanimate It</p>                
+                <p>Build It - Break It - Reanimate It</p></a>                
             </div>
         </div>		
         <div id="main">
