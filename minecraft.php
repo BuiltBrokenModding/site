@@ -43,7 +43,7 @@
                 <li>  
                     <h4><a href="#">AI Improvements</a></h4>
                     <p style="padding:0em 1em;"> 
-                        If you have every looked at a CPU usage report for Minecraft you will notice AI code at the top. This mod adds some changes to the AI code to decrease how much CPU the code uses.
+                        If you have ever looked at a CPU usage report for Minecraft you will notice AI code at the top. This mod adds some changes to the AI code to decrease how much CPU the code uses.
                     </p> 
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/233019-ai-improvements?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
