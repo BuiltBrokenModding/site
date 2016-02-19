@@ -1,6 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>        
     <h2>Micro Missiles</h2>
-    <p>Small rocket designed to be fire from the handheld launcher. Can support 1 explosive item crammed into warhead.</p>
+    <p>Small rocket designed to be fire from the <a href="/pages/icbm/wiki/content/tools/rocketlauncher.php">rocket launcher</a>. Can support 1 explosive item crammed into warhead.</p>
     </br>
     </br>
     </br>

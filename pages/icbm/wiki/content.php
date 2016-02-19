@@ -4,13 +4,22 @@
     $missiles = array(
                 'rocket' => array('text'=>'Micro',  'url'=> $web_root . 'missiles/micro.php'),
                 'small' => array('text'=>'Small',  'url'=> $web_root . 'missiles/small.php'),
-                'standard' => array('text'=>'Classic',  'url'=> $web_root . 'missiles/standard.php'),
+                'standard' => array('text'=>'Standard',  'url'=> $web_root . 'missiles/standard.php'),
                 'medium' => array('text'=>'Medium',  'url'=> $web_root . 'missiles/medium.php'),
                 'large' => array('text'=>'Large',  'url'=> $web_root . 'missiles/large.php')                 
             );
-    $machines = array(
-                'plauncher' => array('text'=>'Portable Launcher',  'url'=> $web_root . 'machines/portable_launcher.php'),
-                'silo' => array('text'=>'Silo',  'url'=> $web_root . 'machines/silo.php')                 
+    $machines = array(                
+                'silo' => array('text'=>'Silo',  'url'=> $web_root . 'machines/silo.php'),
+                'plauncher' => array('text'=>'Launcher(Portable)',  'url'=> $web_root . 'machines/portable_launcher.php'),
+                'launcher' => array('text'=>'Launcher',  'url'=> $web_root . 'machines/launcher.php'),
+                'workstation' => array('text'=>'Workstation',  'url'=> $web_root . 'machines/workstation.php'),
+                'warheadtable' => array('text'=>'Warhead Table',  'url'=> $web_root . 'machines/warheadtable.php'),
+                'controller' => array('text'=>'Controller',  'url'=> $web_root . 'machines/controller.php')                
+            );
+    $tools = array(
+                'rlauncher' => array('text'=>'Rocket Launcher',  'url'=> $web_root . 'tools/rocketlauncher.php'),
+                'datachip' => array('text'=>'Data Chip',  'url'=> $web_root . 'tools/datachip.php'),
+                'gpschip' => array('text'=>'GPS Data Chip',  'url'=> $web_root . 'tools/gpsdatachip.php')
             );
     $explosives = array(
                 'antimatter' => array('text'=>'Antimatter',  'url'=> $web_root . 'explosives/antimatter.php'),
@@ -25,6 +34,10 @@
                 'torch-eater' => array('text'=>'Torch Eater',  'url'=> $web_root . 'explosives/torch-eater.php'),
 				'anti-plant-life' => array('text'=>'Anti Plant Life', 'url'=> $web_root . 'explosives/anti-plant-life.php')
             );
+    $crafting = array(
+                'pstick' => array('text'=>'Powder Stick',  'url'=> $web_root . 'parts/powderstick.php'),
+                'pcharge' => array('text'=>'Gunpowder Charge',  'url'=> $web_root . 'parts/gunpowdercharge.php')
+            );
             
 ?>
     <table class="navbox">
@@ -34,7 +47,9 @@
             </th></tr>
             <tr><th>Missiles</th><td><?php echo CNavigation::ContentMenu($missiles); ?></td></tr>
             <tr><th>Machines</th><td><?php echo CNavigation::ContentMenu($machines); ?></td></tr>
+            <tr><th>Tools</th><td><?php echo CNavigation::ContentMenu($tools); ?></td></tr>
             <tr><th>Explosives</th><td><?php echo CNavigation::ContentMenu($explosives); ?></td></tr>
+            <tr><th>Parts</th><td><?php echo CNavigation::ContentMenu($crafting); ?></td></tr>
         </tbody>
     </table>
 </div>

@@ -1,6 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>    
 <h2> Portable Launcher </h2>
-<p> Very little weight launcher designed to be carried into battle. Can support launching a single <a href="/pages/icbm/wiki/content/missiles/small.php">small</a> missile up to 200 blocks away. Carries its own fuel and power supply allowing for the missile to be easily launched.</p>
+<p> Self contained launcher that can be setup at the front of the fight. Fires a single <a href="/pages/icbm/wiki/content/missiles/small.php">small</a> missile with a range of 200 blocks.</p>
 
 </br>
 <h3> Launcher Screen (GUI) </h3>
