@@ -1,6 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>        
-    <h2>Small Missiles</h2>
-    <p>Name in game as the rocket, this small missile is used with the handheld launcher.</p>
+    <h2>Micro Missiles</h2>
+    <p>Small rocket designed to be fire from the handheld launcher. Can support 1 explosive item crammed into warhead.</p>
     </br>
     </br>
     </br>
