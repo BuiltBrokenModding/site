@@ -9,6 +9,8 @@
 </br>
 </br>
 <h2>History</h2>
+<p>#2.9.0 - Fixed missiles not dropping</p>
+<p>#2.9.0 - Fixed duplication bug</p>
 <p>#2.3.0 - Added Small silo</p>
 </br>
 
