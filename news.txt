@@ -1,4 +1,4 @@
-<div>
+	<div>
             <h3>Progress Update</h3>
             <h4> Date: Sep 30, 2015 </h4>
             <p>I know all of you want ICBM updated as quickly as possible, but it is going to be a bit longer. The hope was to get it done before school started back up, but that didn't happen. Now most of our team has to work around class schedules in order to get work done. Don't fear though ICBM is still really close to being done. The major work was taken care of in the summer with the crafting system being the only major segment to finish. This "should" only take another 60 hours of work to finish. Which as much as I want to say this is an ETA I've learned we can't promise anything when it comes to modding. As adding features comes hand-and-hand with creating bugs.</p>
