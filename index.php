@@ -22,12 +22,12 @@
     <h2> News </h2>
     <hr>
     <div class="news">
-        	<div> 
+            <div> 
             <h3>ICBM Update and Ads</h3>
             <h4>Date: Mar 17, 2016 </h4>
             <br>
 			<p>Sometime this week we will be pushing an update for ICBM. This update will include Missile Health, AMS, and a Friend or Foe system. So get ready for that!</p>
-			<p>Within the coming weeks the Built Broken website (builtbroken.com or builtbroken.net) will be switching Advertisement Providers. We will be moving from adf.ly to adfoc.us. We are moving providers because of monetary issues, our current provider isn’t making enough money to continue to support our services for the long run. We hope that this change will improve the situation so we can continue to provide all of our current services and hopefully add more. This change in Ad Providers will not affect any of our users in any way, this is just an update for you on our backend environment to continue our idea of transparency.</p>
+			<p>Within the coming weeks the Built Broken website (builtbroken.com or builtbroken.net) will be switching Advertisement Providers. We will be moving from adf.ly to adfoc.us. We are moving providers because of monetary issues, our current provider isn’t making enough money to continue to support our services for the long run. We hope that this change will improve the situation so we can continue to provide all of our current services and hopefully add more. This change in Ad Providers will not affect any of our users in any way, this is just an update for you on our backend environment to continue our idea of transparency!</p>
             <img src="\img\news\adfly-marchThisYearVsLast.png" alt="" align="absmiddle" style="max-width:100%; height:auto;"/>
             <br>
             <br>
@@ -35,7 +35,8 @@
 			<p>Thanks everyone for your amazing support of Built Broken and Built Broken Modding!</p>
 			<b>By: Green_Cafe</b></p>
             <hr>
-        </div>
+        	</div>
+            
     </div>
 <script type="text/javascript">   
     
