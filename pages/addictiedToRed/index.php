@@ -14,7 +14,7 @@
     <div class="news">
         <div>
         <h2>About</h2>
-        <p> We at Built Broken Studios know that you love redstone. So to fuel your addiction to that red glowing power we made you a mod. No we didn't make another redpower, bluepower, or those other mod clones. Instead we have focused on giving you things that are missing and are useful to redstone. Not just compact logic in a block or wires that can do magic ticks. We give you useful machines to allow the redstone to interact better with the world. This way you can make your world a red master peace of engineering.</p>
+        <p> We at Built Broken Modding know that you love redstone. So to fuel your addiction to that red glowing power we made you a mod. No we didn't make another redpower, bluepower, or any of those other mod clones. Instead we have focused on giving you things that are missing and are useful to redstone. Not just compact logic in a block or wires that can do magic ticks. We give you useful machines to allow the redstone to interact better with the world. This way you can make your world a red master piece of engineering. Good Luck!</p>
         <div>
     <div>
     

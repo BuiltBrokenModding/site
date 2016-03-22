@@ -10,10 +10,10 @@
 ?>
     </br>
     <h3>About</h3>
-    <p>Assembly Line is a factory style mod that focuses on making automation more enjoyable.</p>
+    <p>Assembly Line is a factory type mod that focuses on making automation more enjoyable and user friendly.</p>
     </br>
     <h3>Release ETA</h3>
-    <p>Assembly Line is currently a work in progress with no plan to release it any time soon</p>
+    <p>Assembly Line is currently a work in progress with no plan to release anytime soon.</p>
     </br>
     </br>
     </br>

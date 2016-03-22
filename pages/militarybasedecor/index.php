@@ -14,7 +14,7 @@
     <div class="news">
         <div>
         <h2>About</h2>
-        <p>Military Base Decor adds all sorts of decor for your base, some useful, and some not so useful. There's something for everyone. A lot of old decorative content from ICBM have been improved and moved to this mod, including the loved by all concrete! The mod uses a module system. the content of the mod is categorized after time and era and each module(time and era) can be disabled in the config, making for a customizable experience.</p>
+        <p>Military Base Decor adds all sorts of decor for your base, there's something for everyone. A lot of old decorative content from ICBM has been improved and moved to this mod, including the loved by all concrete! The mod uses a module system. the content of the mod is categorized after time and era and each module(time and era) can be disabled in the config, making for a customizable experience.</p>
         <div>
     <div>
     
