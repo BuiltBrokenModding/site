@@ -35,28 +35,7 @@
 			<p>Thanks everyone for your amazing support of Built Broken and Built Broken Modding!</p>
 			<b>By: Green_Cafe</b></p>
             <hr>
-        	</div>
-            
-            <div> 
-            <h3>New and Updated Packs</h3>
-            <h4>Date: Mar 23, 2016</h4>
-            <br>
-			<p>First off, we have some exciting news: We have released a new pack, Fallen Kingdom, on Curse. Geared around building kingdoms and engaging in NPC interaction. This pack will eventually feature the long awaited Artilects mod. Which is cored around giving NPCs life beyond automated tools.</p>
-            <img src="\img\news\fallenkingdom1.png" alt="" align="absmiddle" style="max-width:100%; height:auto;"/>
-            <br>
-            <img src="\img\news\fallenkingdom2.png" alt="" align="absmiddle" style="max-width:100%; height:auto;"/>
-            <br>
-            <br>
-            <p>As always we will be continuing our work on Volts, Ohms, and Amps. We hope to get these packs released as soon as possible. However, we are still waiting on key missing pieces before completion.</p>
-			<p>Per usual, we will be releasing new unstable versions for all of our active projects. This way testing can be done before a stable release. Which is currently planned for the end of the month; Unless any major issues are presented within the project.</p>
-            <a href="http://builtbroken.com/">Built Broken Website</a><br>
-            <a href="https://twitter.com/BuiltBrokenMod">Built Broken Modding Twitter</a><br>
-            <a href="http://minecraft.curseforge.com/members/DarkCow/projects">Built Broken Modding Curseforge</a><br>
-            <a href="https://github.com/BuiltBrokenModding">Built Broken Modding Github</a><br>
-            <a href="https://player.me/builtbrokenmodding">Built Broken Modding Player.me</a><br><br>
-			<b>By: BBM Team</b></p>
-            <hr>
-        	</div>
+        </div>
     </div>
 <script type="text/javascript">   
     
