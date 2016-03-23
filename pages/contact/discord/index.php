@@ -3,16 +3,7 @@
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
     
 ?>
-    <p>Here is some information about our irc channels</p>
-    <p>BuiltBrokenModding</p>
-     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
-    <div id="spoiler" style="display:none">
-    <p>BuiltBrokenModding</p>
-    <p> We have a discord server now. </p>
-    <script async defer data-hostname="irc.esper.net" data-channel="#BuiltBrokenModding" data-port="6667" src="https://www.irccloud.com/static/invite.js"></script>
-    </div>
-    </br>
-    </br>
+    <p>Here is some information about our Discord server</p>
     <p>Discord</p>
     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoilerIC') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
     <div id="spoilerIC" style="display:none">
