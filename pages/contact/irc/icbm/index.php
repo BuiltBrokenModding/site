@@ -7,19 +7,13 @@
     </br>
     </br>
     <p>ICBM</p>
-    <p><h2>Channel Rules</h2></p>
-    <ol type="1">
-      <li>Be respectful and kind</li>
-      <li>Don't demand anything out of anyone</li>
-      <li>Just be cool, and have a good time.</li>
-    </ol>
     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler1') .style.display=='none') {document.getElementById('spoiler1') .style.display=''}else{document.getElementById('spoiler1') .style.display='none'}">Channel Rules</button>
     <div id="spoiler1" style="display:none">
     <p><h2>Channel Rules</h2></p>
     <ol type="1">
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
+      <li>1. Be respectful and kind</li>
+      <li>Don't demand anything out of anyone.</li>
+      <li>Just be cool, and have a good time.</li>
     </ol>
     </div>
     </br>
