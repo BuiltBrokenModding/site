@@ -15,7 +15,7 @@
             <li> 
                 <h4><a href="#">Mr. Smith</a></h4>
                 <p style="padding:0em 1em;"> 
-                Program designed to help test programs that support plugins. Its goes threw a series of tests that installs, uninstalls, configures, and manipulates the plugins. Looking for any issues of compatibilities or runtime errors.
+                Program designed to help test programs that support plugins. Its goes through a series of tests that installs, uninstalls, configures, and manipulates the plugins. Looking for any issues of compatibilities or runtime errors.
                 </p>
             </li>
         </ul>
