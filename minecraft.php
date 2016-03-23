@@ -9,7 +9,7 @@
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
 ?>
    <h1>Minecraft Modding</h1>
-    <p style="padding:0em 1em;">You love <a href="https://minecraft.net/">minecraft</a>? We love it too, so much in fact that we have created mods to extent it way beyond it's original design.</p> </br>
+    <p style="padding:0em 1em;">Do you love <a href="https://minecraft.net/">minecraft</a>? We love it too, so much in fact that we have created mods to extend it way beyond it's original design.</p> </br>
     <p><b> Sponsored by: </b></p>
     <p><img src="http://i577.photobucket.com/albums/ss215/bobstrong/Screenshot%202015-08-15%2002.26.05_zpsflostlsv.png" alt=" photo Screenshot 2015-08-15 02.26.05_zpsflostlsv.png" border="0" /></p>
     <p>Sign up for excellent hosting with&nbsp;<a href="http://www.akliz.net/bbm">http://www.akliz.net/bbm</a></p>
@@ -22,21 +22,21 @@
                 <li> 
                     <h4><a href="pages/icbm/">ICBM</a></h4>
                     <p style="padding:0em 1em;"> 
-                        We all have that guy up the road we just want to nuke. You know the one who keeps firing his TNT cannons thinking he is the king of war. With ICBM not only is he out match you can get that wish you always wanted.
+                        We all have that guy up the road we just want to nuke. You know the one who keeps firing his TNT cannons thinking he is the king of war. With ICBM not only is he out matched, you can get that wish you always wanted.
                     </p>
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/225502-icbm?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
                  <li> 
                     <h4><a href="pages/addictiedToRed/">Addicted To Red</a></h4>
                     <p style="padding:0em 1em;"> 
-                        When you close your eyes at night all you can think about is redstone? Good, you have come to the right place. We too have become addicted to the power of redstone and have made it even more powerful. Giving redstone all those detectors, manipulators, and cool machines it always needed.
+                        When you close your eyes at night, is the only thing you can think of Redstone? Good, you've come to the right place. We too have become addicted to the power of redstone and have made it even more powerful. Giving redstone all those detectors, manipulators, and cool machines its always needed.
                     </p>
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/236575-addicted-to-red?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
                 <li>  
                     <h4><a href="pages/voltzengine/">Voltz Engine</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Tired of every mod having its own ores, ingots, gears, chips, parts, etc. We are just as tired of this problem as well so we created Voltz Engine to solve the issue. Well at least on our side of the modding universe. Each one of our large content mods uses voltz engine to provide all the replicated content that every mod needs. Without each mod having the same content over and over and over again.
+                        Tired of every mod having its own ores, ingots, gears, chips, parts, etc. We are just as tired of this problem as well so we created Voltz Engine. Well at least on our side of the modding universe. Each one of our large content mods uses voltz engine to provide all the replicated content that every mod uses. Without each mod having the same content over and over and over again.
                     </p> 
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/227048-voltz-engine?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
@@ -70,12 +70,12 @@
                 <li> 
                     <h4><a href="/pages/armory">Armory</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Minecraft truly has a lack of weapons and armor. Even when considering the wide range of mods that have attacked the subject. Only providing replications of modern weapons or overpowered armor. With Armory, we hope to approach the subject from a different direction. Starting with a diverse upgrade and modification system for everything in the mod. Then hitting every single tech age that mankind has gone threw in the real world. Followed by adding anything and everything imagined in the pages of fiction. Along with this, we want to truly added a crafting system that will make players feel like they have created a masterpiece. Not just lumping ingots into a fireplace getting a piece of a sword. No, we want the player to feel like his work was something to have pride in before stabbing a zombie.</p> 
+                        Minecraft truly has a lack of weapons and armor. Even when considering the wide range of mods that have attacked the subject. Only providing replications of modern weapons or overpowered armor. With Armory, we hope to approach the subject from a different direction. Starting with a diverse upgrade and modification system for everything in the mod. Then hitting every single tech age that mankind has gone through in the real world. Followed by adding anything and everything imagined in the pages of fiction. Along with this, we want to truly added a crafting system that will make players feel like they have created a masterpiece. Not just lumping ingots into a fireplace getting a piece of a sword. No, we want the player to feel like his work was something to have pride in before stabbing a zombie.</p> 
                 </li>
                 <li> 
                     <h4><a href="/pages/artillect/">Artillects</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Sometimes the world is dull and empty. With cows that go moo and zombies that are too dumb to walk. Many times we have tried to solve this with more content, better AIs, and other mods. Each time it is like a fix that only lasts a few days. Artillects is the solution we have been working on for a while to solve this. It introduces a robotic hive race as part of the world, not just in the world. This means that the mobs are not just dumb AIs following basic tasks. Each entity will act like a living create and interact with everything around it. This will include the player to a high extent but is not always the case. As the drones, of the robotic race, may ignore the player as yet another object in the world. Making it feel like the player is not longer the center of the world he has created. Giving a new perspective on what the world can be as the drones will build, live, and die without the player's involvement. However, when the player does get involved things can get very fun. As the artillects were also created as a hostile challenge for all those shiny toys in the player's armory.  </p>
+                        Sometimes the world is dull and empty. With cows that go moo and zombies that are too dumb to walk. Many times we have tried to solve this with more content, better AIs, and other mods. Each time it is like a fix that only lasts a few days. Artillects is the solution we have been working on for a while to solve this. It introduces a robotic hive race as part of the world, not just in the world. This means that the mobs are not just dumb AIs following basic tasks. Each entity will act like a living create and interact with everything around it. This will include the player to a high extent but is not always the case. As the drones of the robotic race, they may ignore the player as yet another object in the world. Making it feel like the player is no longer the center of the world he has created. Giving a new perspective on what the world can be as the drones will build, live, and die without the player's involvement. However, when the player does get involved things can get very fun. As the artillects were also created as a hostile challenge for all those shiny toys in the player's armory.  </p>
                 </li>
                 <li> 
                     <h4><a href="#">Tinker Toys</a></h4>

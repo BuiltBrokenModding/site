@@ -10,6 +10,6 @@
     include("php/top.php");
     
 ?>   
-    <p> Looks like the page you were looking for does not exist. We recommend you check your spelling and retry. If the link is correct and you reached here from a button then the page has not been created yet. Don't worry about this as the site is still under construction.  </p>
+    <p> Looks like the page you were looking for does not exist. We recommend you check your spelling and retry. If the link is correct and you reached this page from a button then the page has not been created yet. Don't worry about this as the site is still under construction.  </p>
 <?php include("php/bottom.php"); ?>
 				

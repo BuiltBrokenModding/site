@@ -9,7 +9,7 @@
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.php");
 ?>
    <h1>Minecraft Modding</h1>
-    <p style="padding:0em 1em;">You love <a href="https://minecraft.net/">minecraft</a>? We love it too, so much in fact that we have created mods to extent it way beyond it's original design.</p> </br>
+    <p style="padding:0em 1em;">Do you love <a href="https://minecraft.net/">minecraft</a>? We love it too, so much in fact that we have created mods to extend it way beyond it's original design.</p> </br>
     <p><b> Sponsored by: </b></p>
     <p><img src="http://i577.photobucket.com/albums/ss215/bobstrong/Screenshot%202015-08-15%2002.26.05_zpsflostlsv.png" alt=" photo Screenshot 2015-08-15 02.26.05_zpsflostlsv.png" border="0" /></p>
     <p>Sign up for excellent hosting with&nbsp;<a href="http://www.akliz.net/bbm">http://www.akliz.net/bbm</a></p>
@@ -22,14 +22,14 @@
                 <li>  
                     <h4><a href="#">[SMB]Wooden Buckets</a></h4>
                     <p style="padding:0em 1em;">
-                        Early game it can be a pain to get a bucket for farming. This mod adds several wooden bucket types for storing any fluid without adding a new item id per fluid. 
+                        In the early game, it can be a pain to get a bucket for farming. This mod adds several wooden bucket types for storing any fluid without adding a new item id per fluid. 
                     </p> 
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/233189-sbm-wooden-buckets?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
                 <li>  
                     <h4><a href="#">[SMB]Wooden Rails</a></h4>
                     <p style="padding:0em 1em;">
-                        Early game it can be tricky getting into using minecarts. Especially with the high iron cost and all your machines needing that iron first. Wooden rails fixes this by adding wooden carts and tracks that are just a little slower than iron versions. Allowing for intergration of rail systems into your base without the pain of mining a lot of iron.
+                        In the early game, it can be tricky getting into using minecarts. Especially with the high iron cost and all your machines needing that iron first. Wooden rails fixes this by adding wooden carts and tracks that are just a little slower than iron versions. Allowing for intergration of rail systems into your base without the pain of mining a lot of iron.
                     </p> 
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/233655-sbm-wooden-rails?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
@@ -43,7 +43,7 @@
                 <li>  
                     <h4><a href="#">[SMB]Colored Chests</a></h4>
                     <p style="padding:0em 1em;"> 
-                        Always hate it how you can't place double chests next to each other or figure out what chest is which. Colored chests adds an large variety of chests that support any RGB value.
+                        Always hate it how you can't place double chests next to each other or figure out what chest is which. Colored chests adds a large variety of chests that support any RGB value.
                     </p> 
                     <iframe src="http://widget.mcf.li/mc-mods/minecraft/233511-sbm-colored-chests?version=1.7.10" width="100%" style="border: none;"></iframe>
                 </li>
