@@ -22,6 +22,16 @@
     <h2> News </h2>
     <hr>
     <div class="news">
+			<div> 			
+				<h3>New and Updated Packs</h3>
+				<h4>Date: Mar 25, 2016</h4>
+				<br>
+				<p>Akliz, a server hosting company, will be running a sale from 26th of Marth to 1st of April. Using the code BBM50 you can get 50% off your first month.</p>
+				<a href="http://www.akliz.net/minecraft"><img src="img\bbm50_50_12.png" alt="" align="absmiddle" style="width:50%;max-width:200px; height:auto;"/></a>
+				<br>
+				<b>By: BBM Team</b></p>
+				<hr>
+            </div>
             <div> 
 				<h3>New and Updated Packs</h3>
 				<h4>Date: Mar 23, 2016</h4>
