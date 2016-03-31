@@ -16,7 +16,8 @@
                 'warheadtable' => array('text'=>'Warhead Table',  'url'=> $web_root . 'machines/warheadtable.php'),
                 'controller' => array('text'=>'Controller',  'url'=> $web_root . 'machines/controller.php'),
 				'fof' => array('text'=>'FoF Station',  'url'=> $web_root . 'machines/fofstation.php'),
-				'ams' => array('text'=>'AMS Turret',  'url'=> $web_root . 'machines/ams.php')				
+				'ams' => array('text'=>'AMS Turret',  'url'=> $web_root . 'machines/ams.php'),
+				'directController' => array('text'=>'Control Computer',  'url'=> $web_root . 'machines/controlComputer.php')				
             );
     $tools = array(
                 'rlauncher' => array('text'=>'Rocket Launcher',  'url'=> $web_root . 'tools/rocketlauncher.php'),
