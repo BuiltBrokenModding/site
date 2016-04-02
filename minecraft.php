@@ -11,9 +11,7 @@
    <h1>Minecraft Modding</h1>
     <p style="padding:0em 1em;">Do you love <a href="https://minecraft.net/">minecraft</a>? We love it too, so much in fact that we have created mods to extend it way beyond it's original design.</p> </br>
     <p><b> Sponsored by: </b></p>
-    <p><a href="http://www.akliz.net/bbm"><img src="http://i577.photobucket.com/albums/ss215/bobstrong/Screenshot%202015-08-15%2002.26.05_zpsflostlsv.png" alt=" photo Screenshot 2015-08-15 02.26.05_zpsflostlsv.png" border="0" /></a></p>
-	<p> Only for Marth 26th threw April 1st  get 50% off Akliz server using the code BBM50</p>
-	<a href="http://www.akliz.net/minecraft"><img src="\img\bbm50_50_12.png" alt="" align="absmiddle" style="width:50%;max-width:200px; height:auto;"/></a>	
+    <p><a href="http://www.akliz.net/bbm"><img src="http://i577.photobucket.com/albums/ss215/bobstrong/Screenshot%202015-08-15%2002.26.05_zpsflostlsv.png" alt=" photo Screenshot 2015-08-15 02.26.05_zpsflostlsv.png" border="0" /></a></p>	
     </br>
     <h1>Active Projects</h1>
      </br>
