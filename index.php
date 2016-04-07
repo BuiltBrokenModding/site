@@ -22,6 +22,18 @@
     <h2> News </h2>
     <hr>
     <div class="news">
+				<div> 			
+				<h3>Progress and Delays</h3>
+				<h4>Date: Apr 6, 2016</h4>
+				<br>
+				<p>Progress has been slow on the mods this week due to college finals for the primary developer of ICBM. Most likely unstable releases will not be made Friday. Instead work will be focused on polishing ICBM and starting development on Artillects. This is planned for alpha release in late May.</p>
+                <p>Last week’s stable release for ICBM has been delayed. The new release date has been changed to April 22nd, avoiding rushing a release. This will allow for some additional features to be added. Including a lot of needed bug fixing, and polish work that was missed last week.</p>
+                <p>Our main asset developer, Morton, is back from being MIA due to school work. He has already started on several new additions. Including a new Anti-Missile turret, updated models, and new missiles. As long as he sticks around, you can expect a lot of new content over the next few weeks.</p>
+				<img src="\img\news\missile_micro_launcher_(AA).png" alt="" style="max-width:100%; height:auto;"/><img src="\img\news\missile_micro_segmented.png" alt="" style="max-width:100%; height:auto;"/><img src="\img\news\missile_tier_1_old.png" alt=""style="max-width:100%; height:auto;"/><img src="\img\news\missile_reg_segminted_(wip).png" alt=""style="max-width:100%; height:auto;"/>
+				<br>
+				<b>By: BBM Team</b></p>
+				<hr>
+            </div>
 			<div> 			
 				<h3>New and Updated Packs</h3>
 				<h4>Date: Mar 25, 2016</h4>
