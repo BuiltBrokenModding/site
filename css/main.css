@@ -2,15 +2,37 @@
 
 body
 {
-	width:800px;
+	background:#000000;
 }
 
-ul {
+.top
+{
+	background: #232323;
+	color:#CACACA;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	font-family: pt-sans-narrow;
+	text-shadow:#A4A5ED;
+	font-style: normal;
+	font-weight: 400;
+}
+.nav
+{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	padding-left:200px;
+}
+
+ul
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:#13164F;
 }
 
 li {
