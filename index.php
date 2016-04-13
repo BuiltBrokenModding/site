@@ -27,7 +27,7 @@
 				<h4>Date: Apr 13, 2016</h4>
 				<br>
 				<p>Just like last week, no developer updates will be released. This is because Dark is still busy with college work, but expresses development will continue next week.</p>
-                <p>Dmod has recently finished initial work on the Ohms modpack and has moved it into alpha testing. The modpack can be downloaded on the Curse launcher for testing and feedback is very much appreciated.</p>
+                <p>Dmod has recently finished initial work on the Ohms modpack and has moved it into alpha testing. The modpack can be downloaded on the <a href="http://minecraft.curseforge.com/projects/ohms">Curse launcher</a> for testing and feedback is very much appreciated.</p>
                 <img src="\img\news\ohms_logo.png" alt="" style="max-width:100%; height:auto;"/>
                 <p>Ohms: !!!!Resist the voltage!!!!.</p>
                 <p>There use to be a time when wonder and adventure were the kings of gameplay. A time before gears and transformers ruled the world, when monsters and magic were all that existed. </p>
