@@ -120,7 +120,8 @@
         <span style="display: none;">
         <p> As long as you use the adfly links for download you do not need to ask for permission. You still need to follow the Public modpack rules if the pack is public.</p>
         <h4>Rules & Requirements</h4>
-        <p> Same as public modpacks</p>        
+        <p> Same as public modpacks</p>
+        <p> Please look at http://wiki.atlauncher.com/mod_special_cases:journeymap to know how to do downloads via browser.</p>
         </span>
     </div>
     
