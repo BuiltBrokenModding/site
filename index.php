@@ -23,6 +23,18 @@
     <hr>
     <div class="news">
     		<div> 			
+				<h3>ICBM Stable Release</h3>
+				<h4>Date: Apr 20, 2016</h4>
+				<br>
+				<p>ICBM is on schedule for a stable release at the end of the week. The update should include the remote launching and warhead crafting systems.</p>
+                <p>With the stable release, we are open to more modpacks using ICBM. If you’re interested in using any of BBM’s mods in your pack, please make your requests <a href="https://docs.google.com/forms/d/11BA8es5LNFAXtiF571JN4nQNE5rM5ycshAxbpjWYjjA/viewform">here</a>. Make sure to also follow our modpack rules listed <a href="http://builtbroken.com/pages/modpack.php">here</a>.</p>
+                <!--Add images here: <img src="\img\news\ohms_logo.png" alt="" style="max-width:100%; height:auto;"/>-->
+                <p>We are looking into someone who has offered  to update MFFS to 1.7.10 in collaboration with the BBM team. Once everything is official the mod will be updated for 1.7.10. When we get more news about the update and release data we will be sure to share it with you. </p>
+				<br>
+				<b>By: Green_Cafe</b></p>
+				<hr>
+            </div>
+    		<div> 			
 				<h3>New Modpack!</h3>
 				<h4>Date: Apr 13, 2016</h4>
 				<br>
