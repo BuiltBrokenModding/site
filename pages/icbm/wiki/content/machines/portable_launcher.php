@@ -1,6 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>    
 <h2> Portable Launcher </h2>
-<p> Self contained launcher that can be setup at the front of the fight. Fires a single <a href="/pages/icbm/wiki/content/missiles/small.php">small missile</a> with a range of 200 blocks.</p>
+<p> Self contained launcher that can be setup at the front of the fight. Fires a single <a href="/pages/icbm/wiki/content/missiles/small.php">small missile</a> with a range of 200 blocks.</>
 
 </br>
 <h3> Launcher Screen (GUI) </h3>
