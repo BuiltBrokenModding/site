@@ -1,7 +1,10 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/pages/icbm/wiki/wiki.top.php"); ?>    
 <h2> FoF Station </h2>
 <p> FoF, Friend or Foe, station is a utility machine. It is designed to allow missiles and other devices to be coded with a common id. This way things like the <a href="/pages/icbm/wiki/content/machines/ams.php">AMS turret</a> will not shoot down friendly missiles.  </p>
-<img src="../../../../../img/icbm/fofStation.png" alt="Friend or foe station" style="width:40%;height:40%;"/>
+<img src="../../../../../img/icbm/fofStation.png" alt="Friend or foe station" style="width:30%;height:30%;"/>
+<p>Note: This is the newest model for the FoF Station. (Post: 2.10)</p>
+<img src="../../../../../img/icbm/fofStation_old.png" alt="Friend or foe station" style="width:30%;height:30%;"/>
+<p>Note: This is the older model of the FoF Station. (Pre: 2.10)</p>
 <h3> Linking Machines </h3>
 <p> Using the <a href="/pages/icbm/wiki/content/tools/datachip.php">data chip</a> users can link machines to the FoF system. If the machine is supported it will gain access to the machine's FoF ID. This allows things like the <a href="/pages/icbm/wiki/content/machines/launcher.php">launcher</a> and <a href="/pages/icbm/wiki/content/machines/silo.php">silo</a> to encode a common id. This way machines like the <a href="/pages/icbm/wiki/content/machines/ams.php">AMS turret</a> will not shoot down the missile. So long as the <a href="/pages/icbm/wiki/content/machines/ams.php">AMS turret</a> also shares the same id.
 <h2> Main Gui </h2>
