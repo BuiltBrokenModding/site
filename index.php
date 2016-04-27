@@ -22,6 +22,16 @@
     <h2> News </h2>
     <hr>
     <div class="news">
+    			<div> 			
+				<h3>ICBM Improvements</h3>
+				<h4>Date: Apr 27, 2016</h4>
+				<br>
+				<p>ICBM’s release is delayed and we are pushing to release a stable release now any day now. Until we release, there will be nightly unstable releases so you can keep track of the development working towards the stable version. The mod is in very good shape, but bugs have been found which is delaying the release.</p>
+                <p>We also might be working on a new ocean pack, we’ll keep you posted.</p>
+				<br>
+				<b>By: Green_Cafe</b></p>
+				<hr>
+            </div>
     		<div> 			
 				<h3>ICBM Stable Release</h3>
 				<h4>Date: Apr 20, 2016</h4>
