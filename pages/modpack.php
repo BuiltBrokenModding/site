@@ -120,7 +120,8 @@
         <span style="display: none;">
         <p> As long as you use the adfly links for download you do not need to ask for permission. You still need to follow the Public modpack rules if the pack is public.</p>
         <h4>Rules & Requirements</h4>
-        <p> Same as public modpacks</p>        
+        <p> Same as public modpacks</p>
+        <p> Please look at http://wiki.atlauncher.com/mod_special_cases:journeymap to know how to do downloads via browser.</p>
         </span>
     </div>
     
@@ -192,6 +193,14 @@
         </span>
     </div>
     </div>
+    <p>Click here to apply for modpack permissions.</p>
+    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('BBMR') .style.display=='none') {document.getElementById('BBMR') .style.display=''}else{document.getElementById('BBMR') .style.display='none'}">Show/hide</button>
+    <div id="BBMR" style="display:none">
+    <iframe src="https://docs.google.com/forms/d/11BA8es5LNFAXtiF571JN4nQNE5rM5ycshAxbpjWYjjA/viewform?embedded=true" width="760" height="2500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+    </br>
+    </br>
+
     <script>
         function toggle(thing) {
             var element = thing.parentNode.parentNode.getElementsByTagName('span')[1];

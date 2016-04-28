@@ -2,6 +2,9 @@
 <h2> AMS Turret </h2>
 <p> AMS, anti-missile system, turret is a simple defensive system built into the mod. It allows users to damage and shoot down missiles in an area. </p>
 <img src="../../../../../img/icbm/amsTurret.png" alt="Anti-Missile System Turret" style="width:40%;height:40%;">
+<p>Note: This is the newest model for the AMS-Turret. (Post: 2.10)</p>
+<img src="../../../../../img/icbm/amsTurret_old.png" alt="Anti-Missile System Turret" style="width:40%;height:40%;">
+<p>Note: This is the older model of the AMS-Turret. (Pre: 2.10)</p>
 <h3>Stats</h3>
 <p>Range: 100x 100z 200y<br>Rate of Fire: 2 shots a second<br>Ammo: Items OreDict[nuggets]</p>
 <h3>FoF</h3>
