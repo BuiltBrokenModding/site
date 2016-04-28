@@ -33,7 +33,7 @@
                     <li>Watch Your Step</li>
                 </ul>
          
-                <h4>Mods you don't need aks permissions for</h4>
+                <h4>Mods you don't need ask permissions for</h4>
                 <ul> 
                     <li>Voltz Engine</li> 
                     <li>Coding Lib</li>
@@ -68,7 +68,7 @@
             <li>You need to notify users of the modpack the version is custom</li>
             <li>You need to notify users and BBM staff of the changes you make</li>
             <li>Make sure users of the modpack come to you about bugs first</li>
-            <li>Any bugs you fixed need to be reported to BBM issue tracker on github</li>
+            <li>Any bugs you fixed need to be reported to BBM issue tracker on GitHub</li>
         </ul>
         </span>
     </div>
@@ -79,7 +79,7 @@
             <input type="button" value="^ Show" onclick="toggle(this)">
         </span>
         <span style="display: none;"> 
-        <p>You are welcome to change recipes so the mod fits your theme and progression in the modpack. We ask however you make sure your users know what changes you made. This can be done threw a wiki for the modpack or short desc on the download page for the modpack.</p>
+        <p>You are welcome to change recipes so the mod fits your theme and progression in the modpack. We ask however you make sure your users know what changes you made. This can be done through a wiki for the modpack or short desc. on the download page for the modpack.</p>
         </span>
     </div>
     </br>
@@ -91,7 +91,7 @@
         </span>
         <span style="display: none;">            
             <p>Public modpacks are any collection of mods & files that can be accessed from the web easily. This includes server only modpacks that have no whitelist or password for the download.</p>
-            <p>In order to get rights to distribute the mod as part of a modpack you need to get permissions from Built Broken Modding. To do this just talk to one of our senior devs but be prepared for a few questions about your modpack.</p>
+            <p>In order to get rights to distribute the mod as part of a modpack, you need to get permissions from Built Broken Modding. To do this just talk to one of our senior devs but be prepared for a few questions about your modpack.</p>
             <h4>Requirements</h4>
             <ul style="padding-left:5%;">
                 <li>Solid core theme that doesn't change</li>
@@ -109,7 +109,7 @@
                 <li> Follow Minecraft <a href="https://account.mojang.com/documents/minecraft_eula">EULA</a> </li>
             </ul>
             <h4> Additional stuff </h4>
-            <p> At any time we can revoke your permission without reason or notification. Normally this will only happen if you violate our packs rules, Built Broken Modding EULA, Minecraft EULA, copy right laws, or abuse users. If your permissions are revoke we will try to notify you but are not required to do so. If your permissions are revoke you have up to a few weeks to correct any issues. At which point you can attempt to re-apply for modpack permissions. </p>
+            <p> At any time, we can revoke your permission without reason or notification. Normally this will only happen if you violate our pack's rules, Built Broken Modding EULA, Minecraft EULA, copyright laws, or abuse users. If your permissions are revoked we will try to notify you but are not required to do so. If your permissions are revoked you have up to a few weeks to correct any issues. At which point you can attempt to re-apply for modpack permissions.</p>
         </span>
     </div>
     <div>
@@ -154,7 +154,7 @@
             <input type="button" value="^ Show" onclick="toggle(this)">
         </span>
         <span style="display: none;">           
-            <p>In order for a modpack to be consider server only. It needs to have a whitelist for login or password on the download. </p>           
+            <p>In order for a modpack to be considered server only it needs to have a whitelist for login or password on the download.</p>           
             <h4>Rules & Requirements</h4>
             <p> Same as public modpacks excluding theme, and mod restrictions. </p>
         </span>
@@ -170,21 +170,21 @@
         </span>
         <span style="display: none;">    
             <h4>Do you give out global permissions for all mods you make?</h4>
-            <p> Normally we don't unless a modpack team has created several well made packs</p>
+            <p> Normally we don't unless a modpack team has created several well-made packs</p>
             <h4>Do I need to ask permission for each mod?</h4>
             <p> Yes but you can ask for several mods in one go.</p>
             <h4>Why the rules?</h4>
-            <p> The main idea is to ensure quality of the user's experience. You can blame modpacks that have abused the usage of our mods for these rules. </p>
+            <p> The main idea is to ensure the quality of the user's experience. You can blame modpacks that have abused the usage of our mods for these rules. </p>
             <h4>What is a kitchen soup pack?</h4>
-            <p>Generally its a modpack that has about every mod shoved in creating a 200+ mod setup. </p>
+            <p>Generally, it's a modpack that has about every mod shoved in creating a 200+ mod setup.</p>
             <h4>Why single out kitchen soup packs?</h4>
             <p>There is a list of reason why we don't support these kinds of packs. The mains ones are no theme, compatibility issues, gameplay loss, performance nightmares, and lack of maintenance by the pack author. Not may pack authors can properly put together a very large modpack with a cluster of different themed mods.</p>
             <h4>Do donations count as profit?</h4>
-            <p>Short answer is no. Long answer is there are rules defined by organizations for what counts as a donation and how to use donations. Mainly donations need to be used only for the support of the modpack. This can be just about anything but normally is hiring developers to fix bugs, commissioning art for the pack, commissioning mods for the pack, renting servers, paying for services(IRC cloud, github, skype, file servers). Normally donations should not be used for the modpack creators personal needs. Such as buying toys, games, books, personal services(Pandora, Xbox Live), or in other words things that has not effect on the modpack/users </p>
+            <p>The short answer is no. The long answer is there are rules defined by organizations for what counts as a donation and how to use donations. Mainly donations need to be used only for the support of the modpack. This can be just about anything but normally is hiring developers to fix bugs, commissioning art for the pack, commissioning mods for the pack, renting servers, paying for services(IRC cloud, Github, skype, file servers). Normally donations should not be used for the modpack creators personal needs. Such as buying toys, games, books, personal services(Pandora, Xbox Live), or in other words things that have not effect on the modpack/users.</p>
             <h4>Does adfly count as profit?</h4>
-            <p>This one is in muddy waters. Personally we at BBM say "no sites like adfly do not count as profiting from a mod" this is as long as its treated like a donation. That being said you will need to make sure each mod author is ok with usage of adfly for the entire pack.</p>
+            <p>This one is in muddy waters. Personally, we at BBM say "no sites like adfly do not count as profiting from a mod" this is as long as its treated like a donation. That being said you will need to make sure each mod author is ok with the usage of adfly for the entire pack.</p>
             <h4>Do mod authors really have control over modpacks?</h4>
-            <p>If the modpack contains files created by the mod author then yes. This the same idea as a game company controlling who can install there games. Even the Minecraft EULA has a similar rule preventing the distribution of their files. </p>
+            <p>If the modpack contains files created by the mod author then yes. This the same idea as a game company controlling who can install their games. Even the Minecraft EULA has a similar rule preventing the distribution of their files.</p>
             <h4>Mojang said that mod authors should share their mods in the MC <a href="https://account.mojang.com/documents/minecraft_eula">EULA</a>.</h4>
             <p>Not really, Mojang was implying in a very indirect way they need access to upload/download map data. As well other files that are required for the game to function. </p>
             <h4>Can we sell items on our servers only modpacks?</h4>

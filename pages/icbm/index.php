@@ -17,7 +17,7 @@
 ?>    
     </br>
     <h2>About</h2>
-    <p>ICBM doesn't need much explanation of what it is or isn't. After all ICBM's are super-sized missiles that blow everything up, leaving nothing behind. Wouldn't that make this mod just about destroying the world? No but its a mixed story when it comes to ICBM. At the beginning it was created with the idea that PvP needed a modern twist. Less swords, guns, traps, and more bang for your buck. Since then it has evolved to support those PvE players, and creative players. Adding in cargo, weather, and transportation missiles. Also enabling you to have long ranged combat.</p>
+    <p>ICBM doesn't need much explanation of what it is or isn't. After all ICBM's are super-sized missiles that blow everything up, leaving nothing behind. Wouldn't that make this mod just about destroying the world? No, but it's a mixed story when it comes to ICBM. At the beginning, it was created with the idea that PvP needed a modern twist. Fewer swords, guns, traps, and more bang for your buck. Since then it has evolved to support those PvE players and creative players. Adding in cargo, weather, and transportation missiles. Also enabling you to have long ranged combat.</p>
     </br>
     <h2>Videos</h2>
     <p> These videos were created by the community featuring past versions of the mod. </p>
