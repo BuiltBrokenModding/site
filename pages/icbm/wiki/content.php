@@ -27,8 +27,8 @@
 				'controller' => array('text'=>'Command Controller',  'url'=> $web_root . 'machines/commandController.php'),
 				'display' => array('text'=>'Silo Display',  'url'=> $web_root . 'machines/siloDisplay.php'),
 				'connector' => array('text'=>'Silo Connector',  'url'=> $web_root . 'machines/siloConnector.php'),
-				'detonator' => array('text'=>'Remote Detonator',  'url'=> $web_root . 'machines/remoteDetonator.php'),
-				'laser' => array('text'=>'Laser Detonator',  'url'=> $web_root . 'machines/laserDetonator.php')
+				'detonator' => array('text'=>'Remote Detonator',  'url'=> $web_root . 'tools/remoteDetonator.php'),
+				'laser' => array('text'=>'Laser Detonator',  'url'=> $web_root . 'tools/laserDetonator.php')
             );
     $tools = array(
                 'rlauncher' => array('text'=>'Rocket Launcher',  'url'=> $web_root . 'tools/rocketlauncher.php'),
