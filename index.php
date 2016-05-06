@@ -22,6 +22,16 @@
     <h2> News </h2>
     <hr>
     <div class="news">
+            <div> 			
+				<h3>Akliz Sale</h3>
+				<h4>Date: 5/6/2016</h4>
+				<br>
+				<p><a href="http://www.akliz.net/bbm" >Akliz</a> is having a sale. use the code bbm30 to get 30% off your server for the first month!</p>
+                 <img src="\img\bbm30_5_6_2016.png" alt="" style="max-width:100%; height:auto;"/>
+				<br>
+				<b>By: Dmodoomsirius</b></p>
+				<hr>
+            </div>
     			<div> 			
 				<h3>ICBM Improvements</h3>
 				<h4>Date: Apr 27, 2016</h4>
