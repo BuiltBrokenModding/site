@@ -22,14 +22,17 @@
     <h2> News </h2>
     <hr>
     <div class="news">
-			<div>
+				<div>
 				<h3>Akliz Father day sale</h3>
 				<h4>Date: 6/15/2016</h4>
 				<br>
-				<p>Akliz is having another sale for fathers day. This code only applies for the first month. It starts on 6/16/2016 USA EST at 12:00 AM and ends on 6/19/2016 USA EST at 11:59 PM  </p>
+				<p>Akliz is having another sale for fathers day. This code only applies for the first month. It starts on 6/16/2016 USA EST at 12:00 AM and ends on 6/19/2016 USA EST at 11:59 PM. I will remove information about this sale on 6/19/2016 at 11:59 PM. I hope you all enjoy the services akliz has to offer! </p>
 				<p><a href="http://www.akliz.net/bbm"><img src="img/bbm303x.png" width="400" height="400"></img></a>
+				<br>
+				<b>By: Dmodoomsirius</b></p>
+				<hr>
 			</div>
-            <div>
+				<div>
 				<h3>Akliz Sale</h3>
 				<h4>Date: 5/6/2016</h4>
 				<br>
