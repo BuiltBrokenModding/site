@@ -1,4 +1,4 @@
-var imageArray = ["bt_1_480", "cc_1_480", "icbm_4_480", "rc_1_480", "wb_2_480", "wr_1_480"];
+var imageArray = ["bt_1", "cc_1", "icbm_1", "rc_1", "wb_1", "wr_1"];
 var textArray = ["BT", "CC", "ICBM", "RC", "WB", "WR"];
 var photoImg = document.getElementById("photoBannerImage");
 var photoText = document.getElementById("photoText");
@@ -11,7 +11,7 @@ function fadeOut() {
 	
   if(photoImg.style.opacity <= 0) {
   	imgIndex = (imgIndex + 1) % imageArray.length
-    photoImg.src = "img/banner/" + imageArray[imgIndex] + ".png"
+    photoImg.src = "img/banner/" + imageArray[imgIndex] + "_254.png"
     photoText.innerHTML = textArray[imgIndex];
   	setTimeout(fadeIn, 1000)
   } else {
