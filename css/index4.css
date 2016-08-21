@@ -5,7 +5,7 @@
 	width:100%;
 	height: 64px;
 	margin: 0;
-	background-color: rgba(0, 69, 277, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 	position:absolute;
 	top:0px;
 	left:0px;
@@ -40,7 +40,7 @@
 {
 	display:block;
 	width:1000px;
-	background-color: rgba(121, 211, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 	border: 1px solid black;
 	position: absolute;
 	top: 64px;
@@ -52,7 +52,7 @@
 {
 	display:block;
 	width: 1000px;
-	background-color: rgba(0, 69, 277, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 	border-bottom: 1px solid black;
 }
 
@@ -67,7 +67,7 @@
 	margin-right: 24px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background-color: rgba(80, 143, 72, .75);
+	background-color: rgba(255, 255, 255, .75);
 	
 	text-align:center;
 	text-decoration:none;
@@ -120,7 +120,7 @@
 	display:block;
 	width:130px; /*Change to 150 to link report button to nav area*/
 	height:50px;
-	background-color: rgba(121, 193, 109, 0.75);
+	background-color: rgba(255, 255, 255, 0.5);
 	border: 1px solid black;
 	text-align:left;
 	font-size:12px;
@@ -136,11 +136,11 @@
 	margin:15px;
 	width:770px;
 	height:500px;
-	background-color: rgba(118, 102, 83, 0.75);
+	background-color: rgba(255, 255, 255, 0.5);
 }
 .reportTitle
 {
-	background-color: rgba(164, 145, 124, 0.75);
+	background-color: rgba(255, 255, 255, 0.5);
 	display:block;
 	margin:20px;
 	
@@ -197,6 +197,10 @@
 {
 	display:inline-block;
 	text-align:center;
+	background-color: rgba(255, 255, 255, 0.75);
+	width:240px;
+	height:100px;
+	margin-top:40px;
 }
 
 
