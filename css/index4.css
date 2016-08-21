@@ -192,6 +192,13 @@
 	
 }
 
+/* About page. Block for individual */
+.individual
+{
+	display:inline-block;
+	text-align:center;
+}
+
 
 
 
