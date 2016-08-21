@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -12,7 +11,7 @@
 	<meta name="description" content="Minecraft mods and custom projects from a team of unique developers.">
 	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-<body style='background-image: url("img/Minecraft-Landscape.jpg");'>
+<body style='background-image: url("img/website_bg_1920x1200.png");'>
 	<div class="TopOfPageButNotHeaderCauseNamingItThatWouldBeConfusing">
 		
 		<img src="img/logo_64.png" alt="Built Broken Studios" class="headerImage">
@@ -24,6 +23,7 @@
 		
 		
 	</div>
+	<div class="ContentContainer">
 	<div class="Content">
 		<nav class="navigation">
 			<a href="/index.html" class="ContentButton">Home</a><a href="/mods.html" class="ContentButton">Mods</a><a href="/software.html" class="ContentButton">Software</a><a href="/wiki.html" class="ContentButton">Wiki</a><a href="/about.html" class="ContentButton">About</a>
@@ -37,33 +37,12 @@
 		
 			<!-- News -->
 		<div class="news">
-			<div class="reportList">
-				<!-- Inject stories -->
-				<a href="#report" class="reportButton">Dummy Report<br>by quantomworks<br>7/31/2016</a>
-				<a href="#report2" class="reportButton">Dummy Report 2<br>by quantomworks<br>7/31/2016</a>
-				<a href="#report3" class="reportButton">Dummy Report 3<br>by quantomworks<br>7/31/2016</a>
-				<!-- Inject dividers for months -->
-				<a href="#June2015" class="monthDivider">Month June</a>
-				<a href="#June2015" class="monthArrow">v</a>
-				<!-- Inject stories -->
-				<a href="#report3" class="reportButton">Dummy Report 4<br>by quantomworks<br>6/31/2016</a>
-				<a href="#report3" class="reportButton">Dummy Report 5<br>by quantomworks<br>6/31/2016</a>
-				<a href="#report3" class="reportButton">Dummy Report 6<br>by quantomworks<br>6/31/2016</a>
-				<a href="#report3" class="reportButton">Dummy Report 7<br>by quantomworks<br>6/31/2016</a>
-				<a href="#report3" class="reportButton">Dummy Report 8<br>by quantomworks<br>6/31/2016</a>
-
-				
-				
+			<div class="reportList" id="reportList">
 			</div>
 			<div class="report">
-				<h1 class="reportTitle">Report Title</h1>
-				<section class="reportContent">
-					<p>
-					Report hurrrrr
-					</p>
+				<h1 class="reportTitle" id="reportTitle">Report Title</h1>
+				<section class="reportContent" id="reportContent">
 				</section>
-				
-				
 			</div>
 		</div>
 	
@@ -72,9 +51,10 @@
 	</footer>
 	
 	</div>
-	
+	</div>
 	<!-- All external scripts -->
 	<script type="text/javascript" src="js/banner.js"></script> 
+	<script type="text/javascript" src="js/news.js"></script> 
 </body>
 
 </html>
