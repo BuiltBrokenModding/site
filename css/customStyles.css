@@ -1,0 +1,25 @@
+.ContentButton /*For navigation and news button */
+{
+	width: 140px;
+	height: 25px;
+	padding: 5px;
+	border: 1px solid black;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: rgba(255, 255, 255, .75);
+	
+	text-align:center;
+	text-decoration:none;
+	color:black;
+}
+.individual /*For about page */
+{
+
+	text-align:center;
+	width:185px;
+	height:100px;
+	display:block;
+	float:left;
+}
