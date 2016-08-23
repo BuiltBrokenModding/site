@@ -1,0 +1,32 @@
+.inlineContent
+{
+	background-color:rgba(255, 255, 255, 0.5);
+	display:inline-block;
+	margin:10px;
+	padding:10px;
+}
+.contentArea
+{
+	width:900px;
+	background-color:rgba(255, 255, 255, 0.5);
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	overflow:auto;
+
+}
+.mainContent
+{
+	position: relative;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+body
+{
+	background-image: url("/home/pi/projects/site/img/website_bg_1920x1200.png");
+	font-family:"Verdana", "Arial", sans-serif;
+} 
+
+
