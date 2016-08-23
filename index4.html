@@ -4,7 +4,8 @@
 
 <head>
 	<title>Built Broken Studios</title>
-	<link rel="stylesheet" type="text/css" href="css/index4.css">
+	<link rel="stylesheet" type="text/css" href="css/basicStyles.css">
+	<link rel="stylesheet" type="text/css" href="css/customStyles.css">
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="keywords" content="Minecraft,Mods,ICBM,Addicted To Red,VoltZ Engine,AI Improvements,Assembly Line,Armory,Artillects,Tinker Toys,Military Base Decor,Mod Packs">
 	<meta name="author" content="Built Broken Studios">
@@ -12,47 +13,104 @@
 	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 
-<body style='background-image: url("img/website_bg_1920x1200.png");'>
-	<div class="TopOfPageButNotHeaderCauseNamingItThatWouldBeConfusing">
-		
-		<img src="img/logo_64.png" alt="Built Broken Studios" class="headerImage">
-		<p class="headerText">
+<body>
+	<div class="contentArea" style='
+	width:100%;
+	height: 64px;
+	margin: 0;
+	position:absolute;
+	overflow:visible;
+	top:0px;
+	left:0px;
+	color:white;
+	letter-spacing:2px;
+	border-bottom: 1px solid black;
+	'>
+		<img src="img/logo_64.png" alt="Built Broken Studios" class="inlineContent" style='
+		margin:0;
+		padding:0;
+		background-color:transparent;
+		'>
+		<p class="inlineContent" style='
+		position: absolute;
+		top:0;
+		left: 64;
+		background-color:transparent;
+		'>
 			Built Broken Studios
 			<br>
 			Build it | Break it | Reanimate it 
 		</p>
-		
-		
 	</div>
-	<div class="ContentContainer">
-	<div class="Content">
-		<nav class="navigation">
-			<a href="/index.html" class="ContentButton">Home</a><a href="/mods.html" class="ContentButton">Mods</a><a href="/software.html" class="ContentButton">Software</a><a href="/wiki.html" class="ContentButton">Wiki</a><a href="/about.html" class="ContentButton">About</a>
+	<div class="mainContent" style='top:64px;'>
+		<nav class="inlineContent" style='margin:0; padding:0;'>
+			<a href="/index.html" class="inlineContent ContentButton">Home</a><a href="/mods.html" class="inlineContent ContentButton">Mods</a><a href="/software.html" class="inlineContent ContentButton">Software</a><a href="/wiki.html" class="inlineContent ContentButton">Wiki</a><a href="/about.html" class="inlineContent ContentButton">About</a>
 		</nav>
 		
 			<!-- Javascript photo banner -->
-		<div class="photoBanner" id="photoBanner">
+		<div class="contentArea" style='height: 254px; position: relative; width:1000px; overflow:visible;' id="photoBanner">
 			<img id="photoBannerImage" src="">
-			<div class="bannerBottomLeft" id="photoText">Bottom Left</div>
+			<div style='
+			position: absolute;
+			bottom: 8px;
+			left: 16px;
+			font-size: 18px;
+			color:white;
+			' id="photoText">Bottom Left</div>
 		</div>
 		
-			<!-- News -->
-		<div class="news">
-			<div class="reportList" id="reportList">
+		<!-- News -->
+		<div class="contentArea" style='
+		width: 1000px;
+		border-top: 1px solid black;
+		font-family:"Verdana", "Arial", sans-serif;
+		background:transparent;'>
+			
+			<div class="inlineContent" id="reportList" style='
+			width: 170px;
+			height: 500px;
+			margin:15px;
+			padding:0;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			background:transparent;
+			'>
 			</div>
-			<div class="report">
-				<h1 class="reportTitle" id="reportTitle">Report Title</h1>
-				<section class="reportContent" id="reportContent">
+			<div class="contentArea" style='
+			display:inline-block;
+			float:right;
+			margin:15px;
+			padding:0;
+			width:770px;
+			height:500px;
+			font-size:12px;
+			'>
+				<h1 style='
+				background-color: rgba(255, 255, 255, 0.5);
+				display:block;
+				margin:20px;				
+				' id="reportTitle">Report Title</h1>
+				<section class="inlineContent" id="reportContent"
+				style='
+				display:block;
+				overflow-y: scroll;
+				overflow-x: hidden;
+				margin:20px;
+				padding:0;
+				height: 400px;
+				background:transparent;
+				'>
 				</section>
 			</div>
 		</div>
 	
-	<footer class="footer">
-	Copyright Contract-Link
+	<br>
+	<footer class="contentArea" style='width:990px; padding-left:10px; word-spacing:20px;'>
+		Copyright Contract-Link
 	</footer>
 	
 	</div>
-	</div>
+	
 	<!-- All external scripts -->
 	<script type="text/javascript" src="js/banner.js"></script> 
 	<script type="text/javascript" src="js/news.js"></script> 
