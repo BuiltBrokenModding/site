@@ -26,6 +26,9 @@
 body
 {
 	background-image: url("/home/pi/projects/site/img/website_bg_1920x1200.png");
+	background-color: rgba(0, 0, 0, 1);
+	background-repeat: no-repeat;
+
 	font-family:"Verdana", "Arial", sans-serif;
 } 
 
