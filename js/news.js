@@ -13,6 +13,15 @@ function onNewsClick(aN) //Article Number
 {
 	document.getElementById("reportTitle").innerHTML = news[aN].title;
 	document.getElementById("reportContent").innerHTML = news[aN].content;
+	/*
+	if(news[aN].content.length > 100)
+	{
+		document.getElementById("reportContent").style.overflowy = "scroll";
+	}
+	else
+	{
+		document.getElementById("reportContent").style.overflowy = "hidden";
+	}*/
 }
 
 //Load latest article by default.
