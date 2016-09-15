@@ -22,6 +22,56 @@
     <h2> News </h2>
     <hr>
     <div class="news">
+                <div>
+				<h3>A new direction</h3>
+				<h4>Date: 9/15/2016</h4>
+				<br>
+				<p>Over the next year I'm going to slowly step down as the head developer of BBM. I will still remain with the organization as long as it exists. However, I will be taking a less active role in what the organization does each day. This has been the plan since I created the origanazation from the start. </p>
+                <p>When I created the organization the dream was to build a community driven company. Where the users would run the show from start to finish. With only a small group of head developers ensuring the entire thing doesn't burn down. Even though I don't feel the organization is too this point yet. I am going to work towards letting others run the organization. I feel this is the right move to make and will allow me to focus on my other projects. As well as allow the organization to grow and depend on me less to keep it functioning.</p>
+                <ul>
+                    <li><b>Now here is how the plan is going to break down for this to happen</b></li>
+                    <li>A) <b>Finish our current projects </b> <br> I do not plan to leave anything in an unfinished or unstable state. I will continue to work on all projects until I belieave they are out of beta. However, I will not be updating to newer versions of Minecraft at this time. I will leave this up to other developers in the organization to handle. As I am no longer going to hand hold any of our interns. </li>
+                    <li>B) <b>Find more developers and build up a knowledge/training document pool </b> <br> Right now we only have about 5-7 solid members in the organization. The rest just pop in once in a while and try to help out. This mean me and a few others will be working towards recruiting more staff members. As well building up a really solid set of training and procedure documents for people to follow. After all even though the ogranization will be community run it will function like a company. Meaning all staff members will be trained and expected to do there jobs well. </li>
+                    <li>C) <b>Setup our forum</b> <br> In order for the organization to be community run a forum will be created. This will allow users to talk to developer and work out plans for the future. This will also include a way to promote users to position and include a solid staff structure. This way random users can't gain access to important feature in order to steal information or destroy the community.</li>
+                    <li>D) <b>Design the Empire Engine</b> <br> The entire reason for me stepping down is so I can work on my own game. Also know as the Empire Engine, which is going to be designed as a modding platform for game developers. In which games are build and designed in the same way modpacks are designed. </li>
+                    <li>E) <b>Build Prototypes</b> <br> Before anything is finalized the prototype needs to be a success. If it fails then I will most likely return to being more active in modding again. After all I need something to allow my creativity to flow threw. If it is not a game then modding is the next best option. </li>
+                </ul>
+                <ul>
+                    <li><b>Plan per project:</b></li>
+                    <li>AI Improvements: <font color="green">[Continue]</font> </li>
+                    <li>Addicted to Red: <font color="green">[Continue]</font> </li>
+                    <li>AMPz: <font color="green">[Continue]</font> </li> 
+                    <li>Artillects: <font color="red">[Cancled]</font> </li>                    
+                    <li>Armory: <font color="red">[Canceled but might be simplified instead]</font> </li>
+                    <li>Atomic Science: <font color="blue">[On Hold, waiting on redesign]</font> </li>
+                    <li>Basic Industries: <font color="blue">[On Hold, waiting on redesign]</font> </li>
+                    <li>Deep Dark Below: <font color="blue">[On hold]</font> </li>
+                    <li>Hertz: <font color="blue">[On hold]</font></li>
+                    <li>ICBM: <font color="green">[Til death do us part]</font>
+                      <ul>  
+                        <li>Autocrafting:     <font color="green">[Continue]</font> </li>
+                        <li>Warhead Station:     <font color="green">[Continue]</font> </li>
+                        <li>Large Missile:     <font color="blue">[On hold]</font> </li>
+                        <li>Medium Missile:    <font color="blue">[On hold]</font> </li>
+                        <li>Space Addon:       <font color="blue">[On hold]</font> </li>
+                      </ul>
+                    </li>
+                    <li>It Hurts to Die: <font color="red">[Cancled]</font> </li>
+                    <li>Madscience: <font color="red">[Return to author]</font> </li>
+                    <li>OHMz: <font color="green">[Continue]</font> </li> 
+                    <li>Playable Races: <font color="red">[Cancled]</font> </li>
+                    <li>Sentry Guns: <font color="red">[Cancled]</font> </li>
+                    <li>Single Block Mod Series: <font color="green">[Continue]</font> </li>
+                    <li>Tinker Toys: <font color="red">[Cancled]</font> </li>    
+                    <li>Voltz:  <font color="green">[Continued to spite Technic Team]</font>
+                    <li>Watch Your Step: <font color="red">[Cancled]</font> </li>  
+                    <li>Anything missing will be covered later </li>
+                </ul>
+                <p> Keep in mind even if we cancel a project BBM still hold ownership of the intellectual property, binary, design, code, and anything else related to the project. As well these plans are subject to change without warning or notice. Some canceled projects may be continued, redesigned, or merged by other members of the organization. It entirely depends on what everyone else is willing to do in order to keep things going. I myself have marked these projects as canceled as I was the only driving force behind them. </p>
+				<br>
+				<b>By: Darkguardsman</b></p>
+				<hr>
+			</div>
 				<div>
 				<h3>Akliz Father day sale</h3>
 				<h4>Date: 6/15/2016</h4>
