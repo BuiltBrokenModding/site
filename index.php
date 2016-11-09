@@ -26,8 +26,8 @@
 				<h3>The plan</h3>
 				<h4>Date: 9/15/2016</h4>
 				<br>
-                <p> I noted this on Youtube and twitter a while back that I have a new plan. As well I have a new deal for you, the users, that should make you all happy. I will not be leaving modding right away. Yes, I know I said I would be leaving but here is what I mean. I will not leave until A. I find a replacement B. All mods are updated to 1.10 C. Everything is in a nice shape before I leave. As well if you, the users, can keep update downloads & donations I will stick around. Basicly I will consider donations as you, the users, hiring me to keep working on my mods. The more donations I get the longer I will work per week on the mods, up to 50 hours as I do need to sleep & do school work. </p>
-                <p> Outside of this new deal I have a plan for getting all the mods rolling out the door faster. To start with the plan per project list that I posted when I said I would quit is subject to change. This will include Assembly Line which is now set for alpha release this week. It hurts to die will be continued for Voltz only. Assembly line will be continued and progress will start next week. Expected released date is here in 2-3 weeks depending on how long it takes to write. Sentry guns and Tinker Toys are no longer canceled but are on hold until they can be designed. </p>
+                <p> I noted this on YouTube and Twitter a while back that I have a new plan. As well I have a new deal for you, the users, that should make you all happy. I will not be leaving modding right away. Yes, I know I said I would be leaving but here is what I mean. I will not leave until A. I find a replacement B. All mods are updated to 1.10 C. Everything is in a nice shape before I leave. As well if you, the users, can keep up downloads & donations I will stick around. Basically, I will consider donations from you, the users, as hiring me to keep working on my mods. The more donations I get the longer I will work per week on the mods, up to 50 hours a week. Right now I will be putting in 15-20 hours a week until all the projects are updated. </p>
+                <p> Outside of the deal, I have a plan for getting all the mods rolling out the door faster. To start with the plan per project list that I posted when I said I would quit is subject to modification. Some changes will include Assembly Line which is now set for alpha release this week. It hurts to die will be continued for Voltz and may be released next year. The Armory mod will be continued and progress will start next week. The expected released date is here in 2-3 weeks depending on how long it takes to write. Sentry guns and Tinker Toys are no longer canceled but are on hold until they can be designed. More changes will be announced as I work on the mods. If you want to stay updated with progress follow me on <a href="https://www.youtube.com/user/WNxDarkGuardsman">YouTube</a> where I will be releasing nearly daily tech demos as I work, <a href="http://imgur.com/user/Intaves/submitted">Imgur</a> where I will be posting information on updates, or <a href="https://twitter.com/DarkGuardsman">Twitter</a> where I will announce changes.</p>
                 <h4>Work plan</h4>
                 <p> Bellow is my work plan and is subject to change. Dates are the start of the week unless its a release date. </p>
                 <ul>
@@ -44,7 +44,8 @@
                     <li> 12/11 - Bug Fixing </li>     
                     <li> 12/18 - Voltz 2.0 Alpha </li>                       
                 </ul>
-                </div>
+                <hr>
+            </div>
                 <div>
 				<h3>A new direction</h3>
 				<h4>Date: 9/15/2016</h4>
