@@ -22,13 +22,13 @@
     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
     <div id="spoiler" style="display:none">
     <?php 
-        //print(file_get_contents("http://$_SERVER[SERVER_NAME]//downloads/dev/ICBM/downloads-1.7.10.php"));
+        include($_SERVER['DOCUMENT_ROOT'] . "/downloads/dev/ICBM/downloads-1.7.10.php");
     ?>
     </div>
     </br>
     </br>
     <?php
-        print(file_get_contents("http://$_SERVER[SERVER_NAME]//php/maven.php"));
+        include($_SERVER['DOCUMENT_ROOT'] . "/php/maven.php");
     ?>
     
 <?php
