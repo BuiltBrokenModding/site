@@ -1,9 +1,9 @@
-<?php 
+<?php
     $page_title = "ICBM MC1.7";
     $mod_name = "ICBM";
     $mod_sub ="Minecraft missile mod";
     include($_SERVER['DOCUMENT_ROOT'] . "/php/top.mod.downloads.php");
-    
+
 ?>
     <h2>Info</h2>
     <p>By downloading these files you agree to the <a href="https://raw.githubusercontent.com/Universal-Electricity/ICBM/master/license.md">EULA</a> </p>
@@ -18,15 +18,11 @@
     <p> Most of our stable releases are done through curse. So feel free to use the link above to get downloads. </p>
     <h2>Development Downloads</h2>
     <p> These downloads are hot off our build servers with the latest features. Download at your own risk and don't be suprised if they crash. </p>
-    
+
     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
     <div id="spoiler" style="display:none">
-    <?php 
-<<<<<<< HEAD
+    <?php
         include($_SERVER['DOCUMENT_ROOT'] . "/downloads/dev/ICBM/downloads-1.7.10.php");
-=======
-        //print(file_get_contents("http://$_SERVER[SERVER_NAME]//downloads/dev/ICBM/downloads-1.7.10.php"));
->>>>>>> Disabled downloads on page for temp
     ?>
     </div>
     </br>
@@ -34,7 +30,7 @@
     <?php
         include($_SERVER['DOCUMENT_ROOT'] . "/php/maven.php");
     ?>
-    
+
 <?php
 include($_SERVER['DOCUMENT_ROOT'] . "/php/bottom.php");
 ?>
