@@ -10,7 +10,7 @@
     <p> Currently ICBM is a work in progress and not completed. Expect missing crafting recipes, items, blocks, and features. </p>
     </br>
     <p><b> Sponsored by: </b></p>
-    <p><img src="http://i577.photobucket.com/albums/ss215/bobstrong/Screenshot%202015-08-15%2002.26.05_zpsflostlsv.png" alt=" photo Screenshot 2015-08-15 02.26.05_zpsflostlsv.png" border="0" /></p>
+    <p><img src="../../../img/aklizLogo1.png" alt="Akliz logo" border="0" /></p>
     <p>Sign up for excellent hosting with&nbsp;<a href="http://www.akliz.net/bbm">http://www.akliz.net/bbm</a></p>
     </br>
     <h2>Curse Downloads</h2>
