@@ -22,7 +22,11 @@
     <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
     <div id="spoiler" style="display:none">
     <?php 
+<<<<<<< HEAD
         include($_SERVER['DOCUMENT_ROOT'] . "/downloads/dev/ICBM/downloads-1.7.10.php");
+=======
+        //print(file_get_contents("http://$_SERVER[SERVER_NAME]//downloads/dev/ICBM/downloads-1.7.10.php"));
+>>>>>>> Disabled downloads on page for temp
     ?>
     </div>
     </br>
