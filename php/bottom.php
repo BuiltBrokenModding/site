@@ -1,6 +1,5 @@
 <hr>
 </div>
-<?php include("adsense.php"); ?>
 </div>
 			<div id="footer">
 				<p>
