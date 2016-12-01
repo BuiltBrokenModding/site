@@ -151,6 +151,7 @@ CREATE TABLE `users` (
   `idusers` int(11) NOT NULL,
   `name` varchar(55) NOT NULL,
   `email` varchar(55) NOT NULL,
+  `hash` varchar(100) NOT NULL,
   PRIMARY KEY (`idusers`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -181,4 +182,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-12-01  4:39:50
+-- Dump completed on 2016-12-01  4:54:46
