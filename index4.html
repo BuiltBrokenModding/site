@@ -115,12 +115,14 @@
 	<!-- All external scripts -->
 	<script type="text/javascript" src="js/banner.js"></script> 
 	<script type="text/javascript" src="js/news.js"></script> 
+	<script type="text/javascript" src="js/indexBannerData.js"></script> 
 	<script type="text/javascript">
 	bannerInit("img/banner/",
-	["bt_1_254", "cc_1_254", "icbm_1_254", "rc_1_254", "wb_1_254", "wr_1_254"],
-	["BT", "CC", "ICBM", "RC", "WB", "WR"],
 	document.getElementById("photoBannerImage"),
-	document.getElementById("photoText"));
+	document.getElementById("photoText"),
+	indexDataArray,
+	7000);
+	
 	</script>
 </body>
 
