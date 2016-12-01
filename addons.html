@@ -48,61 +48,46 @@
 			
 			<div class="contentArea" style='width:1000px; background:transparent;'>
 				<!-- Banner right, head and content left [Featured addons]--> 
-				<div class="inlineContent" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;'>Featured Mod Image <br> 500x500</div>				
+				<div class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;'>Featured Mod Image <br> 500x500</div>				
 				<div class="inlineContent" style='width:500px; height:500px; float:right; margin-left:0; margin-right:0; padding:0;'>
-					<h2 id="ProjectTitle">Title</h2>
-					<p id="ProjectDescription">Description</p>
+					<h2 id="projectTitle">Title</h2>
+					<p id="projectDescription">Description</p>
 				</div>
 				<!-- Surrounder -->
 			</div>
-			<div class="contentArea" style='width:1000px; background:transparent;'>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 1</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 2</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 3</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 4</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 5</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 6</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 7</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 8</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 9</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-				<div class="inlineContent" style='width:160px; height:200px; float:left;'>
-					<h4>Addon 10</h4>
-					<p style='font-size:12px'><br> <br> <br> <br> <br> Description with image in background.</p>
-				</div>
-					
-			</div>
-			
-
-				<!-- Individual images with descriptor -->
+			<div class="contentArea" id="projectIcon" style='width:1000px; background:transparent;'>
+								<!-- Individual images with descriptor -->
 				
 				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
+			</div>
+			
+			<script type="text/javascript" src="js/banner.js"></script> 
+			<script type="text/javascript" src="js/addonData.js"></script> 
+			<script type="text/javascript">
+				//Init banner
+			bannerInit("img/addons/",
+			document.getElementById("projectImage"),
+			document.getElementById("projectTitle"),
+			addonDataArray,
+			7000,
+			document.getElementById("projectDescription")
+			);
+				//Generate Icons
+			for (var i=0; i < addonDataArray.length; i++)
+			{
+				//Cut the description into 3 words for the icon.
+				var shortenedDesription = addonDataArray[i].description.split(/\s+/).slice(0,3).join(" ");
+				//Create image tag           [example].png          exampe'160x160' +            example160x160[.png]
+				var imageSource = addonDataArray[i].image.split(".")[0] + "160x160." + addonDataArray[i].image.split(".")[1];
+				
+				//Create div text
+				var injection = '<a href="showcasePage.php#"' + addonDataArray[i].title + '><div class="inlineContent" style="width:160px; height:200px; float:left;"><h4>' + addonDataArray[i].title + '</h4><img src="' + imageSource + '"><p style="font-size:12px; position:abolute; bottom:30px;">' + shortenedDesription + '</p></div></a>';
+				
+				//Inject div
+				document.getElementById("projectIcon").innerHTML += injection;
+			}
+
+			</script>
 		
 		<footer class="contentArea" style='width:990px; padding-left:10px; word-spacing:20px;'>
 			©2016 BuiltBrokenStudios <a href="/about.html" class="inlineContent infoButton">About</a> <a href="/about.html" class="inlineContent infoButton">Contract</a>

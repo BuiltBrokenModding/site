@@ -16,7 +16,7 @@ function bannerInit(imgSource, photoDiv, titleDiv, dataArray, timeOut, descripti
 		titleDiv.innerHTML = dataArray[imgIndex].title;
 		if(descriptionDiv !== undefined)
 		{
-			desciptionDiv.innerHTML = dataArray[imgIndex].description;
+			descriptionDiv.innerHTML = dataArray[imgIndex].description;
 		}
 		
 		setTimeout(fadeIn, 1000)
