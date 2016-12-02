@@ -8,45 +8,27 @@
 ?>    
     <div class="news">
     <div>
+        <h2>Abstract</h2>
+        <p> This page covers the general modpack rules and guidlines for mods created by Built Broken Modding and Gaming. Make sure to read the entire page and any supporting documents if you plan to make a modpack with any mods created by the BBM Team.</p>
         <h2>Permissions</h2>
-        <p>Modpacks with permissions for ICBM will be listed <a href="https://docs.google.com/spreadsheets/d/13SXh1AeaJx07Tt4MXCg-Kz5mNxXLI-ilShrIZlSC8E8/edit?usp=sharing">here</a></p>
-        </br>
         <div>
-            <h2>Mods covered by this page</h2>
-            <span>
-                <input type="button" value="^ Show" onclick="toggle(this)">
-            </span>
-            <span style="display: none;">  
-                <h4>Mods you need permissions for</h4>
-                <ul> 
-                    <li>Addicted To Red</li>
-                    <li>AI-Improvements</li>
-                    <li>Armory</li>
-                    <li>Assembly Line</li>
-                    <li>Basic Industry</li>
-                    <li>Corruptions</li>
-                    <li>Farm Tech</li>
-                    <li>ICBM</li>
-                    <li>ICBM-Classic</li>
-                    <li>Mining 101</li>
-                    <li>Military Base Decor</li>
-                    <li>Watch Your Step</li>
-                </ul>
-         
-                <h4>Mods you don't need ask permissions for</h4>
+                <h4>Mods this page applies towards</h4>
+                <p>**Just ask if the mod is not listed**</p>  
                 <ul> 
                     <li>Voltz Engine</li> 
-                    <li>Coding Lib</li>
-                    <li>Any mod in the Single Blocks Mod series </li>
+                    <li>ICBM</li> 
+                    <li>Single Block Mods</li>                                       
                 </ul>
+                <h4>Automatic Permission</h4>
+                <p> Due to how difficult it was to keep up with permission requests we no longer require permissions for modpacks. However, you still need to follow our modpack guidelines and rules. This way users get the best experience possible while enjoying the mods we make.</p>         
                 <h4>Mods we don't allow in packs</h4>
                 <ul> 
                     <li>Creations - by client's request </li> 
                     <li>Minecraft JUnit - this is a dev only tool </li>
                     <li>VoltzEngineEssentials - should be installed by a server admin</li>
-                </ul>
-            </span>
-            </br>
+                </ul>                
+                 <h4> NOTICE </h4>
+                    <p> At any time we can revoke your permission with or without reason or notification. Normally this will only happen if you violate our pack's rules, Built Broken Modding EULA, Minecraft EULA, copyright laws, US law, or abuse users. If your permissions are revoked we will try to notify you but are not required. If your permissions are revoked you can make corrects to your modpack and apply for an appeal. Once your permission is revoked you will have a limited time to remove the mods from violating modpack. You are not required to remove old version but all new updates should no longer supply the mod. If the mod is not removed the hosting site will be notified of the violation. </p>
             </br>
             </br>
         </div>
@@ -58,7 +40,7 @@
             <input type="button" value="^ Show" onclick="toggle(this)">
         </span>
         <span style="display: none;"> 
-        <p> We ask that you get approval for custom versions before using them</p>
+        <p> We ask that you get approval for custom versions before using them in your packs. This is honestly just a formatlity so we can ensure the customations are not harmful to users.</p>
 
         <p>Once you get approval you need to follow these guidelines</p>
         <ul style="padding-left:5%;">
@@ -68,7 +50,7 @@
             <li>You need to notify users of the modpack the version is custom</li>
             <li>You need to notify users and BBM staff of the changes you make</li>
             <li>Make sure users of the modpack come to you about bugs first</li>
-            <li>Any bugs you fixed need to be reported to BBM issue tracker on GitHub</li>
+            <li>Any bugs you fixed in the orginal version need to be reported to BBM issue tracker on GitHub</li>
         </ul>
         </span>
     </div>
@@ -91,7 +73,6 @@
         </span>
         <span style="display: none;">            
             <p>Public modpacks are any collection of mods & files that can be accessed from the web easily. This includes server only modpacks that have no whitelist or password for the download.</p>
-            <p>In order to get rights to distribute the mod as part of a modpack, you need to get permissions from Built Broken Modding. To do this just talk to one of our senior devs but be prepared for a few questions about your modpack.</p>
             <h4>Requirements</h4>
             <ul style="padding-left:5%;">
                 <li>Solid core theme that doesn't change</li>
@@ -107,9 +88,7 @@
                 <li> Have permissions for other mods</li>
                 <li> Make no profit off the pack</li>
                 <li> Follow Minecraft <a href="https://account.mojang.com/documents/minecraft_eula">EULA</a> </li>
-            </ul>
-            <h4> Additional stuff </h4>
-            <p> At any time, we can revoke your permission without reason or notification. Normally this will only happen if you violate our pack's rules, Built Broken Modding EULA, Minecraft EULA, copyright laws, or abuse users. If your permissions are revoked we will try to notify you but are not required to do so. If your permissions are revoked you have up to a few weeks to correct any issues. At which point you can attempt to re-apply for modpack permissions.</p>
+            </ul>           
         </span>
     </div>
     <div>
@@ -118,7 +97,7 @@
             <input type="button" value="^ Show" onclick="toggle(this)">
         </span>
         <span style="display: none;">
-        <p> As long as you use the adfly links for download you do not need to ask for permission. You still need to follow the Public modpack rules if the pack is public.</p>
+        <p> We request that you use our adfly links to help support the development of the mods.</p>
         <h4>Rules & Requirements</h4>
         <p> Same as public modpacks</p>
         <p> Please look at http://wiki.atlauncher.com/mod_special_cases:journeymap to know how to do downloads via browser.</p>
@@ -131,7 +110,7 @@
             <input type="button" value="^ Show" onclick="toggle(this)">
         </span>
         <span style="display: none;">
-        <p> As long as you use curse download links you do not need to ask for permission. You still need to follow the Public modpack rules if the pack is public.</p>
+        <p> Make sure to use the offical curse downloads for the mods.</p>
         <h4>Rules & Requirements</h4>
         <p> Same as public modpacks</p>        
         </span>
@@ -145,7 +124,7 @@
         <span style="display: none;">           
             <p>A private modpack is any pack you give to your buddies. That is not downloaded from a website and can't be accessed by random users.</p>
             <h4>Rules & Requirements</h4>
-            <p> Same as public modpacks excluding theme, and mod restrictions.</p>
+            <p> You can do what ever you want so long as you follow the general public pack rules. Though we care less how you design the modpack or make's theme. However, keep in mind there is a fine line between public and private modpacks. If you pack goes over a set number of users, say 40, then its honestly just a public modpack with a whitelist.</p>
         </span>
     </div>
     
@@ -155,7 +134,7 @@
             <input type="button" value="^ Show" onclick="toggle(this)">
         </span>
         <span style="display: none;">           
-            <p>In order for a modpack to be considered server only it needs to have a whitelist for login or password on the download.</p>           
+            <p>In order for a modpack to be considered server only it needs to have a restricted download so only server members can access the files.</p>           
             <h4>Rules & Requirements</h4>
             <p> Same as public modpacks excluding theme, and mod restrictions. </p>
         </span>
@@ -171,9 +150,7 @@
         </span>
         <span style="display: none;">    
             <h4>Do you give out global permissions for all mods you make?</h4>
-            <p> Normally we don't unless a modpack team has created several well-made packs</p>
-            <h4>Do I need to ask permission for each mod?</h4>
-            <p> Yes but you can ask for several mods in one go.</p>
+            <p> Normally we don't unless a modpack team has created several well-made packs</p>          
             <h4>Why the rules?</h4>
             <p> The main idea is to ensure the quality of the user's experience. You can blame modpacks that have abused the usage of our mods for these rules. </p>
             <h4>What is a kitchen soup pack?</h4>
@@ -192,11 +169,7 @@
             <p>In almost all cases no. However, if you plan to sell cosmetic only items you need to come talk to us. At which point we will lay down the requirements and explain what is allowed under the MC EULA.</p>
         </span>
     </div>
-    </div>
-    <p>Click here to apply for modpack permissions.</p>
-    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('BBMR') .style.display=='none') {document.getElementById('BBMR') .style.display=''}else{document.getElementById('BBMR') .style.display='none'}">Show/hide</button>
-    <div id="BBMR" style="display:none">
-    <iframe src="https://docs.google.com/forms/d/11BA8es5LNFAXtiF571JN4nQNE5rM5ycshAxbpjWYjjA/viewform?embedded=true" width="760" height="2500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>    
     </div>
     </br>
     </br>
