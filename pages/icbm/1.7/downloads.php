@@ -9,8 +9,7 @@
     <p>By downloading these files you agree to the <a href="https://raw.githubusercontent.com/Universal-Electricity/ICBM/master/license.md">EULA</a> </p>
     <p> Currently ICBM is a work in progress and not completed. Expect missing crafting recipes, items, blocks, and features. </p>
     </br>
-    <p><b> Sponsored by: </b></p>
-    <p><img src="../../../img/aklizLogo1.png" alt="Akliz logo" border="0" /></p>
+   <p><a href="http://www.akliz.net/bbm"><img src="../../../img/akliz/icbm_sponsored.png" alt="All mods sponsored by Akiliz" border="0" width="50%" height="50%"/></a></p>	
     <p>Sign up for excellent hosting with&nbsp;<a href="http://www.akliz.net/bbm">http://www.akliz.net/bbm</a></p>
     </br>
     <h2>Curse Downloads</h2>

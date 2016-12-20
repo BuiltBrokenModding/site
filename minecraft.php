@@ -11,7 +11,7 @@
    <h1>Minecraft Modding</h1>
     <p style="padding:0em 1em;">Do you love <a href="https://minecraft.net/">Minecraft</a>? We love it too, so much in fact that we have created mods to extend it way beyond its original design.</p> </br>
     <p><b> Sponsored by: </b></p>
-    <p><a href="http://www.akliz.net/bbm"><img src="http://i577.photobucket.com/albums/ss215/bobstrong/Screenshot%202015-08-15%2002.26.05_zpsflostlsv.png" alt=" photo Screenshot 2015-08-15 02.26.05_zpsflostlsv.png" border="0" /></a></p>	
+    <p><a href="http://www.akliz.net/bbm"><img src="img/akliz/akliz_promo_code_2.png" alt="All mods sponsored by Akiliz" border="0" width="50%" height="50%"/></a></p>	
     </br>
     <h1>Active Projects</h1>
      </br>
