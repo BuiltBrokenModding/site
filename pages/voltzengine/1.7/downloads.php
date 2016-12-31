@@ -13,7 +13,7 @@
 	 <div id="spoiler" style="display:none">
     <iframe src="http://widget.mcf.li/mc-mods/minecraft/227048-voltz-engine?version=1.7.10" width="100%" style="border: none;"></iframe>
     <?php
-        include($_SERVER['DOCUMENT_ROOT'] . "/downloads/dev/VoltzEngine/downloads-1.7.10.php"));
+        include($_SERVER['DOCUMENT_ROOT'] . "/downloads/dev/VoltzEngine/downloads-1.7.10.php");
     ?>
     </div>
     </br>
