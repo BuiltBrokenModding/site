@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<title>Projects</title>
+		<link rel="stylesheet" type="text/css" href="css/basicStyles.css">
+		<link rel="stylesheet" type="text/css" href="css/customStyles.css">
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="Minecraft,Mods,ICBM,Addicted To Red,VoltZ Engine,AI Improvements,Assembly Line,Armory,Artillects,Tinker Toys,Military Base Decor,Mod Packs, Addons">
+		<meta name="author" content="quantomworks">
+		<meta name="description" content="Projects! A whole lot of projects. Built and/or maintained by Built Broken Studios.">
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	</head>
+	
+	<body>
+	<div class="contentArea" style='
+	width:100%;
+	height: 64px;
+	margin: 0;
+	position:absolute;
+	overflow:visible;
+	top:0px;
+	left:0px;
+	color:white;
+	letter-spacing:2px;
+	border-bottom: 1px solid black;
+	'>
+		<img src="img/logo_64.png" alt="Built Broken Studios" class="inlineContent" style='
+			margin:0;
+			padding:0;
+			background-color:transparent;
+			'>
+			<p class="inlineContent" style='
+			position: absolute;
+			top:0;
+			left: 64;
+			background-color:transparent;
+			'>
+				Built Broken Studios
+				<br>
+				Build it | Break it | Reanimate it 
+			</p>
+		<div class="mainContent" style='text-align:center;'>
+			<nav class="inlineContent" style='margin:0; padding:0;'>
+			<a href="/index.html" class="inlineContent ContentButton">Home</a><a href="/software.html" class="inlineContent ContentButton">Projects</a><a href="/mods.html" class="inlineContent ContentButton">Addons</a>
+			</nav> 
+			
+			<div class="contentArea" style='width:1000px; background:transparent;'>
+				<!-- Banner right, head and content left [Featured addons]--> 
+				<div class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;'>Featured Mod Image <br> 500x500</div>				
+				<div class="inlineContent" style='width:500px; height:500px; float:right; margin-left:0; margin-right:0; padding:0;'>
+					<h2 id="projectTitle">Title</h2>
+					<p id="projectDescription">Description</p>
+				</div>
+				<!-- Surrounder -->
+			</div>
+			<div class="contentArea" id="projectIcon" style='width:1000px; background:transparent;'>
+								<!-- Individual images with descriptor -->
+				
+				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
+			</div>
+			
+			<script type="text/javascript" src="js/banner.js"></script> 
+			<script type="text/javascript" src="js/projectData.js"></script> 
+			<script type="text/javascript">
+				//Init banner
+			bannerInit("img/projects/",
+			document.getElementById("projectImage"),
+			document.getElementById("projectTitle"),
+			projectDataArray,
+			7000,
+			document.getElementById("projectDescription")
+			);
+				//Generate Icons
+			for (var i=0; i < projectDataArray.length; i++)
+			{
+				//Cut the description into 3 words for the icon.
+				var shortenedDesription = projectDataArray[i].description.split(/\s+/).slice(0,3).join(" ");
+				//Create image tag           [example].png          exampe'160x160' +            example160x160[.png]
+				var imageSource = projectDataArray[i].image.split(".")[0] + "160x160." + projectDataArray[i].image.split(".")[1];
+				
+				//Create div text
+				var injection = '<a href="showcasePage.php#"' + projectDataArray[i].title + '><div class="inlineContent" style="width:160px; height:200px; float:left;"><h4>' + projectDataArray[i].title + '</h4><img src="' + imageSource + '"><p style="font-size:12px; position:abolute; bottom:30px;">' + shortenedDesription + '</p></div></a>';
+				
+				//Inject div
+				document.getElementById("projectIcon").innerHTML += injection;
+			}
+
+			</script>
+		
+		<footer class="contentArea" style='width:990px; padding-left:10px; word-spacing:20px;'>
+			©2016 BuiltBrokenStudios <a href="/about.html" class="inlineContent infoButton">About</a> <a href="/about.html" class="inlineContent infoButton">Contract</a>
+		</footer>
+		
+		</div>
+	</div>
+	
+</html>
+
+

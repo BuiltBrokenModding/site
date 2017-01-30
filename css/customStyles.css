@@ -1,0 +1,59 @@
+.ContentButton /*For navigation and news button */
+{
+	width: 140px;
+	height: 25px;
+	padding: 5px;
+	border: 1px solid black;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: rgba(29, 226, 240, .6);
+	
+	text-align:center;
+	text-decoration:none;
+	color:black;
+}
+.infoButton /*For about button and footer info*/
+{
+	width: 140px;
+	height: 15px;
+	padding: 5px;
+	border: 1px solid black;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: rgba(77, 108, 195, .5);
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}
+.individual /*For about page */
+{
+
+	text-align:center;
+	width:185px;
+	height:80px;
+	padding:auto;
+	display:block;
+	float:left;
+}
+.reportButton
+{
+	margin:5px;
+	padding-left:10px;
+	display:block;
+	width:130px; /*Change to 150 to link report button to nav area*/
+	height:50px;
+	background-color: rgba(29, 226, 240, 0.4);
+	border: 1px solid black;
+	text-align:left;
+	font-size:12px;
+	padding-top:5px;
+	text-decoration:none;
+	color:white;
+}
+
+
+
