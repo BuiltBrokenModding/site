@@ -1,0 +1,37 @@
+.inlineContent
+{
+	background-color:rgba(182, 145, 186, 0.2);
+	display:inline-block;
+	margin:10px;
+	padding:10px;
+}
+.contentArea
+{
+	width:900px;
+	background-color:rgba(13, 30, 63, 0.5);
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	overflow:auto;
+
+}
+.mainContent
+{
+	position: relative;
+	color:white;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgba(182, 145, 186, 0.1);
+}
+body
+{
+	background-image: url("../img/site-back.png");
+	background-position: center 75px;
+	background-color: rgba(37, 42, 46, 1);
+	background-repeat: no-repeat;
+
+	font-family:"Verdana", "Arial", sans-serif;
+} 
+
+

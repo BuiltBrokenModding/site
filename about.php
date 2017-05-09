@@ -8,7 +8,7 @@
     <p>Built Broken Studios is a small software and game studio based in Ohio, USA. We develop just about anything that peaks our interest. Some of our projects can be seen <a href="project.php">here</a>. Our main focus is making software that supports or add to existing games.</p>
     </br>
     <h2> The Team </h2>
-		<p> Bellow are people who work on our main development team for all projects </p>
+		<p> Below are people who work on our main development team for all projects. </p>
         <div class="employees">
             <div>
                 <p>
@@ -48,7 +48,7 @@
         </br>
         </br> 
 		<h2> Modding Team </h2> 
-		<p> Bellow are volunteers who work as part of our community modding organization. </p>
+		<p> Below are volunteers who work as part of our community modding organization. </p>
         <div class="employees">            
             <div>
                 <p>Hennamann,<br>
@@ -90,7 +90,7 @@
         </br>
         </br>		
     <h2> Credits </h2>
-	<p> Bellow are people who have worked with us on just about anything. Full credit list can be seen on Github per project. </p>
+	<p> Below are people who have worked with us on just about anything. Full credit list can be seen on Github per project. </p>
         <div class="employees">          
 			<div>
                 <p>Snow,<br>
