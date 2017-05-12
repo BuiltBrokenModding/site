@@ -27,11 +27,30 @@
 body
 {
 	background-image: url("../img/site-back.png");
-	background-position: center 75px;
+	background-position: center 64px;
 	background-color: rgba(37, 42, 46, 1);
 	background-repeat: no-repeat;
-
+	
+	
 	font-family:"Verdana", "Arial", sans-serif;
 } 
 
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
 
