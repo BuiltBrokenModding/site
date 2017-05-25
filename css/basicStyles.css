@@ -26,9 +26,9 @@
 }
 body
 {
-	background-image: url("../img/site-back.png");
+	background-image: url("../img/site-back-gradient.png");
 	background-position: center 64px;
-	background-color: rgba(37, 42, 46, 1);
+	background-color: rgba(13, 30, 63, 1);
 	background-repeat: no-repeat;
 	
 	
