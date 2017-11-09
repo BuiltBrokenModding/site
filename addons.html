@@ -43,15 +43,15 @@
 			</p>
 		<div class="mainContent" style='text-align:center;'>
 			<nav class="inlineContent" style='margin:0; padding:0;'>
-			<a href="/index.html" class="inlineContent ContentButton">Home</a><a href="/software.html" class="inlineContent ContentButton">Projects</a><a href="/mods.html" class="inlineContent ContentButton">Addons</a>
+			<a href="index.php" class="inlineContent ContentButton">Home</a><a href="/software.html" class="inlineContent ContentButton">Projects</a><a href="/mods.html" class="inlineContent ContentButton">Addons</a>
 			</nav> 
 			
 			<div class="contentArea" style='width:1000px; background:transparent;'>
 				<!-- Banner right, head and content left [Featured addons]--> 
-				<div class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;'>Featured Mod Image <br> 500x500</div>				
+				<img class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;' src="">				
 				<div class="inlineContent" style='width:500px; height:500px; float:right; margin-left:0; margin-right:0; padding:0;'>
 					<h2 id="projectTitle">Title</h2>
-					<p id="projectDescription">Description</p>
+					<p id="projectDescription" style="padding: 10px">Description</p>
 				</div>
 				<!-- Surrounder -->
 			</div>
@@ -78,10 +78,10 @@
 				//Cut the description into 3 words for the icon.
 				var shortenedDesription = addonDataArray[i].description.split(/\s+/).slice(0,3).join(" ");
 				//Create image tag           [example].png          exampe'160x160' +            example160x160[.png]
-				var imageSource = addonDataArray[i].image.split(".")[0] + "160x160." + addonDataArray[i].image.split(".")[1];
+				var imageSource = addonDataArray[i].image;//.split(".")[0] + "160x160." + addonDataArray[i].image.split(".")[1];
 				
 				//Create div text
-				var injection = '<a href="showcasePage.php#"' + addonDataArray[i].title + '><div class="inlineContent" style="width:160px; height:200px; float:left;"><h4>' + addonDataArray[i].title + '</h4><img src="' + imageSource + '"><p style="font-size:12px; position:abolute; bottom:30px;">' + shortenedDesription + '</p></div></a>';
+				var injection = '<a href="showcasePage.php?"' + addonDataArray[i].title + '><div class="inlineContent" style="width:160px; height:300px; float:left;"><h4>' + addonDataArray[i].title + '</h4><img src="' + imageSource + '" width=160px height=160px><p style="font-size:12px; position:abolute; bottom:30px;">' + shortenedDesription + '</p></div></a>';
 				
 				//Inject div
 				document.getElementById("projectIcon").innerHTML += injection;
