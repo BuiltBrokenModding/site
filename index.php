@@ -118,6 +118,10 @@
 		
 	//Since the elements are already handled using javascript and json, I pull it from a database, format it and store it in a var for processing.
 	var json = <?php
+		ini_set('display_errors', 1);
+		ini_set('display_startup_errors', 1);
+		error_reporting(E_ALL);
+
 		
 		try
 		{
