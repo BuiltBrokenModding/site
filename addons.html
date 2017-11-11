@@ -51,11 +51,28 @@
 				<img class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;' src="">				
 				<div class="inlineContent" style='width:500px; height:500px; float:right; margin-left:0; margin-right:0; padding:0;'>
 					<h2 id="projectTitle">Title</h2>
-					<p id="projectDescription" style="padding: 10px">Description</p>
+					<p id="projectDescription" style="padding: 10px">MFFS contains a series of machines focused on converting energy to Forton for the use in generating force fields. The primary machine is a force field projector which is fed by capacitors and generators. The projector can be modified with cards and upgrades in order to change logic. These upgrades include several field shapes, size scaling, position offset, and utility modules. For example, the upgrade to shock attacks, kill monsters, remove blocks, and protect tiles.</p>
 				</div>
 				<!-- Surrounder -->
 			</div>
-			<div class="contentArea" id="projectIcon" style='width:1000px; background:transparent;'>
+			<h2>Mods</h2>
+			
+			<div class="contentArea" id="projectData" style='width:1000px; background:transparent;'>
+								<!-- Individual images with descriptor -->
+				
+				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
+			</div>
+			<hr>
+			<h2>Extensions</h2>
+			
+			<div class="contentArea" id="extensions" style='width:1000px; background:transparent;'>
+								<!-- Individual images with descriptor -->
+				
+				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
+			</div>
+			<hr>
+			<h2>Single Block Mods</h2>
+			<div class="contentArea" id="sbmArea" style='width:1000px; background:transparent;'>
 								<!-- Individual images with descriptor -->
 				
 				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
@@ -76,15 +93,31 @@
 			for (var i=0; i < addonDataArray.length; i++)
 			{
 				//Cut the description into 3 words for the icon.
-				var shortenedDesription = addonDataArray[i].description.split(/\s+/).slice(0,3).join(" ");
+				//var shortenedDesription = addonDataArray[i].description.split(/\s+/).slice(0,3).join(" ");
 				//Create image tag           [example].png          exampe'160x160' +            example160x160[.png]
 				var imageSource = addonDataArray[i].image;//.split(".")[0] + "160x160." + addonDataArray[i].image.split(".")[1];
 				
 				//Create div text
-				var injection = '<a href="showcasePage.php?"' + addonDataArray[i].title + '><div class="inlineContent" style="width:160px; height:300px; float:left;"><h4>' + addonDataArray[i].title + '</h4><img src="' + imageSource + '" width=160px height=160px><p style="font-size:12px; position:abolute; bottom:30px;">' + shortenedDesription + '</p></div></a>';
+				var injection = '<a href="showcasePage.php?"' + addonDataArray[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + addonDataArray[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px></div></a>';
+				
+				
 				
 				//Inject div
-				document.getElementById("projectIcon").innerHTML += injection;
+				document.getElementById("projectData").innerHTML += injection;
+			}
+			
+			for (var i=0; i < extensionData.length; i++)
+			{
+				var imageSource = extensionData[i].image;
+				var injection = '<a href="showcasePage.php?"' + extensionData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + extensionData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				document.getElementById("extensions").innerHTML += injection;
+			}
+			
+			for (var i=0; i < sbmData.length; i++)
+			{
+				var imageSource = sbmData[i].image;
+				var injection = '<a href="showcasePage.php?"' + sbmData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + sbmData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				document.getElementById("sbmArea").innerHTML += injection;
 			}
 
 			</script>
