@@ -43,13 +43,8 @@
 		</p>
 	</div>
 	
-	<div class="contentArea" style="width:300px; height:600px; position: absolute; top:300px; left:30px">
+	<div class="contentArea" id="leftAd" style="width:300px; height:600px; position: relative; left:30px; float: left">
 		</div>
-	
-	<div class="contentArea" style="width:300px; height:600px; position: absolute; top:300px; left: 1400px;">
-		</div>
-		
-	
 	
 	<div class="mainContent" style="top:60px; text-align:center;">
 		
