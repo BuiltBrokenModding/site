@@ -118,61 +118,78 @@
 		
 	//Since the elements are already handled using javascript and json, I pull it from a database, format it and store it in a var for processing.
 	var json = <?php
-		$servername = "localhost"; //Currently pulls from my webserver. Pass sql credentials or write a php file that I can include that wont show on github.
-		$username = "webreader";
-		$password = "default";
-		$dbname = "bbs";
 		
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		
-		if ($conn->connect_error) {
-			die("Connection failed: " . $conn->connect_error);
-		} 
-		
-		$rows = array();
-		
-		$sql = "SELECT title, author, date, content FROM News";
-		$result = $conn->query($sql);
-		if ($result->num_rows > 0) {
-			while($row = $result->fetch_assoc()) {
-				$rows[] = $row;
+		try
+		{
+			$servername = "localhost"; //Currently pulls from my webserver. Pass sql credentials or write a php file that I can include that wont show on github.
+			$username = "webreader";
+			$password = "default";
+			$dbname = "bbs";
+
+			$conn = new mysqli($servername, $username, $password, $dbname);
+
+			if ($conn->connect_error) {
+				die("Connection failed: " . $conn->connect_error);
+			} 
+
+			$rows = array();
+
+			$sql = "SELECT title, author, date, content FROM News";
+			$result = $conn->query($sql);
+			if ($result->num_rows > 0) {
+				while($row = $result->fetch_assoc()) {
+					$rows[] = $row;
+				}
+			} else {
+				echo "0 results";
 			}
-		} else {
-			echo "0 results";
+			$conn->close();
+
+			print json_encode($rows);
 		}
-		$conn->close();
-		
-		print json_encode($rows);
+		catch (Exception $e)
+		{
+			echo '';
+		}
 		
 		?>;
-	var news = JSON.stringify(json);
-	news = JSON.parse(news);
-
-	for (var i=0; i < news.length; i++)
-	{
-		var str = news[i].title;
-		var titleHash = str.replace(/\s+/g, '');
-		document.getElementById("reportList").innerHTML += '<a onClick="onNewsClick(' + i + ')" href="#' + titleHash + '" class="reportButton">' + news[i].title + '<br>by ' + news[i].author + '<br>' + news[i].date + '</a>';
-	}
-
-	function onNewsClick(aN) //Article Number
-	{
-		document.getElementById("reportTitle").innerHTML = news[aN].title;
-		document.getElementById("reportContent").innerHTML = news[aN].content;
-		/*
-		if(news[aN].content.length > 100)
+	if(json != '')
 		{
-			document.getElementById("reportContent").style.overflowy = "scroll";
+			var news = JSON.stringify(json);
+			news = JSON.parse(news);
+
+			for (var i=0; i < news.length; i++)
+			{
+				var str = news[i].title;
+				var titleHash = str.replace(/\s+/g, '');
+				document.getElementById("reportList").innerHTML += '<a onClick="onNewsClick(' + i + ')" href="#' + titleHash + '" class="reportButton">' + news[i].title + '<br>by ' + news[i].author + '<br>' + news[i].date + '</a>';
+			}
+
+			function onNewsClick(aN) //Article Number
+			{
+				document.getElementById("reportTitle").innerHTML = news[aN].title;
+				document.getElementById("reportContent").innerHTML = news[aN].content;
+				/*
+				if(news[aN].content.length > 100)
+				{
+					document.getElementById("reportContent").style.overflowy = "scroll";
+				}
+				else
+				{
+					document.getElementById("reportContent").style.overflowy = "hidden";
+				}*/
+			}
+
+			//Load latest article by default.
+			document.getElementById("reportTitle").innerHTML = news[0].title;
+			document.getElementById("reportContent").innerHTML = news[0].content;
 		}
 		else
-		{
-			document.getElementById("reportContent").style.overflowy = "hidden";
-		}*/
-	}
-
-	//Load latest article by default.
-	document.getElementById("reportTitle").innerHTML = news[0].title;
-	document.getElementById("reportContent").innerHTML = news[0].content;
+			{
+				document.getElementById("reportTitle").innerHTML = 'Could not load news.';
+				document.getElementById("reportContent").innerHTML = 'Could not connect to our news servers :(. Refresh the page and try again.';
+			}
+	
 
 		
 	</script> 
