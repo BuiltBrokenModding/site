@@ -118,9 +118,9 @@
 		
 	//Since the elements are already handled using javascript and json, I pull it from a database, format it and store it in a var for processing.
 	var json = <?php
-		$servername = "sfxworks.net"; //Currently pulls from my webserver. Pass sql credentials or write a php file that I can include that wont show on github.
-		$username = "bbmdev";
-		$password = "bbmpass";
+		$servername = "localhost"; //Currently pulls from my webserver. Pass sql credentials or write a php file that I can include that wont show on github.
+		$username = "webreader";
+		$password = "default";
 		$dbname = "bbs";
 		
 		$conn = new mysqli($servername, $username, $password, $dbname);
