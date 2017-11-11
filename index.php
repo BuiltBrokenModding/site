@@ -42,7 +42,18 @@
 			Build it | Break it | Reanimate it 
 		</p>
 	</div>
+	
+	<div class="contentArea" style="width:300px; height:600px; position: absolute; top:300px; left:30px">
+		</div>
+	
+	<div class="contentArea" style="width:300px; height:600px; position: absolute; top:300px; left: 1400px;">
+		</div>
+		
+	
+	
 	<div class="mainContent" style="top:60px; text-align:center;">
+		
+		
 		<nav class="inlineContent" style="margin:0; padding:0;">
         	
 			<a href="index.php" class="inlineContent ContentButton">Home</a><a href="/projects.php" class="inlineContent ContentButton">Projects</a><a href="/addons.html" class="inlineContent ContentButton">Addons</a>
@@ -59,6 +70,8 @@
 			color:white;
 			" id="photoText">Bottom Left</div>
 		</div>
+		
+		
 		
 		<!-- News -->
 		<div class="contentArea" style="
