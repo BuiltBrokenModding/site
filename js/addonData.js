@@ -86,7 +86,7 @@ var addonDataArray = [
 },
 {
 	"image":"https://media-elerium.cursecdn.com/avatars/37/144/635948024970699904.png",
-	"title":"External Announcements",
+	"title":"External Announce",
 	"description":"External Announcements is a very basic modpack maker utility mod. That allows creating an external news file that will display in game. To provide updates about modpacks, server, or just advertise information."
 },
 {
@@ -107,4 +107,77 @@ var addonDataArray = [
 
 
 
+];
+
+var extensionData = [
+{
+	"image":"https://media-elerium.cursecdn.com/avatars/91/863/636250605977785432.jpeg",
+	"title":"VE-FluidHandling",
+	"description":"VoltzEngine Fluid Module is an independent library from VoltzEngine to provide shared access to fluid prefabs. This includes a few fluids, fluid blocks, and fluid containers to be used. By itself, the mod provides a simple iron bucket that supports partial filling and all fluid types, unlike the vanilla bucket." //Short description for icon auto generated and derived from first 3 words of description.
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/97/872/636295131722875078.png",
+	"title":"[Armory] Sentry AA & AMS",
+	"description":"This mod adds Anti-Air and Anti-Missile automated sentry defense blocks using the Armory Mod." //Short description for icon auto generated and derived from first 3 words of description.
+}
+];
+
+
+var sbmData = [
+{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/416/636352804082625020.png",
+	"title":"Cardboard Boxes",
+	"description":"Simplistic storage for moving tiles while maintaining inventories, and settings. "
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/414/636352803496841942.png",
+	"title":"Wooden Rails",
+	"description":"This mod is focused on providing early game access to minecart systems. As well provides a nice cosmetic look for building projects that may require something other than metal carts. " 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/417/636352804583967369.png",
+	"title":"Bone Torch",
+	"description":"The idea behind this mod is very simple. I was traveling thru the nether and ran out of torches. Having just used my last wood to makes chests I was doomed. Or was I? I noticed I had coal and bones in my inventory from kill wither skeletons. This gave me the idea, \"Why can't I place coal on a bone\". 10 mins later Bone Torches were born from my abomination workshop." 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/413/636352803189646521.png",
+	"title":"Wooden Buckets",
+	"description":"The original concept behind this mod was to gain access to water for farming early game. As finding iron early game required either mining or exploring, both of which are normally completed after setting up food. Most players work around the issue by farming near water. Which is fine but can be a chore in some landscapes. To solve for this wooden buckets was created to allow for gathering different fluids types without the need for iron." 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/410/636352801827383550.png",
+	"title":"Oil Ore",
+	"description":"This mod was created to support modpacks that did not desire to have fluid based oil. It works just like any other ore spawning randomly in the world. It can be mined with stone tools and turned into oil without needing large mods. The oil item can be combined with a bucket to create fuel or burn in place of coal items at half the burn time of lava." 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/403/636352798911741430.png",
+	"title":"Bagable Plants",
+	"description":"This mod was created as a way to solve moving mutli-block sized plants and plants that can't be picked up. Namely tea trees from Apple Milk Tea mod which require silk touch to be moved. " 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/451/636352913546540787.gif",
+	"title":"Wooden Shears",
+	"description":"This mod was created to remove the need to find iron in order to have shears for simple tasks. Such as getting vines or wool for early game recipes. As well to cut down on the need to have iron on hand later game in order to collect a few quick items." 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/409/636352801185802191.png",
+	"title":"Helm Bucket",
+	"description":"This mod is really simple in concept and design. It allows you to take your helmet and use it to pick up basic fluid blocks in the same way as a bucket. The goal of the mod is to provide early game solutions to simple problems. With the main problem being accessing iron to create gardens or fuel machines." 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/408/636352800817522828.png",
+	"title":"Grappling Hook",
+	"description":"The idea behind this most is super simple. It is an item that fires a hook out in a direction to grab onto objects. It then provides a rope between the target and player. This rope allows the player to pull them in, suspend themselves mid-air, or slowly lower down to the ground" 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/407/636352800440799928.png",
+	"title":"Gas Can",
+	"description":"Gas can is a skin addon for VE-FluidHandler adding a new fluid container styled after a metal red gas can. Very simple but useful for role-playing modpacks." 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/404/636352799450360290.png",
+	"title":"Cacti Bucket",
+	"description":"It's as simple as it gets, you can make a bucket out of cacti" 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/50/397/636090474310431269.png",
+	"title":"Magic Mirror",
+	"description":"This mod was suggested by Kodos on Discord as a way to quickly exit dungeons and caves. When a user has a magic mirror in their inventory it will start recording location data. After 1 min of time above ground it will charge up and start working. Once charged it will record the first location when a user exits above ground. Five seconds after not returning to the surface the mirror will mark a teleport location. With a location marked the user can activate the mirror for a few seconds to teleport back to the location." 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/411/636352802804626341.png",
+	"title":"Red Cow",
+	"description":"This is a parody of the popular Red bull energy drink that works just like it does in the commercials. In other words, it is a drink that will give Steve wings. " 
+},{
+	"image":"https://media-elerium.cursecdn.com/avatars/105/405/636352799906726517.png",
+	"title":"Colored Chests",
+	"description":"Colored Chests is a very simple mod that adds a new chest block that can be colored to fit any theme. " 
+}
 ];
