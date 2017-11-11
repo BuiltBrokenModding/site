@@ -45,7 +45,7 @@
 	<div class="mainContent" style="top:60px; text-align:center;">
 		<nav class="inlineContent" style="margin:0; padding:0;">
         	
-			<a href="index.php" class="inlineContent ContentButton">Home</a><a href="project.php" class="inlineContent ContentButton">Projects</a><a href="minecraft.php" class="inlineContent ContentButton">Addons</a>
+			<a href="index.php" class="inlineContent ContentButton">Home</a><a href="/projects.php" class="inlineContent ContentButton">Projects</a><a href="/addons.html" class="inlineContent ContentButton">Addons</a>
 		</nav>
 		
 			<!-- Javascript photo banner -->
@@ -107,7 +107,7 @@
 	
 	<br>
 	<footer class="contentArea" style="width:990px; padding-left:10px; word-spacing:20px;">
-		©2016 BuiltBrokenStudios <a href="about.html" class="inlineContent infoButton">About</a> <a href="about.html" class="inlineContent infoButton">Contact</a>
+		©2017 BuiltBrokenStudios <a href="about.html" class="inlineContent infoButton">About</a> <a href="contact.html" class="inlineContent infoButton">Contact</a>
 	</footer>
 	
 	</div>
@@ -118,9 +118,9 @@
 		
 	//Since the elements are already handled using javascript and json, I pull it from a database, format it and store it in a var for processing.
 	var json = <?php
-		$servername = "localhost"; //Currently pulls from my webserver. Pass sql credentials or write a php file that I can include that wont show on github.
-		$username = "webreader";
-		$password = "default";
+		$servername = "sfxworks.net"; //Currently pulls from my webserver. Pass sql credentials or write a php file that I can include that wont show on github.
+		$username = "bbmdev";
+		$password = "bbmpass";
 		$dbname = "bbs";
 		
 		$conn = new mysqli($servername, $username, $password, $dbname);
