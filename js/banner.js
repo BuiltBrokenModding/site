@@ -12,7 +12,7 @@ function bannerInit(imgSource, photoDiv, titleDiv, dataArray, timeOut, descripti
 		
 	  if(photoDiv.style.opacity <= 0) {
 		imgIndex = (imgIndex + 1) % dataArray.length
-		photoDiv.src = imgSource + dataArray[imgIndex].image + ".png"
+		photoDiv.src = dataArray[imgIndex].image;
 		titleDiv.innerHTML = dataArray[imgIndex].title;
 		if(descriptionDiv !== undefined)
 		{

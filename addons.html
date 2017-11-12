@@ -42,20 +42,43 @@
 				Build it | Break it | Reanimate it 
 			</p>
 		<div class="mainContent" style='text-align:center;'>
+		<div class="contentArea" id="leftAd" style="width:300px; height:600px; position: absolute; top:100px; left:-400px; margin: 0; padding: 0; overflow: hidden;">
+		</div>
+		
+		<div class="contentArea" id="rightAd" style="width:300px; height:600px; position: absolute; top:100px; left:1100px; margin: 0; padding: 0; overflow: hidden;">
+		</div>
+
 			<nav class="inlineContent" style='margin:0; padding:0;'>
-			<a href="/index.html" class="inlineContent ContentButton">Home</a><a href="/software.html" class="inlineContent ContentButton">Projects</a><a href="/mods.html" class="inlineContent ContentButton">Addons</a>
+			<a href="index.html" class="inlineContent ContentButton">Home</a><a href="/projects.html" class="inlineContent ContentButton">Projects</a><a href="/addons.html" class="inlineContent ContentButton">Addons</a>
 			</nav> 
 			
 			<div class="contentArea" style='width:1000px; background:transparent;'>
 				<!-- Banner right, head and content left [Featured addons]--> 
-				<div class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;'>Featured Mod Image <br> 500x500</div>				
+				<img class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;' src="">				
 				<div class="inlineContent" style='width:500px; height:500px; float:right; margin-left:0; margin-right:0; padding:0;'>
 					<h2 id="projectTitle">Title</h2>
-					<p id="projectDescription">Description</p>
+					<p id="projectDescription" style="padding: 10px">MFFS contains a series of machines focused on converting energy to Forton for the use in generating force fields. The primary machine is a force field projector which is fed by capacitors and generators. The projector can be modified with cards and upgrades in order to change logic. These upgrades include several field shapes, size scaling, position offset, and utility modules. For example, the upgrade to shock attacks, kill monsters, remove blocks, and protect tiles.</p>
 				</div>
 				<!-- Surrounder -->
 			</div>
-			<div class="contentArea" id="projectIcon" style='width:1000px; background:transparent;'>
+			<h2>Mods</h2>
+			
+			<div class="contentArea" id="projectData" style='width:1000px; background:transparent;'>
+								<!-- Individual images with descriptor -->
+				
+				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
+			</div>
+			<hr>
+			<h2>Extensions</h2>
+			
+			<div class="contentArea" id="extensions" style='width:1000px; background:transparent;'>
+								<!-- Individual images with descriptor -->
+				
+				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
+			</div>
+			<hr>
+			<h2>Single Block Mods</h2>
+			<div class="contentArea" id="sbmArea" style='width:1000px; background:transparent;'>
 								<!-- Individual images with descriptor -->
 				
 				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
@@ -63,6 +86,7 @@
 			
 			<script type="text/javascript" src="js/banner.js"></script> 
 			<script type="text/javascript" src="js/addonData.js"></script> 
+			<script type="text/javascript" src="js/adscript.js"></script> 
 			<script type="text/javascript">
 				//Init banner
 			bannerInit("img/addons/",
@@ -76,21 +100,37 @@
 			for (var i=0; i < addonDataArray.length; i++)
 			{
 				//Cut the description into 3 words for the icon.
-				var shortenedDesription = addonDataArray[i].description.split(/\s+/).slice(0,3).join(" ");
+				//var shortenedDesription = addonDataArray[i].description.split(/\s+/).slice(0,3).join(" ");
 				//Create image tag           [example].png          exampe'160x160' +            example160x160[.png]
-				var imageSource = addonDataArray[i].image.split(".")[0] + "160x160." + addonDataArray[i].image.split(".")[1];
+				var imageSource = addonDataArray[i].image;//.split(".")[0] + "160x160." + addonDataArray[i].image.split(".")[1];
 				
 				//Create div text
-				var injection = '<a href="showcasePage.php#"' + addonDataArray[i].title + '><div class="inlineContent" style="width:160px; height:200px; float:left;"><h4>' + addonDataArray[i].title + '</h4><img src="' + imageSource + '"><p style="font-size:12px; position:abolute; bottom:30px;">' + shortenedDesription + '</p></div></a>';
+				var injection = '<a href="showcasePage.php?"' + addonDataArray[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + addonDataArray[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px></div></a>';
+				
+				
 				
 				//Inject div
-				document.getElementById("projectIcon").innerHTML += injection;
+				document.getElementById("projectData").innerHTML += injection;
+			}
+			
+			for (var i=0; i < extensionData.length; i++)
+			{
+				var imageSource = extensionData[i].image;
+				var injection = '<a href="showcasePage.php?"' + extensionData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + extensionData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				document.getElementById("extensions").innerHTML += injection;
+			}
+			
+			for (var i=0; i < sbmData.length; i++)
+			{
+				var imageSource = sbmData[i].image;
+				var injection = '<a href="showcasePage.php?"' + sbmData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + sbmData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				document.getElementById("sbmArea").innerHTML += injection;
 			}
 
 			</script>
 		
 		<footer class="contentArea" style='width:990px; padding-left:10px; word-spacing:20px;'>
-			©2016 BuiltBrokenStudios <a href="/about.html" class="inlineContent infoButton">About</a> <a href="/about.html" class="inlineContent infoButton">Contract</a>
+			©2017 BuiltBrokenStudios <a href="about.html" class="inlineContent infoButton">About</a> <a href="contact.html" class="inlineContent infoButton">Contact</a>
 		</footer>
 		
 		</div>
