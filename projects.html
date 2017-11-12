@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 	<head>
-		<title>Addons</title>
+		<title>Projects</title>
 		<link rel="stylesheet" type="text/css" href="css/basicStyles.css">
 		<link rel="stylesheet" type="text/css" href="css/customStyles.css">
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -22,6 +22,7 @@
 	overflow:visible;
 	top:0px;
 	left:0px;
+	color:white;
 	color:white;
 	letter-spacing:2px;
 	border-bottom: 1px solid black;
@@ -56,41 +57,27 @@
 				<!-- Banner right, head and content left [Featured addons]--> 
 				<img class="inlineContent" id="projectImage" style='width:500px; height:500px; float:left; margin-left:0; margin-right:0; padding:0;' src="">				
 				<div class="inlineContent" style='width:500px; height:500px; float:right; margin-left:0; margin-right:0; padding:0;'>
-					<h2 id="projectTitle">Title</h2>
-					<p id="projectDescription" style="padding: 10px">MFFS contains a series of machines focused on converting energy to Forton for the use in generating force fields. The primary machine is a force field projector which is fed by capacitors and generators. The projector can be modified with cards and upgrades in order to change logic. These upgrades include several field shapes, size scaling, position offset, and utility modules. For example, the upgrade to shock attacks, kill monsters, remove blocks, and protect tiles.</p>
+					<h2 id="projectTitle">Work In Progress</h2>
+					<p id="projectDescription" style="padding: 10px"></p>
 				</div>
 				<!-- Surrounder -->
 			</div>
-			<h2>Mods</h2>
+			<h2>Work In Progress</h2>
 			
 			<div class="contentArea" id="projectData" style='width:1000px; background:transparent;'>
 								<!-- Individual images with descriptor -->
 				
 				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
 			</div>
-			<hr>
-			<h2>Extensions</h2>
 			
-			<div class="contentArea" id="extensions" style='width:1000px; background:transparent;'>
-								<!-- Individual images with descriptor -->
-				
-				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
-			</div>
-			<hr>
-			<h2>Single Block Mods</h2>
-			<div class="contentArea" id="sbmArea" style='width:1000px; background:transparent;'>
-								<!-- Individual images with descriptor -->
-				
-				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
-			</div>
-			
-			<script type="text/javascript" src="js/banner.js"></script> 
-			<script type="text/javascript" src="js/addonData.js"></script> 
+			<!--<script type="text/javascript" src="js/banner.js"></script>  -->
+			<!-- <script type="text/javascript" src="js/projectData.js"></script> -->
 			<script type="text/javascript" src="js/adscript.js"></script> 
 			<script type="text/javascript">
+				/*
 				//Init banner
 			bannerInit("img/addons/",
-			document.getElementById("projectImage"),
+			document.gprojectDataetElementById("projectImage")projectData,
 			document.getElementById("projectTitle"),
 			addonDataArray,
 			7000,
@@ -125,8 +112,7 @@
 				var imageSource = sbmData[i].image;
 				var injection = '<a href="showcasePage.php?"' + sbmData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + sbmData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("sbmArea").innerHTML += injection;
-			}
-
+			}*/
 			</script>
 		
 		<footer class="contentArea" style='width:990px; padding-left:10px; word-spacing:20px;'>
@@ -137,5 +123,3 @@
 	</div>
 	
 </html>
-
-
