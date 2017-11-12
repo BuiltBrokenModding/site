@@ -46,7 +46,7 @@
 	display:block;
 	width:150px; /*Change to 150 to link report button to nav area*/
 	height:50px;
-	background-color: rgba(29, 226, 240, 0.4);
+	background-color: rgba(29, 226, 240, 0.4); 
 	border: 1px solid black;
 	text-align:left;
 	font-size:12px;

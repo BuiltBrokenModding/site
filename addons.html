@@ -42,6 +42,12 @@
 				Build it | Break it | Reanimate it 
 			</p>
 		<div class="mainContent" style='text-align:center;'>
+		<div class="contentArea" id="leftAd" style="width:300px; height:600px; position: absolute; top:100px; left:-400px; margin: 0; padding: 0; overflow: hidden;">
+		</div>
+		
+		<div class="contentArea" id="rightAd" style="width:300px; height:600px; position: absolute; top:100px; left:1100px; margin: 0; padding: 0; overflow: hidden;">
+		</div>
+
 			<nav class="inlineContent" style='margin:0; padding:0;'>
 			<a href="index.php" class="inlineContent ContentButton">Home</a><a href="/projects.php" class="inlineContent ContentButton">Projects</a><a href="/addons.html" class="inlineContent ContentButton">Addons</a>
 			</nav> 
@@ -55,48 +61,24 @@
 				</div>
 				<!-- Surrounder -->
 			</div>
-			<h2>Mods</h2>			
+			<h2>Mods</h2>
+			
 			<div class="contentArea" id="projectData" style='width:1000px; background:transparent;'>
 								<!-- Individual images with descriptor -->
 				
 				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
 			</div>
-			<hr>     
-            
-			<h2>[SBM] Single Block Mod Series</h2>
-			<div class="contentArea" id="sbmArea" style='width:1000px; background:transparent;'>
-								<!-- Individual images with descriptor -->
-				
-				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
-			</div>
-            <hr>            
-            
-            <h2>Armory Mods</h2>			
-			<div class="contentArea" id="armoryArea" style='width:1000px; background:transparent;'>
-								<!-- Individual images with descriptor -->
-				
-				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
-			</div>
 			<hr>
-            
-            <h2>Libs and dependencies</h2>			
-			<div class="contentArea" id="libArea" style='width:1000px; background:transparent;'>
-								<!-- Individual images with descriptor -->
-				
-				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
-			</div>
-			<hr>
-            
-			<h2>Plugins and Utility Mods</h2>			
+			<h2>Extensions</h2>
+			
 			<div class="contentArea" id="extensions" style='width:1000px; background:transparent;'>
 								<!-- Individual images with descriptor -->
 				
 				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
 			</div>
 			<hr>
-            
-            <h2>Modpacks</h2>
-			<div class="contentArea" id="modpackArea" style='width:1000px; background:transparent;'>
+			<h2>Single Block Mods</h2>
+			<div class="contentArea" id="sbmArea" style='width:1000px; background:transparent;'>
 								<!-- Individual images with descriptor -->
 				
 				<!-- Link to mod detail.php (content section, video and the sort [like steam]) -->
@@ -104,6 +86,7 @@
 			
 			<script type="text/javascript" src="js/banner.js"></script> 
 			<script type="text/javascript" src="js/addonData.js"></script> 
+			<script type="text/javascript" src="js/adscript.js"></script> 
 			<script type="text/javascript">
 				//Init banner
 			bannerInit("img/addons/",
@@ -113,7 +96,6 @@
 			7000,
 			document.getElementById("projectDescription")
 			);
-            //TODO simplify JS, recycle array loop as a function, and move to JS file
 				//Generate Icons
 			for (var i=0; i < addonDataArray.length; i++)
 			{
@@ -124,45 +106,25 @@
 				
 				//Create div text
 				var injection = '<a href="showcasePage.php?"' + addonDataArray[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + addonDataArray[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px></div></a>';
-							
+				
+				
 				
 				//Inject div
 				document.getElementById("projectData").innerHTML += injection;
 			}
-            
-            for (var i=0; i < libData.length; i++)
-			{
-				var imageSource = libData[i].image;
-				var injection = '<a href="showcasePage.php?"' + libData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + libData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
-				document.getElementById("libArea").innerHTML += injection;
-			}
-            
-            for (var i=0; i < extensionData.length; i++)
+			
+			for (var i=0; i < extensionData.length; i++)
 			{
 				var imageSource = extensionData[i].image;
 				var injection = '<a href="showcasePage.php?"' + extensionData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + extensionData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("extensions").innerHTML += injection;
 			}
 			
-			for (var i=0; i < armoryData.length; i++)
-			{
-				var imageSource = armoryData[i].image;
-				var injection = '<a href="showcasePage.php?"' + armoryData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + armoryData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
-				document.getElementById("armoryArea").innerHTML += injection;
-			}            
-			
 			for (var i=0; i < sbmData.length; i++)
 			{
 				var imageSource = sbmData[i].image;
 				var injection = '<a href="showcasePage.php?"' + sbmData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + sbmData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("sbmArea").innerHTML += injection;
-			}
-            
-            for (var i=0; i < modpackData.length; i++)
-			{
-				var imageSource = modpackData[i].image;
-				var injection = '<a href="showcasePage.php?"' + modpackData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + modpackData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
-				document.getElementById("modpackArea").innerHTML += injection;
 			}
 
 			</script>
