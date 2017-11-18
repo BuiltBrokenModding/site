@@ -1,4 +1,4 @@
-$(document).ready(function()
+$(document).ready(function() //TODO change this into a function call instead of an on document ready
 { 
     //Generates changelogs
     $( ".changelog li" ).each( 
