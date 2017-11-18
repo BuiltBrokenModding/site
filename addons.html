@@ -135,7 +135,7 @@
 				var imageSource = addonDataArray[i].image;//.split(".")[0] + "160x160." + addonDataArray[i].image.split(".")[1];
 				
 				//Create div text
-				var injection = '<a href="showcasePage.php?"' + addonDataArray[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + addonDataArray[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px></div></a>';
+				var injection = '<a href="https://minecraft.curseforge.com/projects/' + addonDataArray[i].title.toLocaleLowerCase().split(" ").join("-") + '"><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + addonDataArray[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px></div></a>';
 				
 				
 				
@@ -146,35 +146,35 @@
             for (var i=0; i < armoryData.length; i++)
 			{
 				var imageSource = armoryData[i].image;
-				var injection = '<a href="showcasePage.php?"' + armoryData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + armoryData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				var injection = '<a href="https://minecraft.curseforge.com/projects/' + armoryData[i].title.toLocaleLowerCase().split(" ").join("-") + '"><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + armoryData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("armoryArea").innerHTML += injection;
 			}
             
             for (var i=0; i < libData.length; i++)
 			{
 				var imageSource = libData[i].image;
-				var injection = '<a href="showcasePage.php?"' + libData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + libData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				var injection = '<a href="https://minecraft.curseforge.com/projects/' + libData[i].title.toLocaleLowerCase().split(" ").join("-") + '"><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + libData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("libArea").innerHTML += injection;
 			}
 			
 			for (var i=0; i < extensionData.length; i++)
 			{
 				var imageSource = extensionData[i].image;
-				var injection = '<a href="showcasePage.php?"' + extensionData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + extensionData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				var injection = '<a href="https://minecraft.curseforge.com/projects/' + extensionData[i].title.toLocaleLowerCase().split(" ").join("-") + '"><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + extensionData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("extensions").innerHTML += injection;
 			}
 			
 			for (var i=0; i < sbmData.length; i++)
 			{
 				var imageSource = sbmData[i].image;
-				var injection = '<a href="showcasePage.php?"' + sbmData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + sbmData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				var injection = '<a href="https://minecraft.curseforge.com/projects/sbm-' + sbmData[i].title.toLocaleLowerCase().split(" ").join("-") + '"><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + sbmData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("sbmArea").innerHTML += injection;
 			}
             
             for (var i=0; i < modpackData.length; i++)
 			{
 				var imageSource = modpackData[i].image;
-				var injection = '<a href="showcasePage.php?"' + modpackData[i].title + '><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + modpackData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
+				var injection = '<a href="https://minecraft.curseforge.com/projects/' + modpackData[i].title.toLocaleLowerCase().split(" ").join("-") + '"><div class="inlineContent" style="width:102px; height:200px; float:left;"><h6>' + modpackData[i].title + '</h6><img src="' + imageSource + '" width=102px height=100px><p style="font-size:8px; position:abolute; bottom:30px;"></div></a>';
 				document.getElementById("modpackArea").innerHTML += injection;
 			}
 
