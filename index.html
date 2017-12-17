@@ -28,6 +28,8 @@
 </head>
 
 <body>
+	
+	
 	<div class="contentArea" style="
 	width:100%;
 	height: 64px;
@@ -155,6 +157,15 @@
 	</footer>
 	
 	</div>
+	<br><br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+					
+	<div id="underhead" class="underhead"><span>Click <a href="addons.html">here</a> to check out our lastest additions and modifications</span> <button onClick="hideUnderhead()">hide</button></div>
 	
 	<!-- All external scripts -->
 	<script type="text/javascript" src="js/banner.js"></script> 
@@ -201,7 +212,13 @@
 	document.getElementById("photoText"),
 	indexDataArray,
 	7000);
+	</script>
 	
+	<script type="text/javascript">
+	function hideUnderhead()
+	{
+		document.getElementById("underhead").style.display="none";
+	}
 	</script>
 </body>
 
