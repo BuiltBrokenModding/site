@@ -25,6 +25,18 @@ footer
     height:100%;
 }
 
+#banner .carousel-item img
+{
+    width: 100%;
+    height:100%;
+}
+
+#addonContent img
+{
+    width: 100%;
+}
+
+
 #newsContent
 {
     background-color:rgba(13, 30, 63, 0.5);
