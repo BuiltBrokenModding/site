@@ -1,84 +1,36 @@
-.inlineContent
-{
-	background-color:rgba(182, 145, 186, 0.2); 
-	display:inline-block;
-	margin:10px;
-	padding:10px;
-}
-.contentArea
-{
-	width:900px;
-	background-color:rgba(13, 30, 63, 0.5);
-	margin-left:auto;
-	margin-right:auto;
-	display:block;
-	overflow:auto;
-
-}
-.mainContent
-{
-	position: relative;
-	color:white;
-	width:1000px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:rgba(182, 145, 186, 0.1); 
-}
 body
 {
-	background-image: url("../img/site-back-gradient.png");
-	background-position: center 64px;
+	background-image: url("../img/site-back-gradient.png") !important; 
 	background-color: rgba(13, 30, 63, 1);
 	background-repeat: no-repeat;
-	margin:0;
-	
-	font-family:"Verdana", "Arial", sans-serif;
 } 
 
-a:link {
-    color: #f2f2f2;
+nav
+{
+    background-color:rgba(13, 30, 63, 0.5) !important;
+}
+footer
+{
+    background-color:rgba(13, 30, 63, 0.5) !important;
 }
 
-/* visited link */
-a:visited {
-    color: white;
+.contentArea
+{
+    background-color:rgba(182, 145, 186, 0.2); 
 }
 
-/* mouse over link */
-a:hover {
-    color: white;
+#banner .carousel-item img
+{
+    width: 100%;
+    height:100%;
 }
 
-/* selected link */
-a:active {
-    color: red;
+#newsContent
+{
+    background-color:rgba(13, 30, 63, 0.5);
 }
 
-.underhead {
-  overflow: hidden;
-  background-color: rgba(13, 30, 63, 0.5);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.underhead span {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.underhead button {
-	float: right;
-	display: block;
-	background-color: rgba(13, 30, 63, 1);
-	color: white;
-	border-radius: 12px;
-	border: 2px solid #4CAF50;
-	padding: 5px 5px;
-	margin: 10px;
+#newsHeader
+{
+    background-color: rgba(166, 206, 222, 0.3);
 }
