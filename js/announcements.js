@@ -23,3 +23,8 @@ else
 {
     document.getElementById("footer2").innerHTML = "";
 }
+
+function destroyFooter()
+{
+    document.getElementById("footer1").innerHTML = "";
+}
