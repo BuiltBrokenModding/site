@@ -52,3 +52,8 @@ footer
 {
 	background-color:rgba(182, 145, 186, 0.2); 
 }
+
+.lightShadow {
+  text-rendering: optimizeLegibility;
+  text-shadow: 2px 2px 4px black; 
+}
