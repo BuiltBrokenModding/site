@@ -73,3 +73,7 @@ footer
 {
     background-color:rgba(182, 145, 186, 0.3);
 }
+
+.bg-darktransp {
+   background-color: rgba(0, 0, 0, .4);
+}
