@@ -57,3 +57,18 @@ footer
   text-rendering: optimizeLegibility;
   text-shadow: 2px 2px 4px black; 
 }
+
+#newsarticles .card
+{
+        background-color:rgba(13, 30, 63, 0.5) !important;
+}
+
+#newsarticles .card-header
+{
+        background-color:rgba(13, 30, 63, 0.5) !important;
+}
+
+#newsarticles .list-group-item
+{
+    background-color:rgba(182, 145, 186, 0.3);
+}

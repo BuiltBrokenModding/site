@@ -9,7 +9,7 @@ for (var i=0; i < news.length; i++)
     var str = news[i].title;		
     var titleHash = str.replace(/\s+/g, '');		
     document.getElementById("twentyseventeenlist").innerHTML += 		
-         '<li class="list-group-item"><a onClick="onNewsClick(' + i + ', \'twentyseventeen\')" href="#' + titleHash + '"><h6>' + news[i].title +'</h6><span>' + news[i].date + ' - ' + news[i].author + '</span></a></li>';	
+         '<li class="list-group-item"><a onClick="onNewsClick(' + i + ', \'twentyseventeen\')" href="#' + titleHash + '"><h6 class="text-white">' + news[i].title +'</h6><span class="text-info">' + news[i].date + ' - ' + news[i].author + '</span></a></li>';	
 }		
 
 news = JSON.stringify(j2016);		
@@ -22,7 +22,7 @@ for (var i=0; i < news.length; i++)
     var str = news[i].title;		
     var titleHash = str.replace(/\s+/g, '');		
     document.getElementById("twentysixteenlist").innerHTML += 		
-         '<li class="list-group-item"><a onClick="onNewsClick(' + i + ', \'twentysixteen\' )" href="#' + titleHash + '"><h6>' + news[i].title +'</h6><span>' + news[i].date + ' - ' + news[i].author + '</span></a></li>';
+         '<li class="list-group-item"><a onClick="onNewsClick(' + i + ', \'twentysixteen\' )" href="#' + titleHash + '"><h6 class="text-white">' + news[i].title +'</h6><span class="text-info">' + news[i].date + ' - ' + news[i].author + '</span></a></li>';
 }		
 
 function onNewsClick(aN, year) //Article Number		
