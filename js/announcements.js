@@ -3,9 +3,9 @@ var announcements = [];
 //Config:
 
 //Announcement Strings (Or json if optional, however writing it in an array is neater than loading and writing a json and then parsing it)
-announcements.push("Test Announcement 1");
-announcements.push("Test Announcement 2");
-announcements.push("Test Announcement 3");
+announcements.push("Green Is Here");
+announcements.push("Test Announcement");
+announcements.push("Dark is gone");
 
 //Timers
 var timeBeforeNextAnnouncementAfterPageIdle = 3 * 10 * 1000; //3 minutes
