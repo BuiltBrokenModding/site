@@ -6,3 +6,5 @@ icbm/wiki/
 pages/icbm/wiki/
 BBS SITE.as3proj
 php/keys.php
+node_modules
+config.js

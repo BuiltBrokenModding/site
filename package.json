@@ -1,0 +1,32 @@
+{
+  "name": "bbs-site",
+  "version": "1.0.0",
+  "description": "Built Broken Studios main site. Displays mods and new projects related to BBS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuiltBrokenModding/site.git"
+  },
+  "keywords": [
+    "BBS",
+    "Site"
+  ],
+  "author": "Samuel Walker (quantomworks)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuiltBrokenModding/site/issues"
+  },
+  "homepage": "https://github.com/BuiltBrokenModding/site#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.16"
+  },
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "request": "^2.88.0"
+  }
+}
