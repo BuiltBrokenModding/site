@@ -5,6 +5,8 @@ var app = express()
 var http = require('http').Server(app)
 var mongoose = require('mongoose')
 
+
+
 //Configs
 var server_config = require('./config.js')
 
@@ -45,7 +47,7 @@ mongoose.connect(dbURL, {useNewUrlParser: true}, (err) => {
 app.use(express.static(__dirname + '/static'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
-
+app.set('view engine', 'pug')
 
 //GET/POSTS
 
@@ -60,6 +62,11 @@ app.get('/project/:name', (req, res) =>{
     
     res.sendFile(__dirname + '/template/project-template.html')
   })
+})
+
+//All paths require title, description and icon paths for headers and twitter cards
+app.get('/', (req,res) =>{
+  return res.render('index', {title: 'Built Broken Studios', description: 'Body Test',  img: '/img/SpiderBotPic.png'})
 })
 
 //Expose server
