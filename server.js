@@ -62,14 +62,24 @@ app.get('/project/:name', (req, res) =>{
     if(project == null)
       return res.sendStatus(404)
     
-    res.sendFile(__dirname + '/template/project-template.html')
+    res.render('project-tempalte', {cache: true, title: 'Built Broken Studios - Projects', description})
   })
 })
 
 //All paths require title, description and icon paths for headers and twitter cards
 app.get('/', (req,res) =>{
-  return res.render('index', {title: 'Built Broken Studios', description: 'Body Test',  img: '/img/SpiderBotPic.png'})
+  return res.render('index', {cache: false, title: 'Built Broken Studios', description: 'Built it, Break it, ReAnimate it!',  img: '/img/SpiderBotPic.png'})
 })
+
+app.get('/project', (req, res) =>{
+  return res.render('project-overview', {cache: true, title: 'Built Broken Studios - Projects', description: 'Body Test',  img: '/img/mods/assemblyline.png', } )
+})
+
+app.get('/about', (req, res) =>{
+  return res.render('about', {cache: true, title: 'Built Broken Studios - Projects', description: 'Body Test',  img: '/img/mods/assemblyline.png'})
+})
+
+app.get('/content')
 
 //Expose server
 var server = http.listen(8080, () => {
