@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+    .container.contentArea
+        //TODO: Breadcrumb system
+        article.row
+            .col-12
+                h1.text-white= title
+                span.text-white= content
+            .col-12
+                a(href='/')
+                    button.btn.btn-link(type='button') Back

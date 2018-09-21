@@ -19,7 +19,7 @@ footer
 
 .contentArea
 {
-    background-color:rgba(182, 145, 186, 0.2); 
+    background-color:rgba(182, 145, 186, 0.2)  !important; 
 }
 
 #banner .carousel-item img
