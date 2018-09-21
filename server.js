@@ -4,6 +4,7 @@ var bodyParser = require('body-parser')
 var app = express()
 var http = require('http').Server(app)
 var mongoose = require('mongoose')
+var compression = require('compression')
 
 
 
@@ -47,6 +48,7 @@ mongoose.connect(dbURL, {useNewUrlParser: true}, (err) => {
 app.use(express.static(__dirname + '/static'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
+app.use(compression())
 app.set('view engine', 'pug')
 
 //GET/POSTS
