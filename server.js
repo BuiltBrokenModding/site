@@ -25,6 +25,10 @@ var Project = mongoose.model('Project', {
   authors: Array,
   releaseDate: Date,
   tags: Array
+  tags: Array,
+  description: String,
+  subText: String,
+  image: String
 })
 
 var Announcement = mongoose.model('Announcement', {
@@ -33,6 +37,8 @@ var Announcement = mongoose.model('Announcement', {
 
 var News = mongoose.model('News', {
   title: String,
+  subText: String,
+  image: String,
   date: Date,
   author: String,
   body: String
