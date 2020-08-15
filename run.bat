@@ -1,0 +1,1 @@
+docker run -d -p 80:80 html-server-image:v1
